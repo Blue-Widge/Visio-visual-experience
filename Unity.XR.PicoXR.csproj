@@ -56,122 +56,46 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\JsonException.cs">
-      <Link>Runtime\Scripts\Utils\LitJson\JsonException.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Features\PXR_OverLay.cs">
-      <Link>Runtime\Scripts\Features\PXR_OverLay.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Features\PXR_System.cs">
-      <Link>Runtime\Scripts\Features\PXR_System.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\InputSystem\DeviceLayouts.cs">
-      <Link>Runtime\InputSystem\DeviceLayouts.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Features\PXR_FPS.cs">
-      <Link>Runtime\Scripts\Features\PXR_FPS.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\PXR_ObjImporter.cs">
-      <Link>Runtime\Scripts\Utils\PXR_ObjImporter.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Controller\PXR_TouchPadEffects.cs">
-      <Link>Runtime\Scripts\Controller\PXR_TouchPadEffects.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Controller\PXR_ControllerKeyTips.cs">
-      <Link>Runtime\Scripts\Controller\PXR_ControllerKeyTips.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Controller\PXR_ControllerKeyEffects.cs">
-      <Link>Runtime\Scripts\Controller\PXR_ControllerKeyEffects.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\Netstandard15Polyfill.cs">
-      <Link>Runtime\Scripts\Utils\LitJson\Netstandard15Polyfill.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Controller\PXR_ControllerBattery.cs">
-      <Link>Runtime\Scripts\Controller\PXR_ControllerBattery.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Features\PXR_Input.cs">
-      <Link>Runtime\Scripts\Features\PXR_Input.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Features\PXR_EyeTracking.cs">
-      <Link>Runtime\Scripts\Features\PXR_EyeTracking.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\JsonReader.cs">
-      <Link>Runtime\Scripts\Utils\LitJson\JsonReader.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Features\PXR_ScreenFade.cs">
-      <Link>Runtime\Scripts\Features\PXR_ScreenFade.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\PXR_Loader.cs">
-      <Link>Runtime\Scripts\PXR_Loader.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\JsonData.cs">
-      <Link>Runtime\Scripts\Utils\LitJson\JsonData.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\JsonMockWrapper.cs">
-      <Link>Runtime\Scripts\Utils\LitJson\JsonMockWrapper.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\JsonMapper.cs">
-      <Link>Runtime\Scripts\Utils\LitJson\JsonMapper.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\PXR_Usages.cs">
-      <Link>Runtime\Scripts\PXR_Usages.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Features\PXR_FoveationRendering.cs">
-      <Link>Runtime\Scripts\Features\PXR_FoveationRendering.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\PXR_Manager.cs">
-      <Link>Runtime\Scripts\PXR_Manager.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\PXR_Settings.cs">
-      <Link>Runtime\Scripts\PXR_Settings.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Features\PXR_Boundary.cs">
-      <Link>Runtime\Scripts\Features\PXR_Boundary.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\PXR_PlatformSetting.cs">
-      <Link>Runtime\Scripts\PXR_PlatformSetting.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\Lexer.cs">
-      <Link>Runtime\Scripts\Utils\LitJson\Lexer.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\ParserToken.cs">
-      <Link>Runtime\Scripts\Utils\LitJson\ParserToken.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\JsonWriter.cs">
-      <Link>Runtime\Scripts\Utils\LitJson\JsonWriter.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\PXR_Plugin.cs">
-      <Link>Runtime\Scripts\PXR_Plugin.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\PXR_Log.cs">
-      <Link>Runtime\Scripts\Utils\PXR_Log.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\IJsonWrapper.cs">
-      <Link>Runtime\Scripts\Utils\LitJson\IJsonWrapper.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\PXR_OverlayManager.cs">
-      <Link>Runtime\Scripts\PXR_OverlayManager.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Features\PXR_MRC.cs">
-      <Link>Runtime\Scripts\Features\PXR_MRC.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\Controller\PXR_ControllerLoader.cs">
-      <Link>Runtime\Scripts\Controller\PXR_ControllerLoader.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Scripts\PXR_ProjectSetting.cs">
-      <Link>Runtime\Scripts\PXR_ProjectSetting.cs</Link>
-    </Compile>
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\JsonException.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Features\PXR_OverLay.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Features\PXR_System.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\InputSystem\DeviceLayouts.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Features\PXR_FPS.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\PXR_ObjImporter.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Controller\PXR_TouchPadEffects.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Controller\PXR_ControllerKeyTips.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Controller\PXR_ControllerKeyEffects.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\Netstandard15Polyfill.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Controller\PXR_ControllerBattery.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Features\PXR_Input.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Features\PXR_EyeTracking.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\JsonReader.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Features\PXR_ScreenFade.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\PXR_Loader.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\JsonData.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\JsonMockWrapper.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\JsonMapper.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\PXR_Usages.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Features\PXR_FoveationRendering.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\PXR_Manager.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\PXR_Settings.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Features\PXR_Boundary.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\PXR_PlatformSetting.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\Lexer.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\ParserToken.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\JsonWriter.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\PXR_Plugin.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\PXR_Log.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Utils\LitJson\IJsonWrapper.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\PXR_OverlayManager.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Features\PXR_MRC.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\Controller\PXR_ControllerLoader.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Scripts\PXR_ProjectSetting.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Windows\x64\pxr_turtledove.dll">
-      <Link>Runtime\Windows\x64\pxr_turtledove.dll</Link>
-    </None>
-    <None Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Unity.XR.PicoXR.asmdef">
-      <Link>Runtime\Unity.XR.PicoXR.asmdef</Link>
-    </None>
-    <None Include="D:\Downloads\PICO UnityXR Integration SDK v207\Runtime\Windows\x64\PxrPlatform.dll">
-      <Link>Runtime\Windows\x64\PxrPlatform.dll</Link>
-    </None>
+    <None Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Windows\x64\pxr_turtledove.dll" />
+    <None Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Unity.XR.PicoXR.asmdef" />
+    <None Include="Packages\PICO UnityXR Integration SDK v207\Runtime\Windows\x64\PxrPlatform.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

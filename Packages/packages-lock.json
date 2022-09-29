@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "com.tobii.xr.sdk": {
-      "version": "file:D:/Downloads/TobiiXRSDK_3.0.1.179",
+      "version": "file:TobiiXRSDK_3.0.1.179",
       "depth": 0,
-      "source": "local",
+      "source": "embedded",
       "dependencies": {
         "com.unity.xr.management": "3.2.16"
       }
@@ -229,9 +229,9 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.picoxr": {
-      "version": "file:D:/Downloads/PICO UnityXR Integration SDK v207",
+      "version": "file:PICO UnityXR Integration SDK v207",
       "depth": 0,
-      "source": "local",
+      "source": "embedded",
       "dependencies": {
         "com.unity.xr.management": "3.2.16",
         "com.unity.ugui": "1.0.0",

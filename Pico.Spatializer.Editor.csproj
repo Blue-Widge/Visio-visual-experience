@@ -56,17 +56,11 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\SpatialAuido\Editor\PXR_Audio_Spatializer_ContextEditor.cs">
-      <Link>SpatialAuido\Editor\PXR_Audio_Spatializer_ContextEditor.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\SpatialAuido\Editor\PXR_Audio_Spatializer_SceneGeometryEditor.cs">
-      <Link>SpatialAuido\Editor\PXR_Audio_Spatializer_SceneGeometryEditor.cs</Link>
-    </Compile>
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Editor\PXR_Audio_Spatializer_ContextEditor.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Editor\PXR_Audio_Spatializer_SceneGeometryEditor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\Downloads\PICO UnityXR Integration SDK v207\SpatialAuido\Editor\Pico.Spatializer.Editor.asmdef">
-      <Link>SpatialAuido\Editor\Pico.Spatializer.Editor.asmdef</Link>
-    </None>
+    <None Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Editor\Pico.Spatializer.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

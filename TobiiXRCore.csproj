@@ -56,122 +56,46 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\TobiiProvider.cs">
-      <Link>Runtime\Core\Providers\Tobii\TobiiProvider.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\TobiiXRAdvanced.cs">
-      <Link>Runtime\Core\TobiiXRAdvanced.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Controller\OpenVRControllerAdapter.cs">
-      <Link>Runtime\Core\Controller\OpenVRControllerAdapter.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\NoseDirection\NoseDirectionProvider.cs">
-      <Link>Runtime\Core\Providers\NoseDirection\NoseDirectionProvider.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\EyeTrackingDataHelper.cs">
-      <Link>Runtime\Core\Providers\EyeTrackingDataHelper.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\IEyeTrackingProvider.cs">
-      <Link>Runtime\Core\IEyeTrackingProvider.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Pico\PicoXRProvider.cs">
-      <Link>Runtime\Core\Providers\Pico\PicoXRProvider.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\EyeTrackingFilterBase.cs">
-      <Link>Runtime\Core\EyeTrackingFilterBase.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\TobiiXR_AdvancedEyeTrackingData.cs">
-      <Link>Runtime\Core\TobiiXR_AdvancedEyeTrackingData.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\TobiiXR_TrackingSpace.cs">
-      <Link>Runtime\Core\TobiiXR_TrackingSpace.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\CameraHelper.cs">
-      <Link>Runtime\Core\CameraHelper.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Controller\PicoControllerAdapter.cs">
-      <Link>Runtime\Core\Controller\PicoControllerAdapter.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\CompilerFlagAttribute.cs">
-      <Link>Runtime\Core\CompilerFlagAttribute.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\StreamEngineTracker.cs">
-      <Link>Runtime\Core\Providers\Tobii\StreamEngineTracker.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\StreamEngineTracker_Description.cs">
-      <Link>Runtime\Core\Providers\Tobii\StreamEngineTracker_Description.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\StreamEngineInteropWrapper.cs">
-      <Link>Runtime\Core\Providers\Tobii\StreamEngineInteropWrapper.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Mouse\MouseProvider.cs">
-      <Link>Runtime\Core\Providers\Mouse\MouseProvider.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\StreamEngineDataMapper.cs">
-      <Link>Runtime\Core\Providers\Tobii\StreamEngineDataMapper.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\SupportedPlatformAttribute.cs">
-      <Link>Runtime\Core\SupportedPlatformAttribute.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\ConnectionHelper.cs">
-      <Link>Runtime\Core\Providers\Tobii\ConnectionHelper.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\CoordinatesHelper.cs">
-      <Link>Runtime\Core\Providers\CoordinatesHelper.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Vive\ViveProvider.cs">
-      <Link>Runtime\Core\Providers\Vive\ViveProvider.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\TobiiXR_EyeTrackingData.cs">
-      <Link>Runtime\Core\TobiiXR_EyeTrackingData.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\StreamEngineContext.cs">
-      <Link>Runtime\Core\Providers\Tobii\StreamEngineContext.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Convergence.cs">
-      <Link>Runtime\Core\Convergence.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Helpers\XRDisplaySubSystemHelper.cs">
-      <Link>Runtime\Core\Helpers\XRDisplaySubSystemHelper.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Controller\XRInputSystemControllerAdapter.cs">
-      <Link>Runtime\Core\Controller\XRInputSystemControllerAdapter.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\LicenseParser.cs">
-      <Link>Runtime\Core\Providers\Tobii\LicenseParser.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\ProviderDisplayNameAttribute.cs">
-      <Link>Runtime\Core\ProviderDisplayNameAttribute.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\Plugins\Tobii.StreamEngine.Interop.cs">
-      <Link>Runtime\Core\Providers\Tobii\Plugins\Tobii.StreamEngine.Interop.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\HandEyeCoordination\Plugins\Tobii.HEC.Interop.cs">
-      <Link>Runtime\Core\HandEyeCoordination\Plugins\Tobii.HEC.Interop.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Controller\UpdateControllerPosition.cs">
-      <Link>Runtime\Core\Controller\UpdateControllerPosition.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\CameraPoseHistory.cs">
-      <Link>Runtime\Core\Providers\CameraPoseHistory.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Controller\ControllerManager.cs">
-      <Link>Runtime\Core\Controller\ControllerManager.cs</Link>
-    </Compile>
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\TobiiProvider.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\TobiiXRAdvanced.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Controller\OpenVRControllerAdapter.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\NoseDirection\NoseDirectionProvider.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\EyeTrackingDataHelper.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\IEyeTrackingProvider.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Pico\PicoXRProvider.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\EyeTrackingFilterBase.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\TobiiXR_AdvancedEyeTrackingData.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\TobiiXR_TrackingSpace.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\CameraHelper.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Controller\PicoControllerAdapter.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\CompilerFlagAttribute.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\StreamEngineTracker.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\StreamEngineTracker_Description.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\StreamEngineInteropWrapper.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Mouse\MouseProvider.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\StreamEngineDataMapper.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\SupportedPlatformAttribute.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\ConnectionHelper.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\CoordinatesHelper.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Vive\ViveProvider.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\TobiiXR_EyeTrackingData.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\StreamEngineContext.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Convergence.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Helpers\XRDisplaySubSystemHelper.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Controller\XRInputSystemControllerAdapter.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\LicenseParser.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\ProviderDisplayNameAttribute.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\Plugins\Tobii.StreamEngine.Interop.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\HandEyeCoordination\Plugins\Tobii.HEC.Interop.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Controller\UpdateControllerPosition.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\CameraPoseHistory.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Controller\ControllerManager.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\Plugins\x86_64\tobii_stream_engine.dll">
-      <Link>Runtime\Core\Providers\Tobii\Plugins\x86_64\tobii_stream_engine.dll</Link>
-    </None>
-    <None Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\TobiiXRCore.asmdef">
-      <Link>Runtime\Core\TobiiXRCore.asmdef</Link>
-    </None>
-    <None Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Vive\readme.txt">
-      <Link>Runtime\Core\Providers\Vive\readme.txt</Link>
-    </None>
-    <None Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\Core\HandEyeCoordination\Plugins\x86_64\tobii_hec.dll">
-      <Link>Runtime\Core\HandEyeCoordination\Plugins\x86_64\tobii_hec.dll</Link>
-    </None>
+    <None Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\Plugins\x86_64\tobii_stream_engine.dll" />
+    <None Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\TobiiXRCore.asmdef" />
+    <None Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Vive\readme.txt" />
+    <None Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\HandEyeCoordination\Plugins\x86_64\tobii_hec.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

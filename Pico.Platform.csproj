@@ -56,179 +56,65 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Framework\Looper.cs">
-      <Link>Platform\Scripts\Framework\Looper.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Achievements.cs">
-      <Link>Platform\Scripts\Service\Achievements.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Common.cs">
-      <Link>Platform\Scripts\Models\Common.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\DebugPanelManager.cs">
-      <Link>Platform\Samples\Game\DebugPanel\DebugPanelManager.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Framework\Util.cs">
-      <Link>Platform\Scripts\Framework\Util.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Matchmaking.cs">
-      <Link>Platform\Scripts\Models\Matchmaking.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\CLIB\CLIB2.cs">
-      <Link>Platform\Scripts\CLIB\CLIB2.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Matchmaking.cs">
-      <Link>Platform\Scripts\Service\Matchmaking.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\DebugListViewManager.cs">
-      <Link>Platform\Samples\Game\DebugPanel\DebugListViewManager.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Framework\Task.cs">
-      <Link>Platform\Scripts\Framework\Task.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Leaderboard.cs">
-      <Link>Platform\Scripts\Service\Leaderboard.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Framework\MessageQueue.cs">
-      <Link>Platform\Scripts\Framework\MessageQueue.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Link.cs">
-      <Link>Platform\Scripts\Models\Link.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\GameAPITest\Achievement.cs">
-      <Link>Platform\Samples\Game\GameAPITest\Achievement.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\GameUtils.cs">
-      <Link>Platform\Samples\Game\GameUtils.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\SimpleSample\TestEntry.cs">
-      <Link>Platform\Samples\SimpleSample\TestEntry.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\IAP.cs">
-      <Link>Platform\Scripts\Models\IAP.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\GameObjectUtils.cs">
-      <Link>Platform\Samples\Game\DebugPanel\GameObjectUtils.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Presence.cs">
-      <Link>Platform\Scripts\Service\Presence.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\RTC.cs">
-      <Link>Platform\Scripts\Service\RTC.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\UITouchEvent.cs">
-      <Link>Platform\Samples\Game\DebugPanel\UITouchEvent.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Sport.cs">
-      <Link>Platform\Scripts\Models\Sport.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\DebugListItem.cs">
-      <Link>Platform\Samples\Game\DebugPanel\DebugListItem.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Packet.cs">
-      <Link>Platform\Scripts\Models\Packet.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\GameAPITest\GameAPITestInterface.cs">
-      <Link>Platform\Samples\Game\GameAPITest\GameAPITestInterface.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Leaderboard.cs">
-      <Link>Platform\Scripts\Models\Leaderboard.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\IAP\IAPDemo.cs">
-      <Link>Platform\Samples\IAP\IAPDemo.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Core.cs">
-      <Link>Platform\Scripts\Service\Core.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\CLIB\MarshalUtil.cs">
-      <Link>Platform\Scripts\CLIB\MarshalUtil.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\DropdownLogLevelManager.cs">
-      <Link>Platform\Samples\Game\DebugPanel\DropdownLogLevelManager.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\CLIB\CLIB.cs">
-      <Link>Platform\Scripts\CLIB\CLIB.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Notification.cs">
-      <Link>Platform\Scripts\Service\Notification.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\GameAPITest\Room.cs">
-      <Link>Platform\Samples\Game\GameAPITest\Room.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Framework\Message.cs">
-      <Link>Platform\Scripts\Framework\Message.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\PPFFunctionConfig.cs">
-      <Link>Platform\Samples\Game\PPFFunctionConfig.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\IAP.cs">
-      <Link>Platform\Scripts\Service\IAP.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Room.cs">
-      <Link>Platform\Scripts\Service\Room.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Sport.cs">
-      <Link>Platform\Scripts\Service\Sport.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\DebugItemTextDialogManager.cs">
-      <Link>Platform\Samples\Game\DebugPanel\DebugItemTextDialogManager.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\GameAPITest\GameAPITest.cs">
-      <Link>Platform\Samples\Game\GameAPITest\GameAPITest.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\RTC.cs">
-      <Link>Platform\Scripts\Models\RTC.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\Log\LogHelper.cs">
-      <Link>Platform\Samples\Game\Log\LogHelper.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\RtcDemo\Phone.cs">
-      <Link>Platform\Samples\RtcDemo\Phone.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\DebugItemObject.cs">
-      <Link>Platform\Samples\Game\DebugPanel\DebugItemObject.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\Log\GameDebugLog.cs">
-      <Link>Platform\Samples\Game\Log\GameDebugLog.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\User.cs">
-      <Link>Platform\Scripts\Models\User.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\User.cs">
-      <Link>Platform\Scripts\Service\User.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Network.cs">
-      <Link>Platform\Scripts\Service\Network.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\GameAPITest\GameAPIOnComplete.cs">
-      <Link>Platform\Samples\Game\GameAPITest\GameAPIOnComplete.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\RoomAndMatchmakingEntry\RoomAndMatchmakingEntry.cs">
-      <Link>Platform\Samples\Game\RoomAndMatchmakingEntry\RoomAndMatchmakingEntry.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Room.cs">
-      <Link>Platform\Scripts\Models\Room.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\DebugPanelHelper.cs">
-      <Link>Platform\Samples\Game\DebugPanel\DebugPanelHelper.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Application.cs">
-      <Link>Platform\Scripts\Service\Application.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Notification.cs">
-      <Link>Platform\Scripts\Models\Notification.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Achievement.cs">
-      <Link>Platform\Scripts\Models\Achievement.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Scripts\Framework\Runner.cs">
-      <Link>Platform\Scripts\Framework\Runner.cs</Link>
-    </Compile>
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Framework\Looper.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Achievements.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Common.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\DebugPanelManager.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Framework\Util.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Matchmaking.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\CLIB\CLIB2.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Matchmaking.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\DebugListViewManager.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Framework\Task.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Leaderboard.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Framework\MessageQueue.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Link.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\GameAPITest\Achievement.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\GameUtils.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\SimpleSample\TestEntry.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\IAP.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\GameObjectUtils.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Presence.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\RTC.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\UITouchEvent.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Sport.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\DebugListItem.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Packet.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\GameAPITest\GameAPITestInterface.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Leaderboard.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\IAP\IAPDemo.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Core.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\CLIB\MarshalUtil.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\DropdownLogLevelManager.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\CLIB\CLIB.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Notification.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\GameAPITest\Room.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Framework\Message.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\PPFFunctionConfig.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\IAP.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Room.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Sport.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\DebugItemTextDialogManager.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\GameAPITest\GameAPITest.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\RTC.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\Log\LogHelper.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\RtcDemo\Phone.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\DebugItemObject.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\Log\GameDebugLog.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\User.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\User.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Network.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\GameAPITest\GameAPIOnComplete.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\RoomAndMatchmakingEntry\RoomAndMatchmakingEntry.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Room.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\DebugPanelHelper.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Application.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Notification.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Achievement.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Framework\Runner.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\Downloads\PICO UnityXR Integration SDK v207\Platform\Pico.Platform.asmdef">
-      <Link>Platform\Pico.Platform.asmdef</Link>
-    </None>
+    <None Include="Packages\PICO UnityXR Integration SDK v207\Platform\Pico.Platform.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

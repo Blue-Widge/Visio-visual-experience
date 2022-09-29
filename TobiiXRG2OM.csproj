@@ -56,59 +56,25 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\G2OM_ObjectFinder.cs">
-      <Link>Runtime\G2OM\Scripts\G2OM_ObjectFinder.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\G2OM_ObjectDistinguisher.cs">
-      <Link>Runtime\G2OM\Scripts\G2OM_ObjectDistinguisher.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\IG2OM_ObjectFinder.cs">
-      <Link>Runtime\G2OM\Scripts\IG2OM_ObjectFinder.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\G2OM_Context.cs">
-      <Link>Runtime\G2OM\Scripts\G2OM_Context.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\IG2OM_Context.cs">
-      <Link>Runtime\G2OM\Scripts\IG2OM_Context.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Plugins\Tobii.G2OM.Interop.cs">
-      <Link>Runtime\G2OM\Plugins\Tobii.G2OM.Interop.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\IG2OM_PostTicker.cs">
-      <Link>Runtime\G2OM\Scripts\IG2OM_PostTicker.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\IGazeFocusable.cs">
-      <Link>Runtime\G2OM\Scripts\IGazeFocusable.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\IG2OM_ColliderDataProvider.cs">
-      <Link>Runtime\G2OM\Scripts\IG2OM_ColliderDataProvider.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\G2OM_ColliderDataProvider.cs">
-      <Link>Runtime\G2OM\Scripts\G2OM_ColliderDataProvider.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\G2OM_PostTicker.cs">
-      <Link>Runtime\G2OM\Scripts\G2OM_PostTicker.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\IG2OM_ObjectDistinguisher.cs">
-      <Link>Runtime\G2OM\Scripts\IG2OM_ObjectDistinguisher.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Plugins\Tobii.G2OM.UnityExtensionMethods.cs">
-      <Link>Runtime\G2OM\Plugins\Tobii.G2OM.UnityExtensionMethods.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\G2OM.cs">
-      <Link>Runtime\G2OM\Scripts\G2OM.cs</Link>
-    </Compile>
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\G2OM_ObjectFinder.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\G2OM_ObjectDistinguisher.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\IG2OM_ObjectFinder.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\G2OM_Context.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\IG2OM_Context.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Plugins\Tobii.G2OM.Interop.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\IG2OM_PostTicker.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\IGazeFocusable.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\IG2OM_ColliderDataProvider.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\G2OM_ColliderDataProvider.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\G2OM_PostTicker.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\IG2OM_ObjectDistinguisher.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Plugins\Tobii.G2OM.UnityExtensionMethods.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Scripts\G2OM.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\G2OM\README.txt">
-      <Link>Runtime\G2OM\README.txt</Link>
-    </None>
-    <None Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\G2OM\TobiiXRG2OM.asmdef">
-      <Link>Runtime\G2OM\TobiiXRG2OM.asmdef</Link>
-    </None>
-    <None Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Plugins\x86_64\tobii_g2om.dll">
-      <Link>Runtime\G2OM\Plugins\x86_64\tobii_g2om.dll</Link>
-    </None>
+    <None Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\G2OM\README.txt" />
+    <None Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\G2OM\TobiiXRG2OM.asmdef" />
+    <None Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\G2OM\Plugins\x86_64\tobii_g2om.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

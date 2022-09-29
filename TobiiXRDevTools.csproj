@@ -56,104 +56,40 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\PercentileRepository.cs">
-      <Link>Runtime\DevTools\Scripts\GazeModifier\PercentileRepository.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\PercentileData.cs">
-      <Link>Runtime\DevTools\Scripts\GazeModifier\PercentileData.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\Modifiers\PrecisionModifier.cs">
-      <Link>Runtime\DevTools\Scripts\GazeModifier\Modifiers\PrecisionModifier.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\LinqExtensions.cs">
-      <Link>Runtime\DevTools\Scripts\GazeModifier\LinqExtensions.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\GazeModifierFilter.cs">
-      <Link>Runtime\DevTools\Scripts\GazeModifier\GazeModifierFilter.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\Modifiers\TrackabilityModifier.cs">
-      <Link>Runtime\DevTools\Scripts\GazeModifier\Modifiers\TrackabilityModifier.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Graphics\DevToolsUIGazeToggleButtonGraphics.cs">
-      <Link>Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Graphics\DevToolsUIGazeToggleButtonGraphics.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\Modifiers\AccuracyModifier.cs">
-      <Link>Runtime\DevTools\Scripts\GazeModifier\Modifiers\AccuracyModifier.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\G2OMDebugger\G2OM_DebugTool.cs">
-      <Link>Runtime\DevTools\Scripts\G2OMDebugger\G2OM_DebugTool.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Graphics\DevToolsUIGazeSliderGraphics.cs">
-      <Link>Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Graphics\DevToolsUIGazeSliderGraphics.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\GetValueForAngle.cs">
-      <Link>Runtime\DevTools\Scripts\GazeModifier\GetValueForAngle.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Trigger\DevToolsUITriggerGazeSlider.cs">
-      <Link>Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Trigger\DevToolsUITriggerGazeSlider.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Trigger\DevToolsUITriggerDragDetector.cs">
-      <Link>Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Trigger\DevToolsUITriggerDragDetector.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\ILerpValue.cs">
-      <Link>Runtime\DevTools\Scripts\GazeModifier\ILerpValue.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\DisableGazeModifierOnFocus.cs">
-      <Link>Runtime\DevTools\Scripts\DevToolMenu\DisableGazeModifierOnFocus.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\MetricsForPercentile.cs">
-      <Link>Runtime\DevTools\Scripts\GazeModifier\MetricsForPercentile.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\DevToolsUIEvents.cs">
-      <Link>Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\DevToolsUIEvents.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Trigger\DevToolsUITriggerGazeButton.cs">
-      <Link>Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Trigger\DevToolsUITriggerGazeButton.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\IGazeModifier.cs">
-      <Link>Runtime\DevTools\Scripts\GazeModifier\IGazeModifier.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeVisualizer\GazeVisualizer.cs">
-      <Link>Runtime\DevTools\Scripts\GazeVisualizer\GazeVisualizer.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\GazeModifierSettings.cs">
-      <Link>Runtime\DevTools\Scripts\GazeModifier\GazeModifierSettings.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\G2OMDebugger\G2OM_DebugVisualization.cs">
-      <Link>Runtime\DevTools\Scripts\G2OMDebugger\G2OM_DebugVisualization.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Trigger\DevToolsUITriggerGazeToggleButton.cs">
-      <Link>Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Trigger\DevToolsUITriggerGazeToggleButton.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\Metrics.cs">
-      <Link>Runtime\DevTools\Scripts\GazeModifier\Metrics.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\DevToolsMenuController.cs">
-      <Link>Runtime\DevTools\Scripts\DevToolMenu\DevToolsMenuController.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Graphics\DevToolsUIGazeButtonGraphics.cs">
-      <Link>Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Graphics\DevToolsUIGazeButtonGraphics.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\IDisableGazeModifier.cs">
-      <Link>Runtime\DevTools\Scripts\DevToolMenu\IDisableGazeModifier.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\IGazeModifierSettings.cs">
-      <Link>Runtime\DevTools\Scripts\GazeModifier\IGazeModifierSettings.cs</Link>
-    </Compile>
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\PercentileRepository.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\PercentileData.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\Modifiers\PrecisionModifier.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\LinqExtensions.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\GazeModifierFilter.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\Modifiers\TrackabilityModifier.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Graphics\DevToolsUIGazeToggleButtonGraphics.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\Modifiers\AccuracyModifier.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\G2OMDebugger\G2OM_DebugTool.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Graphics\DevToolsUIGazeSliderGraphics.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\GetValueForAngle.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Trigger\DevToolsUITriggerGazeSlider.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Trigger\DevToolsUITriggerDragDetector.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\ILerpValue.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\DisableGazeModifierOnFocus.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\MetricsForPercentile.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\DevToolsUIEvents.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Trigger\DevToolsUITriggerGazeButton.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\IGazeModifier.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeVisualizer\GazeVisualizer.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\GazeModifierSettings.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\G2OMDebugger\G2OM_DebugVisualization.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Trigger\DevToolsUITriggerGazeToggleButton.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\Metrics.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\DevToolsMenuController.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Graphics\DevToolsUIGazeButtonGraphics.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\IDisableGazeModifier.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\IGazeModifierSettings.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\TobiiXRDevTools.asmdef">
-      <Link>Runtime\DevTools\TobiiXRDevTools.asmdef</Link>
-    </None>
-    <None Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Fonts\OFL.txt">
-      <Link>Runtime\DevTools\Fonts\OFL.txt</Link>
-    </None>
-    <None Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Fonts\MerriweatherSans.txt">
-      <Link>Runtime\DevTools\Fonts\MerriweatherSans.txt</Link>
-    </None>
-    <None Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Shaders\Sprite_NoZTest.shader">
-      <Link>Runtime\DevTools\Shaders\Sprite_NoZTest.shader</Link>
-    </None>
+    <None Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\TobiiXRDevTools.asmdef" />
+    <None Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Fonts\OFL.txt" />
+    <None Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Fonts\MerriweatherSans.txt" />
+    <None Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Shaders\Sprite_NoZTest.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

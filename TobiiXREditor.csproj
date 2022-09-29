@@ -56,14 +56,10 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeVisualizer\Editor\CustomProviderVisualizerEditor.cs">
-      <Link>Runtime\DevTools\Scripts\GazeVisualizer\Editor\CustomProviderVisualizerEditor.cs</Link>
-    </Compile>
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeVisualizer\Editor\CustomProviderVisualizerEditor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeVisualizer\Editor\TobiiXRGazeVisualizerEditor.asmdef">
-      <Link>Runtime\DevTools\Scripts\GazeVisualizer\Editor\TobiiXRGazeVisualizerEditor.asmdef</Link>
-    </None>
+    <None Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeVisualizer\Editor\TobiiXRGazeVisualizerEditor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

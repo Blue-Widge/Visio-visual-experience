@@ -56,89 +56,35 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Trigger\UITriggerGazeToggleButton.cs">
-      <Link>Runtime\API\Helpers\UI\Trigger\UITriggerGazeToggleButton.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Trigger\UITriggerGazeButtonWithHold.cs">
-      <Link>Runtime\API\Helpers\UI\Trigger\UITriggerGazeButtonWithHold.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Internal\TobiiXR_Lifecycle.cs">
-      <Link>Runtime\API\Internal\TobiiXR_Lifecycle.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Touchpad\UITouchpadGazeToggleButton.cs">
-      <Link>Runtime\API\Helpers\UI\Touchpad\UITouchpadGazeToggleButton.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Internal\AssemblyUtils.cs">
-      <Link>Runtime\API\Internal\AssemblyUtils.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\TobiiXR_Initializer.cs">
-      <Link>Runtime\API\TobiiXR_Initializer.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Trigger\UITriggerDragDetector.cs">
-      <Link>Runtime\API\Helpers\UI\Trigger\UITriggerDragDetector.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\TobiiNotificationView.cs">
-      <Link>Runtime\API\Helpers\TobiiNotificationView.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Graphics\UIGazeSliderGraphics.cs">
-      <Link>Runtime\API\Helpers\UI\Graphics\UIGazeSliderGraphics.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\AssemblyInfo.cs">
-      <Link>Runtime\API\AssemblyInfo.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Internal\TobiiXR_Settings.cs">
-      <Link>Runtime\API\Internal\TobiiXR_Settings.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Graphics\UIGazeButtonGraphics.cs">
-      <Link>Runtime\API\Helpers\UI\Graphics\UIGazeButtonGraphics.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Internal\TobiiEula.cs">
-      <Link>Runtime\API\Internal\TobiiEula.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\UIGazeCollider.cs">
-      <Link>Runtime\API\Helpers\UI\UIGazeCollider.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Internal\TobiiEulaFile.cs">
-      <Link>Runtime\API\Internal\TobiiEulaFile.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Touchpad\UITouchpadGazeButton.cs">
-      <Link>Runtime\API\Helpers\UI\Touchpad\UITouchpadGazeButton.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Touchpad\UITouchpadSwipeDetector.cs">
-      <Link>Runtime\API\Helpers\UI\Touchpad\UITouchpadSwipeDetector.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Graphics\UIGazeToggleButtonGraphics.cs">
-      <Link>Runtime\API\Helpers\UI\Graphics\UIGazeToggleButtonGraphics.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Trigger\UITriggerGazeSlider.cs">
-      <Link>Runtime\API\Helpers\UI\Trigger\UITriggerGazeSlider.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\UIEventTypes.cs">
-      <Link>Runtime\API\Helpers\UI\UIEventTypes.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Trigger\UITriggerGazeButton.cs">
-      <Link>Runtime\API\Helpers\UI\Trigger\UITriggerGazeButton.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\TobiiXR.cs">
-      <Link>Runtime\API\TobiiXR.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Touchpad\UITouchpadGazeSlider.cs">
-      <Link>Runtime\API\Helpers\UI\Touchpad\UITouchpadGazeSlider.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\UIHighlightAtGaze.cs">
-      <Link>Runtime\API\Helpers\UI\UIHighlightAtGaze.cs</Link>
-    </Compile>
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Trigger\UITriggerGazeToggleButton.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Trigger\UITriggerGazeButtonWithHold.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Internal\TobiiXR_Lifecycle.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Touchpad\UITouchpadGazeToggleButton.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Internal\AssemblyUtils.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\TobiiXR_Initializer.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Trigger\UITriggerDragDetector.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\TobiiNotificationView.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Graphics\UIGazeSliderGraphics.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\AssemblyInfo.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Internal\TobiiXR_Settings.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Graphics\UIGazeButtonGraphics.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Internal\TobiiEula.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\UIGazeCollider.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Internal\TobiiEulaFile.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Touchpad\UITouchpadGazeButton.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Touchpad\UITouchpadSwipeDetector.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Graphics\UIGazeToggleButtonGraphics.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Trigger\UITriggerGazeSlider.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\UIEventTypes.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Trigger\UITriggerGazeButton.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\TobiiXR.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\Touchpad\UITouchpadGazeSlider.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\UI\UIHighlightAtGaze.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\Fonts\OFL.txt">
-      <Link>Runtime\API\Helpers\Fonts\OFL.txt</Link>
-    </None>
-    <None Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\Fonts\MerriweatherSans.txt">
-      <Link>Runtime\API\Helpers\Fonts\MerriweatherSans.txt</Link>
-    </None>
-    <None Include="D:\Downloads\TobiiXRSDK_3.0.1.179\Runtime\API\TobiiXRAPI.asmdef">
-      <Link>Runtime\API\TobiiXRAPI.asmdef</Link>
-    </None>
+    <None Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\Fonts\OFL.txt" />
+    <None Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\Helpers\Fonts\MerriweatherSans.txt" />
+    <None Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\API\TobiiXRAPI.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

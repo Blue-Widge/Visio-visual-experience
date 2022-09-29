@@ -56,38 +56,18 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Editor\PXR_PlatformSettingEditor.cs">
-      <Link>Editor\PXR_PlatformSettingEditor.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Editor\PXR_SDKBuildCheck.cs">
-      <Link>Editor\PXR_SDKBuildCheck.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Editor\PXR_OverLayEditor.cs">
-      <Link>Editor\PXR_OverLayEditor.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Editor\PXR_SDKSettingAsset.cs">
-      <Link>Editor\PXR_SDKSettingAsset.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Editor\PXR_BuildProcessor.cs">
-      <Link>Editor\PXR_BuildProcessor.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Editor\PXR_Metadata.cs">
-      <Link>Editor\PXR_Metadata.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Editor\PXR_SettingsEditor.cs">
-      <Link>Editor\PXR_SettingsEditor.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Editor\PXR_ManagerEditor.cs">
-      <Link>Editor\PXR_ManagerEditor.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\Editor\PXR_SDKSettingEditor.cs">
-      <Link>Editor\PXR_SDKSettingEditor.cs</Link>
-    </Compile>
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Editor\PXR_PlatformSettingEditor.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Editor\PXR_SDKBuildCheck.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Editor\PXR_OverLayEditor.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Editor\PXR_SDKSettingAsset.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Editor\PXR_BuildProcessor.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Editor\PXR_Metadata.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Editor\PXR_SettingsEditor.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Editor\PXR_ManagerEditor.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Editor\PXR_SDKSettingEditor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\Downloads\PICO UnityXR Integration SDK v207\Editor\Unity.XR.PicoXR.Editor.asmdef">
-      <Link>Editor\Unity.XR.PicoXR.Editor.asmdef</Link>
-    </None>
+    <None Include="Packages\PICO UnityXR Integration SDK v207\Editor\Unity.XR.PicoXR.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

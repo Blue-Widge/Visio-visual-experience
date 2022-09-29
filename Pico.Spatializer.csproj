@@ -56,41 +56,19 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_Types.cs">
-      <Link>SpatialAuido\Runtime\PXR_Audio_Spatializer_Types.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_Context.cs">
-      <Link>SpatialAuido\Runtime\PXR_Audio_Spatializer_Context.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_SceneMaterial.cs">
-      <Link>SpatialAuido\Runtime\PXR_Audio_Spatializer_SceneMaterial.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_SceneGeometry.cs">
-      <Link>SpatialAuido\Runtime\PXR_Audio_Spatializer_SceneGeometry.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_AmbisonicSource.cs">
-      <Link>SpatialAuido\Runtime\PXR_Audio_Spatializer_AmbisonicSource.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_API.cs">
-      <Link>SpatialAuido\Runtime\PXR_Audio_Spatializer_API.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_AudioListener.cs">
-      <Link>SpatialAuido\Runtime\PXR_Audio_Spatializer_AudioListener.cs</Link>
-    </Compile>
-    <Compile Include="D:\Downloads\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_AudioSource.cs">
-      <Link>SpatialAuido\Runtime\PXR_Audio_Spatializer_AudioSource.cs</Link>
-    </Compile>
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_Types.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_Context.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_SceneMaterial.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_SceneGeometry.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_AmbisonicSource.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_API.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_AudioListener.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_AudioSource.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\Downloads\PICO UnityXR Integration SDK v207\SpatialAuido\Pico.Spatializer.asmdef">
-      <Link>SpatialAuido\Pico.Spatializer.asmdef</Link>
-    </None>
-    <None Include="D:\Downloads\PICO UnityXR Integration SDK v207\SpatialAuido\Plugins\Win\x64\PicoAmbisonicDecoder.dll">
-      <Link>SpatialAuido\Plugins\Win\x64\PicoAmbisonicDecoder.dll</Link>
-    </None>
-    <None Include="D:\Downloads\PICO UnityXR Integration SDK v207\SpatialAuido\Plugins\Win\x64\PicoSpatializer.dll">
-      <Link>SpatialAuido\Plugins\Win\x64\PicoSpatializer.dll</Link>
-    </None>
+    <None Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Pico.Spatializer.asmdef" />
+    <None Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Plugins\Win\x64\PicoAmbisonicDecoder.dll" />
+    <None Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Plugins\Win\x64\PicoSpatializer.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
