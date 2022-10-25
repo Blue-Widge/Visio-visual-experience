@@ -105,7 +105,7 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Boolean TouchpadPosition
+        public virtual SteamVR_Action_Vector2 TouchpadPosition
         {
             get
             {
