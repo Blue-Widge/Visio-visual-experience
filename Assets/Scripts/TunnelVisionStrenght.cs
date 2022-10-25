@@ -5,7 +5,7 @@ using UnityEngine;
 public class TunnelVisionStrenght : MonoBehaviour
 {
     RectTransform transform;
-    [Range(0.1f, 1.0f)]
+    [Range(1f, 10.0f)]
     public float tunnelVisionSize;
 
     void Start()

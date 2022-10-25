@@ -1696,15 +1696,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2433593936621078833, guid: 457daf6248dda2042a8961de60c21f04, type: 3}
       propertyPath: m_LocalScale.x
-      value: 10.02
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2433593936621078833, guid: 457daf6248dda2042a8961de60c21f04, type: 3}
       propertyPath: m_LocalScale.y
-      value: 10.02
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2433593936621078833, guid: 457daf6248dda2042a8961de60c21f04, type: 3}
       propertyPath: m_LocalScale.z
-      value: 10.02
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2433593936782773609, guid: 457daf6248dda2042a8961de60c21f04, type: 3}
       propertyPath: m_Camera
@@ -5665,7 +5665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5a9d3d3786cb024c81fecb815c826a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tunnelVisionSize: 1
+  tunnelVisionSize: 7.07
 --- !u!1 &1123999493
 GameObject:
   m_ObjectHideFlags: 0
