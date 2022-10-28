@@ -78,7 +78,9 @@
     <Compile Include="Assets\Samples\Tobii XR SDK\3.0.1\Getting Started\Scripts\HighlightAtGaze.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\Scripts\TunnelVisionStrenght.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\Scripts\VrLocomotionController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
@@ -91,8 +93,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Scripts\TunnelVisionStrenght.cs" />
-    <Compile Include="Assets\Scripts\VrLocomotionController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -904,6 +904,10 @@
       <Project>{F213586A-ED4A-DAC3-5834-44534D97A7D1}</Project>
       <Name>Pico.Spatializer.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="SteamVR_Actions.csproj">
+      <Project>{D9023869-CA1F-E205-0F47-7E34FEF49C16}</Project>
+      <Name>SteamVR_Actions</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.PicoXR.Editor.csproj">
       <Project>{00A89B11-AF97-5B76-09D4-A7627A780232}</Project>
       <Name>Unity.XR.PicoXR.Editor</Name>
@@ -955,10 +959,6 @@
     <ProjectReference Include="Pico.Platform.csproj">
       <Project>{5ACD639B-ECC3-356C-D2E2-EF68E2021533}</Project>
       <Name>Pico.Platform</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Actions.csproj">
-      <Project>{D9023869-CA1F-E205-0F47-7E34FEF49C16}</Project>
-      <Name>SteamVR_Actions</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
