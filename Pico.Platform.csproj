@@ -108,8 +108,8 @@
     <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\RoomAndMatchmakingEntry\RoomAndMatchmakingEntry.cs" />
     <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Room.cs" />
     <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Samples\Game\DebugPanel\DebugPanelHelper.cs" />
-    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Application.cs" />
     <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Notification.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Service\Application.cs" />
     <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Models\Achievement.cs" />
     <Compile Include="Packages\PICO UnityXR Integration SDK v207\Platform\Scripts\Framework\Runner.cs" />
   </ItemGroup>
