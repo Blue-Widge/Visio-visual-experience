@@ -56,14 +56,14 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_SceneGeometry.cs" />
-    <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_AmbisonicSource.cs" />
-    <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_AudioSource.cs" />
     <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_Types.cs" />
     <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_Context.cs" />
     <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_SceneMaterial.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_SceneGeometry.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_AmbisonicSource.cs" />
     <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_API.cs" />
     <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_AudioListener.cs" />
+    <Compile Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Runtime\PXR_Audio_Spatializer_AudioSource.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Packages\PICO UnityXR Integration SDK v207\SpatialAuido\Pico.Spatializer.asmdef" />
@@ -317,9 +317,6 @@
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
-    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
@@ -338,23 +335,11 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil">
-      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>

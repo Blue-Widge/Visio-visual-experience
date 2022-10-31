@@ -156,7 +156,6 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.visiovisualexperience
-    Standalone: com.DefaultCompany.visio-visual-experience
   buildNumber:
     Standalone: 0
     iPhone: 0
