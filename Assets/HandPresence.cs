@@ -6,13 +6,9 @@ using UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation;
 
 public class HandPresence : MonoBehaviour
 {
-    private List<InputDeviceCharacteristics> inputCharacteristics = new List<InputDeviceCharacteristics>() 
-        { InputDeviceCharacteristics.Left | InputDeviceCharacteristics.Controller, 
-        InputDeviceCharacteristics.Left | InputDeviceCharacteristics.Controller };
-
-    private List<InputDevice> inputDevices = new List<InputDevice>();
-    private InputDevice leftController;
-    private InputDevice rightController;
+    public InputDeviceCharacteristics characteristics;
+    private List<InputDevice> inputDevices;
+    private InputDevice inputDevice;
 
 // Start is called before the first frame update
     void Start()
@@ -24,22 +20,23 @@ public class HandPresence : MonoBehaviour
             return;
         }
         Debug.Log("Device Simulator is disabled");
+        inputDevices = new List<InputDevice>();
+        StartCoroutine(GetDevices(1.0f));
+    }
+
+    IEnumerator GetDevices(float delayTime)
+    {
+        yield return new WaitForSeconds(delayTime);
 
         InputDevices.GetDevices(inputDevices);
-        Debug.Log(inputDevices.Count);
-        if (inputDevices.Count <= 1)
-            return;
+
         foreach (var item in inputDevices)
             Debug.Log(item.name + item.characteristics);
 
-        InputDevices.GetDevicesWithCharacteristics(inputCharacteristics[0], inputDevices);
-        leftController = inputDevices[0];
-        InputDevices.GetDevicesWithCharacteristics(inputCharacteristics[1], inputDevices);
-        rightController = inputDevices[0];
-
-        if (leftController.isValid && rightController.isValid)
+        if (inputDevices.Count > 1)
         {
-            Debug.Log("Les deux manettes lessgo");
+            InputDevices.GetDevicesWithCharacteristics(characteristics, inputDevices);
+            inputDevice = inputDevices[0];
         }
     }
 
@@ -47,5 +44,14 @@ public class HandPresence : MonoBehaviour
     void Update()
     {
         
+        if (inputDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValue) && primaryButtonValue)
+            Debug.Log("primary button pressed");
+
+        if (inputDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue) && triggerValue > 0.2f)
+            Debug.Log("trigger pressed");
+
+        if (inputDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 primary2DAxisVector) && primary2DAxisVector != Vector2.zero)
+            Debug.Log("primary 2d axis : " + primary2DAxisVector);
+
     }
 }

@@ -58,36 +58,36 @@
   <ItemGroup>
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\TobiiProvider.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\TobiiXRAdvanced.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Controller\OpenVRControllerAdapter.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\NoseDirection\NoseDirectionProvider.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\EyeTrackingDataHelper.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\IEyeTrackingProvider.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Pico\PicoXRProvider.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\EyeTrackingFilterBase.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\TobiiXR_AdvancedEyeTrackingData.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\TobiiXR_TrackingSpace.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\CameraHelper.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Controller\PicoControllerAdapter.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\CompilerFlagAttribute.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\StreamEngineTracker.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\StreamEngineTracker_Description.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\StreamEngineInteropWrapper.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Mouse\MouseProvider.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\StreamEngineDataMapper.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\SupportedPlatformAttribute.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\ConnectionHelper.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\CoordinatesHelper.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Vive\ViveProvider.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\TobiiXR_EyeTrackingData.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\StreamEngineContext.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Convergence.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Helpers\XRDisplaySubSystemHelper.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Controller\XRInputSystemControllerAdapter.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\LicenseParser.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\ProviderDisplayNameAttribute.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\Plugins\Tobii.StreamEngine.Interop.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\HandEyeCoordination\Plugins\Tobii.HEC.Interop.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Controller\UpdateControllerPosition.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Controller\OpenVRControllerAdapter.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\NoseDirection\NoseDirectionProvider.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\EyeTrackingDataHelper.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\TobiiXR_AdvancedEyeTrackingData.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\CameraHelper.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Controller\PicoControllerAdapter.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\StreamEngineTracker_Description.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\StreamEngineInteropWrapper.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Mouse\MouseProvider.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\ConnectionHelper.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\TobiiXR_EyeTrackingData.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\Tobii\StreamEngineContext.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Convergence.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Helpers\XRDisplaySubSystemHelper.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Controller\XRInputSystemControllerAdapter.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Providers\CameraPoseHistory.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\Core\Controller\ControllerManager.cs" />
   </ItemGroup>
@@ -344,6 +344,9 @@
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
@@ -362,11 +365,23 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
