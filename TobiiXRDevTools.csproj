@@ -58,32 +58,32 @@
   <ItemGroup>
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\PercentileRepository.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\PercentileData.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\Modifiers\TrackabilityModifier.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Graphics\DevToolsUIGazeToggleButtonGraphics.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Trigger\DevToolsUITriggerDragDetector.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\ILerpValue.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\DisableGazeModifierOnFocus.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\MetricsForPercentile.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Trigger\DevToolsUITriggerGazeButton.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeVisualizer\GazeVisualizer.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\GazeModifierSettings.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\DevToolsMenuController.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\IDisableGazeModifier.cs" />
-    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\IGazeModifierSettings.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\Modifiers\PrecisionModifier.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\LinqExtensions.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\GazeModifierFilter.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\Modifiers\TrackabilityModifier.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Graphics\DevToolsUIGazeToggleButtonGraphics.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\Modifiers\AccuracyModifier.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\G2OMDebugger\G2OM_DebugTool.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Graphics\DevToolsUIGazeSliderGraphics.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\GetValueForAngle.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Trigger\DevToolsUITriggerGazeSlider.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Trigger\DevToolsUITriggerDragDetector.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\ILerpValue.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\DisableGazeModifierOnFocus.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\MetricsForPercentile.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\DevToolsUIEvents.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Trigger\DevToolsUITriggerGazeButton.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\IGazeModifier.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeVisualizer\GazeVisualizer.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\GazeModifierSettings.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\G2OMDebugger\G2OM_DebugVisualization.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Trigger\DevToolsUITriggerGazeToggleButton.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\Metrics.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\DevToolsMenuController.cs" />
     <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\UI Scripts\Graphics\DevToolsUIGazeButtonGraphics.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\DevToolMenu\IDisableGazeModifier.cs" />
+    <Compile Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\Scripts\GazeModifier\IGazeModifierSettings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Packages\TobiiXRSDK_3.0.1.179\Runtime\DevTools\TobiiXRDevTools.asmdef" />
@@ -356,11 +356,11 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
