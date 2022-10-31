@@ -9,6 +9,7 @@ public class HandPresence : MonoBehaviour
     public InputDeviceCharacteristics characteristics;
     private List<InputDevice> inputDevices;
     private InputDevice inputDevice;
+    private Animator deviceAnimator;
 
 // Start is called before the first frame update
     void Start()
@@ -37,21 +38,26 @@ public class HandPresence : MonoBehaviour
         {
             InputDevices.GetDevicesWithCharacteristics(characteristics, inputDevices);
             inputDevice = inputDevices[0];
+            deviceAnimator = GetComponent<Animator>();
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        if (inputDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValue) && primaryButtonValue)
-            Debug.Log("primary button pressed");
+        UpdateHandAnimator();
+    }
 
-        if (inputDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue) && triggerValue > 0.2f)
-            Debug.Log("trigger pressed");
+    void UpdateHandAnimator()
+    {
+        if (inputDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue))
+            deviceAnimator.SetFloat("Trigger", triggerValue);
+        else
+            deviceAnimator.SetFloat("Trigger", .0f);
 
-        if (inputDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 primary2DAxisVector) && primary2DAxisVector != Vector2.zero)
-            Debug.Log("primary 2d axis : " + primary2DAxisVector);
-
+        if (inputDevice.TryGetFeatureValue(CommonUsages.grip, out float gripValue))
+            deviceAnimator.SetFloat("Grip", gripValue);
+        else
+            deviceAnimator.SetFloat("Grip", .0f);
     }
 }
