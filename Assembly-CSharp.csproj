@@ -59,6 +59,7 @@
     <Compile Include="Assets\SimulatedHandPresence.cs" />
     <Compile Include="Assets\Samples\Tobii XR SDK\3.0.1\Getting Started\Scripts\HighlightAtGaze.cs" />
     <Compile Include="Assets\HandPresence.cs" />
+    <Compile Include="Assets\Doorify.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
