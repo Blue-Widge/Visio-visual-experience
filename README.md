@@ -10,7 +10,7 @@ None
 
 ## Authors and acknowledgment
 
-Project in collaboration with Olger, Mike, Evelien, Romy and Yann
+Project in collaboration with Olger, Mika, Evelien, Romy and Yann
 
 ## Project status
 
