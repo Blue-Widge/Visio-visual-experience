@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 135000012534657806}
   m_Layer: 8
   m_Name: finger_middle_2_r
-  m_TagString: Untagged
+  m_TagString: Hand
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -702,7 +702,7 @@ GameObject:
   - component: {fileID: 54000013135273658}
   m_Layer: 8
   m_Name: HandColliderLeft
-  m_TagString: Untagged
+  m_TagString: Hand
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

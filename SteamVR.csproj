@@ -85,8 +85,8 @@
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\LinearMapping.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\UIElement.cs" />
-    <Compile Include="Assets\SteamVR\InteractionSystem\Samples\BuggyBuddy\LockToPoint.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Samples\BuggyBuddy\trackObj.cs" />
+    <Compile Include="Assets\SteamVR\InteractionSystem\Samples\BuggyBuddy\LockToPoint.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\PlaySound.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Teleport\Scripts\TeleportMarkerBase.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\HoverButton.cs" />
