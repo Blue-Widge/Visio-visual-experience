@@ -16,7 +16,25 @@ MonoBehaviour:
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
   m_Loaders:
+  - {fileID: 11400000, guid: 18bafee5c5121604e844d71f0191bd8f, type: 2}
   - {fileID: 11400000, guid: b489d857ca3003b4d813c42cd2942e7a, type: 2}
+--- !u!114 &-3087652941936592005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
+  m_Name: Standalone Providers
+  m_EditorClassIdentifier: 
+  m_RequiresSettingsUpdate: 0
+  m_AutomaticLoading: 0
+  m_AutomaticRunning: 0
+  m_Loaders:
+  - {fileID: 11400000, guid: 18bafee5c5121604e844d71f0191bd8f, type: 2}
 --- !u!114 &-1124420049870354996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46,8 +64,8 @@ MonoBehaviour:
   Keys: 0700000001000000
   Values:
   - {fileID: -1124420049870354996}
-  - {fileID: 2022306544625387336}
---- !u!114 &2022306544625387336
+  - {fileID: 8110618916934936687}
+--- !u!114 &8110618916934936687
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -59,22 +77,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
   m_Name: Standalone Settings
   m_EditorClassIdentifier: 
-  m_LoaderManagerInstance: {fileID: 2292851994796513837}
+  m_LoaderManagerInstance: {fileID: -3087652941936592005}
   m_InitManagerOnStart: 1
---- !u!114 &2292851994796513837
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
-  m_Name: Standalone Providers
-  m_EditorClassIdentifier: 
-  m_RequiresSettingsUpdate: 0
-  m_AutomaticLoading: 0
-  m_AutomaticRunning: 0
-  m_Loaders:
-  - {fileID: 11400000, guid: 981bd7c191f98a1449f382cd1907ed66, type: 2}
