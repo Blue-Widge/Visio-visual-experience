@@ -817,6 +817,37 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.40026724, y: 0.014761925, z: 0.5324187}
   m_Center: {x: 0.000000029802322, y: 0.000000029802322, z: 0.000000074505806}
+--- !u!1 &3839099101516205289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 181432700720910267}
+  m_Layer: 0
+  m_Name: FridgeContent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &181432700720910267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3839099101516205289}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5199212778609075924}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4388031051376260529
 GameObject:
   m_ObjectHideFlags: 0
@@ -1044,6 +1075,8 @@ GameObject:
   - component: {fileID: 5199212778609075924}
   - component: {fileID: 9189748889583184241}
   - component: {fileID: 6371604621214195131}
+  - component: {fileID: 6274342036803051040}
+  - component: {fileID: 8916181095029570630}
   m_Layer: 0
   m_Name: HighPolyFridge
   m_TagString: Untagged
@@ -1068,6 +1101,7 @@ Transform:
   - {fileID: 5507411859822941654}
   - {fileID: 2005381075394488109}
   - {fileID: 5353983387468138743}
+  - {fileID: 181432700720910267}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1122,6 +1156,39 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6274342036803051040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4858399750981565550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93c1c38b390b864381a157eb88899b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  content: []
+  hingeJoint: {fileID: 5741501306679358697}
+  springJoint: {fileID: 0}
+  insideCollider: {fileID: 8916181095029570630}
+  insideContainer: {fileID: 181432700720910267}
+  outsideContainer: {fileID: 0}
+  isOpen: 0
+  sensibility: 0.1
+--- !u!65 &8916181095029570630
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4858399750981565550}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.54353446, y: 1.5094297, z: 0.6000004}
+  m_Center: {x: 0.16032335, y: 0.03891802, z: -0.012579694}
 --- !u!1 &5741501306879350574
 GameObject:
   m_ObjectHideFlags: 0

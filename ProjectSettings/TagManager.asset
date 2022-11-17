@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - XR Device Simulator
+  - Food
   layers:
   - Default
   - TransparentFX

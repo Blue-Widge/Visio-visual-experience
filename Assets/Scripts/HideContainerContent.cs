@@ -1,34 +1,59 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor.SearchService;
 using UnityEngine;
 
 public class HideContainerContent : MonoBehaviour
 {
     public List<GameObject> content;
-    public HingeJoint joint;
+    public HingeJoint hingeJoint;
+    public SpringJoint springJoint;
     public BoxCollider insideCollider;
 
-
-    public Transform outsideContainer;
     public Transform insideContainer;
+    public Transform outsideContainer;
 
     [SerializeField]
     private bool isOpen = false;
     private bool hiddenContent = false;
     JointSpring spring;
     float startingAngle;
-    public float angleSensibility;
+    Vector3 startingPosition;
+    public float sensibility;
+
+    delegate void DetectDoorOpen();
+    DetectDoorOpen detectDoor;
+
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(content.Count);
-        if (content.Count == 0)
-            this.enabled = false;
-        spring = new JointSpring();
-        spring.spring = 2f;
-        joint.spring = spring;
-        joint.useSpring = true;
+        if (hingeJoint)
+        {
+            if (springJoint)
+            {
+                Debug.LogError("You can't set a hingeJoint and springJoint at the same time");
+                this.enabled = false;
+                return;
+            }
+            detectDoor = detectAngleDoorOpen;
+            spring = new JointSpring();
+            spring.spring = 2f;
+            hingeJoint.spring = spring;
+            hingeJoint.useSpring = true;
+            startingAngle = hingeJoint.angle;
+        }
+        else
+        {
+            if (!springJoint)
+            {
+                Debug.LogError("You must set a hingeJoint or a springJoint");
+                this.enabled = false;
+                return;
+            }
+            detectDoor = detectDrawerOpen;
+            startingPosition = transform.position;
+        }
 
         if (!insideCollider)
             insideCollider = GetComponent<BoxCollider>();
@@ -36,13 +61,13 @@ public class HideContainerContent : MonoBehaviour
             outsideContainer = transform.parent;
         if (!insideContainer)
             insideContainer = transform;
+
+
     }
     // Update is called once per frame
     void Update()
     {
-        isOpen = joint.angle > (startingAngle + angleSensibility);
-        joint.useSpring = !(joint.angle > 85f);
-
+        detectDoor();
         if (hiddenContent && isOpen)
         {
             foreach(GameObject item in content)
@@ -59,17 +84,27 @@ public class HideContainerContent : MonoBehaviour
             }
             hiddenContent = true;
         }
-    } 
+    }
+
+    void detectAngleDoorOpen()
+    {
+        isOpen = Mathf.Abs(hingeJoint.angle - startingAngle) > sensibility;
+        hingeJoint.useSpring = !(hingeJoint.angle > 85f);
+    }
+    void detectDrawerOpen()
+    {
+        isOpen = Mathf.Abs(transform.position.x - startingPosition.x) > sensibility;
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(transform.name + " Collided " + other.name);
-        other.transform.parent = insideContainer;
+        Debug.Log(transform.name + " Collided " + other.name + other.tag);
+        other.transform.parent = (other.tag == "Food") ? insideContainer : other.transform.parent;
     }
 
     private void OnTriggerExit(Collider other)
     {
         Debug.Log(transform.name + " Stopped colliding " + other.name);
-        other.transform.parent = outsideContainer;
+        other.transform.parent = (other.tag == "Food") ? outsideContainer : other.transform.parent;
     }
 }
