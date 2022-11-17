@@ -8,26 +8,26 @@ namespace Tobii.XR
     [RequireComponent(typeof(SpriteRenderer))]
     public class GazeVisualizer : MonoBehaviour
     {
-        private enum GazeVisualizerType
-        {
-            Default,
-            Bubble,
-        }
+        //private enum GazeVisualizerType
+        //{
+        //    Default,
+        //    Bubble,
+        //}
 
-        public bool ScaleAffectedByPrecision;
+        //public bool ScaleAffectedByPrecision;
 
 #pragma warning disable 649
-        [SerializeField] private GazeVisualizerType _visualizerType;
+        //[SerializeField] private GazeVisualizerType _visualizerType;
 
         [SerializeField] private bool _smoothMove = true;
 
         [SerializeField] [Range(1, 30)] private int _smoothMoveSpeed = 7;
 #pragma warning restore 649
 
-        private float ScaleFactor
-        {
-            get { return _visualizerType == GazeVisualizerType.Bubble ? 0.03f : 0.003f; }
-        }
+        [Range(0.01f, 10f)] public float ScaleFactor;
+        //{
+        // get { return _visualizerType == GazeVisualizerType.Bubble ? 0.03f : 0.003f; }
+        // }
 
         private float _defaultDistance;
 
@@ -65,20 +65,20 @@ namespace Tobii.XR
 
             SetPositionAndScale(gazeRay);
 
-            if (ScaleAffectedByPrecision && gazeModifierFilter != null)
-            {
-                UpdatePrecisionScale(gazeModifierFilter.GetMaxPrecisionAngleDegrees(eyeTrackingData.GazeRay.Direction, worldForward));
-            }
+            //if (ScaleAffectedByPrecision && gazeModifierFilter != null)
+            //{
+            //    UpdatePrecisionScale(gazeModifierFilter.GetMaxPrecisionAngleDegrees(eyeTrackingData.GazeRay.Direction, worldForward));
+            //}
         }
 
         private void SetPositionAndScale(TobiiXR_GazeRay gazeRay)
         {
-            RaycastHit hit;
+            //RaycastHit hit;
             var distance = _defaultDistance;
-            if (Physics.Raycast(gazeRay.Origin, gazeRay.Direction, out hit))
-            {
-                distance = hit.distance;
-            }
+            //if (Physics.Raycast(gazeRay.Origin, gazeRay.Direction, out hit))
+            //{
+            //    distance = hit.distance;
+            //}
 
             var interpolatedGazeDirection = Vector3.Lerp(_lastGazeDirection, gazeRay.Direction,
                 _smoothMoveSpeed * Time.unscaledDeltaTime);
