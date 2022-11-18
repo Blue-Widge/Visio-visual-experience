@@ -99,13 +99,13 @@ public class HideContainerContent : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(transform.name + " Collided " + other.name + other.tag);
+        Debug.Log(transform.name + " Collided " + other.name + ' ' + other.tag);
         other.transform.parent = (other.gameObject.layer == 6) && !other.gameObject.GetComponent<XRGrabInteractable>().isSelected ? insideContainer : other.transform.parent;
     }
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log(transform.name + " Stopped colliding " + other.name);
+        Debug.Log(transform.name + " Stopped colliding " + ' ' + other.name);
         other.transform.parent = (other.gameObject.layer == 6) ? outsideContainer : other.transform.parent;
     }
 }

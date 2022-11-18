@@ -826,6 +826,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 181432700720910267}
+  - component: {fileID: 4432026797000381183}
   m_Layer: 0
   m_Name: FridgeContent
   m_TagString: Untagged
@@ -841,13 +842,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3839099101516205289}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.16, y: -0.076, z: -0.013}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5199212778609075924}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4432026797000381183
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3839099101516205289}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 1.3, z: 0.55}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4388031051376260529
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,7 +1090,6 @@ GameObject:
   - component: {fileID: 9189748889583184241}
   - component: {fileID: 6371604621214195131}
   - component: {fileID: 6274342036803051040}
-  - component: {fileID: 8916181095029570630}
   m_Layer: 0
   m_Name: HighPolyFridge
   m_TagString: Untagged
@@ -1171,24 +1184,11 @@ MonoBehaviour:
   content: []
   hingeJoint: {fileID: 5741501306679358697}
   springJoint: {fileID: 0}
-  insideCollider: {fileID: 8916181095029570630}
+  insideCollider: {fileID: 4432026797000381183}
   insideContainer: {fileID: 181432700720910267}
   outsideContainer: {fileID: 0}
   isOpen: 0
   sensibility: 0.1
---- !u!65 &8916181095029570630
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4858399750981565550}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.54353446, y: 1.5094297, z: 0.6000004}
-  m_Center: {x: 0.16032335, y: 0.03891802, z: -0.012579694}
 --- !u!1 &5741501306879350574
 GameObject:
   m_ObjectHideFlags: 0
