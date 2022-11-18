@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class HideContainerContent : MonoBehaviour
 {
@@ -99,12 +100,12 @@ public class HideContainerContent : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log(transform.name + " Collided " + other.name + other.tag);
-        other.transform.parent = (other.tag == "Food") ? insideContainer : other.transform.parent;
+        other.transform.parent = (other.gameObject.layer == 6) && !other.gameObject.GetComponent<XRGrabInteractable>().isSelected ? insideContainer : other.transform.parent;
     }
 
     private void OnTriggerExit(Collider other)
     {
         Debug.Log(transform.name + " Stopped colliding " + other.name);
-        other.transform.parent = (other.tag == "Food") ? outsideContainer : other.transform.parent;
+        other.transform.parent = (other.gameObject.layer == 6) ? outsideContainer : other.transform.parent;
     }
 }
