@@ -27,7 +27,7 @@ public class HideContainerContent : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (!GetComponent<Collider>())
+        if (!GetComponent<BoxCollider>())
         {
             Debug.LogWarning("A collider is needed to hide the content of the container");
             this.enabled = false;
