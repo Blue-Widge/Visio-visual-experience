@@ -10,8 +10,6 @@ public class HideContainerContent : MonoBehaviour
     public List<GameObject> content;
     public HingeJoint hingeJoint;
     public SpringJoint springJoint;
-    public BoxCollider insideCollider;
-
     public Transform insideContainer;
     public Transform outsideContainer;
 
@@ -29,6 +27,12 @@ public class HideContainerContent : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (!GetComponent<Collider>())
+        {
+            Debug.LogWarning("A collider is needed to hide the content of the container");
+            this.enabled = false;
+        }
+
         if (hingeJoint)
         {
             if (springJoint)
@@ -56,15 +60,12 @@ public class HideContainerContent : MonoBehaviour
             startingPosition = transform.position;
         }
 
-        if (!insideCollider)
-            insideCollider = GetComponent<BoxCollider>();
         if (!outsideContainer)
             outsideContainer = transform.parent;
         if (!insideContainer)
             insideContainer = transform;
-
-
     }
+
     // Update is called once per frame
     void Update()
     {
