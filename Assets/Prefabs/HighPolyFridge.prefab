@@ -909,8 +909,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   content:
   - {fileID: 3018317115392928230}
-  hingeJoint: {fileID: 5741501306679358697}
-  springJoint: {fileID: 0}
+  - {fileID: 2339443658863306400}
+  - {fileID: 1732475122067501112}
+  - {fileID: 1166941340040745548}
+  containerHingeJoint: {fileID: 0}
+  containerSpringJoint: {fileID: 0}
   insideContainer: {fileID: 4174860098164965477}
   outsideContainer: {fileID: 0}
   isOpen: 0

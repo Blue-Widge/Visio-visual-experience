@@ -8,8 +8,8 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class HideContainerContent : MonoBehaviour
 {
     public List<GameObject> content;
-    public HingeJoint hingeJoint;
-    public SpringJoint springJoint;
+    public HingeJoint containerHingeJoint;
+    public SpringJoint containerSpringJoint;
     public Transform insideContainer;
     public Transform outsideContainer;
 
@@ -27,15 +27,22 @@ public class HideContainerContent : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (!GetComponent<BoxCollider>())
+        if (!(GetComponent<BoxCollider>() || GetComponent<MeshCollider>() || GetComponent<CapsuleCollider>()))
         {
             Debug.LogWarning("A collider is needed to hide the content of the container");
             this.enabled = false;
+            return;
+        }
+        if (content.Count == 0)
+        {
+            Debug.LogWarning("Please assign content of container to hide, put a parent for faster results (inside container is often used)");
+            this.enabled = false;
+            return;
         }
 
-        if (hingeJoint)
+        if (containerHingeJoint)
         {
-            if (springJoint)
+            if (containerSpringJoint)
             {
                 Debug.LogError("You can't set a hingeJoint and springJoint at the same time");
                 this.enabled = false;
@@ -44,13 +51,13 @@ public class HideContainerContent : MonoBehaviour
             detectDoor = detectAngleDoorOpen;
             spring = new JointSpring();
             spring.spring = 2f;
-            hingeJoint.spring = spring;
-            hingeJoint.useSpring = true;
-            startingAngle = hingeJoint.angle;
+            containerHingeJoint.spring = spring;
+            containerHingeJoint.useSpring = true;
+            startingAngle = containerHingeJoint.angle;
         }
         else
         {
-            if (!springJoint)
+            if (!containerSpringJoint)
             {
                 Debug.LogError("You must set a hingeJoint or a springJoint");
                 this.enabled = false;
@@ -90,8 +97,8 @@ public class HideContainerContent : MonoBehaviour
 
     void detectAngleDoorOpen()
     {
-        isOpen = Mathf.Abs(hingeJoint.angle - startingAngle) > sensibility;
-        hingeJoint.useSpring = !(hingeJoint.angle > 85f);
+        isOpen = Mathf.Abs(containerHingeJoint.angle - startingAngle) > sensibility;
+        containerHingeJoint.useSpring = !(containerHingeJoint.angle > 85f);
     }
     void detectDrawerOpen()
     {
