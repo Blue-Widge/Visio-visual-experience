@@ -1073,6 +1073,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "CustomInteraction",
+            "id": "bf008782-3b2e-416a-b250-4c6eb2830f84",
+            "actions": [
+                {
+                    "name": "StartExperience",
+                    "type": "Button",
+                    "id": "051642cc-73ec-49f2-88c4-54d2ae5fadc7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "547856da-1db3-4a45-9053-d9594b0b2a00",
+                    "path": "<OculusTouchController>/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "StartExperience",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
