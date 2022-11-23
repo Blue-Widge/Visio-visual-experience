@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class StartGame : MonoBehaviour
+public class StartGameV1 : MonoBehaviour
 {
     public InputActionReference startExperienceReference = null;
 
