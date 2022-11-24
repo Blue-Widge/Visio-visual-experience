@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Glass
+  m_Name: OilBottle_Glass
   m_Shader: {fileID: -6465566751694194690, guid: 4e2cbace00c1eae43acac2e247e1f371, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []

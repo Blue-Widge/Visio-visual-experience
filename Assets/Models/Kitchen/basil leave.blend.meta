@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 6e7fa335e26d60b44a77585febe36103
+guid: 187734c1f30446c4e946e14eebc77d1d
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MugMaterial
-    second: {fileID: 2100000, guid: 4f88725fef1d99d4aa54412652435f9d, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

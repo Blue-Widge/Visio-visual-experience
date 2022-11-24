@@ -108,7 +108,7 @@ public class HideContainerContent : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log(transform.name + " Collided " + other.name + ' ' + other.gameObject.layer);
-        other.transform.parent = (other.gameObject.layer == 6) && !other.gameObject.GetComponent<XRGrabInteractable>().isSelected ? insideContainer : other.transform.parent;
+        other.transform.parent = (other.gameObject.layer == 6 ) && !other.gameObject.GetComponent<XRGrabInteractable>().isSelected ? insideContainer : other.transform.parent;
     }
 
     private void OnTriggerExit(Collider other)
