@@ -19,7 +19,7 @@ public class BowlHandler : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.layer == 6)
+        if (other.gameObject.layer == 6 && transform.parent != other.transform)
         {
             content.Add(other.gameObject);
             other.transform.parent = container;
@@ -28,13 +28,13 @@ public class BowlHandler : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.layer ==6 && other.transform.parent != container)
+        if (other.gameObject.layer ==6 && other.transform.parent != container && transform.parent != other.transform)
             other.transform.parent = container;
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.layer == 6)
+        if (other.gameObject.layer == 6 && transform.parent != other.transform)
         {
             content.Remove(other.gameObject);
             other.transform.parent = foodContainer;

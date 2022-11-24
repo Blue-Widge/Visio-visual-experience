@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 294567351671428659}
   - component: {fileID: 4612515065018463692}
   - component: {fileID: 8175804578319615869}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MugColliders.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,7 +66,7 @@ GameObject:
   - component: {fileID: 6532319287009329131}
   - component: {fileID: 1592779802551286846}
   - component: {fileID: 1231788555871584589}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MugColliders.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8791839796369156114}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MugColliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -159,7 +159,7 @@ GameObject:
   - component: {fileID: 5139800835100534483}
   - component: {fileID: 5631058987687406116}
   - component: {fileID: 713942861984897582}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MugColliders.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +214,7 @@ GameObject:
   - component: {fileID: 7010226990732903571}
   - component: {fileID: 3165065724590420237}
   - component: {fileID: 1256236597380591037}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MugColliders.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 2488103863847096973}
   - component: {fileID: 3103563409115246193}
   - component: {fileID: 5586440346739759733}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MugColliders.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -338,7 +338,7 @@ GameObject:
   - component: {fileID: 2220127691151824009}
   - component: {fileID: 9161165066829947301}
   - component: {fileID: 1535972773253335048}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mug
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -388,7 +388,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4f88725fef1d99d4aa54412652435f9d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -419,7 +419,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6734925652514227943}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mug
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -454,7 +454,7 @@ GameObject:
   - component: {fileID: 1339499065573716423}
   - component: {fileID: 3618500576857093306}
   - component: {fileID: 8785038409785459289}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MugColliders.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -509,7 +509,7 @@ GameObject:
   - component: {fileID: 730890684865975359}
   - component: {fileID: 1251502556859721101}
   - component: {fileID: 1157129091428773822}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MugColliders.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
