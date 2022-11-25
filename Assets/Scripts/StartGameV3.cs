@@ -36,6 +36,7 @@ public class StartGameV3 : MonoBehaviour
     void Start()
     {
         isStarted = false;
+        notebookMoved = false;
         desiredScale = new Vector3(notebook.transform.localScale.x / 2, notebook.transform.localScale.y / 2, notebook.transform.localScale.z / 2);
     }
 
@@ -86,13 +87,16 @@ public class StartGameV3 : MonoBehaviour
         if (notebook.transform.localScale != desiredScale)
         {
             notebook.transform.localScale = Vector3.Lerp(notebook.transform.localScale, desiredScale, Time.deltaTime * rotationSpeed);
+            Debug.Log("Scaling !");
         }
         if (notebook.transform.position == notebookEndPosition.transform.position &&
           notebook.transform.rotation == notebookEndPosition.transform.rotation &&
           notebook.transform.localScale == desiredScale)
         {
-            notebookMoved = true;
+            Debug.Log("Turning on visual impairment");
             visualImpairment.SetActive(true);
+
+            notebookMoved = true;
         }
     }
 }

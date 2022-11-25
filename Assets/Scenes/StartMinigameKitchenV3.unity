@@ -918,7 +918,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.25}
+  m_AnchoredPosition: {x: -0.056, y: -0.25}
   m_SizeDelta: {x: 0.75, y: 0.5}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &143504749
@@ -941,8 +941,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Probeer allee ingredi\xEBnten te vinden\nom een pizza te maken\ndruk op
-    ... om te starten"
+  m_text: "Probeer alle ingredi\xEBnten te vinden\nom een pizza te maken\ndruk op
+    de trigger om te starten"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -969,8 +969,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.02
-  m_fontSizeBase: 0.02
+  m_fontSize: 0.04
+  m_fontSizeBase: 0.04
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1888,7 +1888,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startExperienceReference: {fileID: 3384961331634879123, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   cameraTransform: {fileID: 1030531136}
-  forwardTimes: 0.55
+  forwardTimes: 1
   notebook: {fileID: 403389067}
   notebookEndPosition: {fileID: 1555700870}
   movingSPeed: 1
