@@ -296,7 +296,7 @@ GameObject:
   - component: {fileID: 6699445827226069526}
   - component: {fileID: 5741501306449397482}
   - component: {fileID: 5741501306449397483}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Beer container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -711,7 +711,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4174860098164965477}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fridge Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -859,7 +859,7 @@ GameObject:
   - component: {fileID: 181432700720910267}
   - component: {fileID: 4432026797000381183}
   - component: {fileID: 6925518801242507810}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fridge Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}

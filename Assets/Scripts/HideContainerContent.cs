@@ -44,7 +44,7 @@ public class HideContainerContent : MonoBehaviour
         {
             if (containerSpringJoint)
             {
-                Debug.LogError("You can't set a hingeJoint and springJoint at the same time");
+                Debug.LogError("You can't set a hingeJoint and springJoint at the same time - Object : " + name);
                 this.enabled = false;
                 return;
             }
@@ -59,7 +59,7 @@ public class HideContainerContent : MonoBehaviour
         {
             if (!containerSpringJoint)
             {
-                Debug.LogError("You must set a hingeJoint or a springJoint");
+                Debug.LogError("You must set a hingeJoint or a springJoint - Object : " + name);
                 this.enabled = false;
                 return;
             }
@@ -108,7 +108,17 @@ public class HideContainerContent : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log(transform.name + " Collided " + other.name + ' ' + other.gameObject.layer);
-        other.transform.parent = (other.gameObject.layer == 6 ) && !other.gameObject.GetComponent<XRGrabInteractable>().isSelected ? insideContainer : other.transform.parent;
+        if (!other.gameObject.GetComponentInParent<XRGrabInteractable>() && other.gameObject.layer == 6)
+        {
+            Debug.Log("pas de XR grab pour : " + other.gameObject.name + " layer : " + other.gameObject.layer);
+            return;
+        }
+        if (!insideContainer)
+            Debug.Log("Pas de inside collider trou du cul");
+
+        other.transform.parent = (other.gameObject.layer == 6 ) && 
+                                 !other.gameObject.GetComponentInParent<XRGrabInteractable>().isSelected && 
+                                  other.transform.parent.gameObject.tag != "Container" ? insideContainer : other.transform.parent;
     }
 
     private void OnTriggerExit(Collider other)

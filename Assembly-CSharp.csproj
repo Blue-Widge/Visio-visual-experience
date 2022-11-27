@@ -59,9 +59,11 @@
     <Compile Include="Assets\Scripts\HideContainerContent.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\Scripts\TunnelVisionLookAt.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Lip\SRanipal_LipShapeTableDrawer.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Eye\SRanipal_EyeDataType_v1.cs" />
     <Compile Include="Assets\Samples\Tobii XR SDK\3.0.1\Getting Started\Scripts\EyeTrackingTest.cs" />
+    <Compile Include="Assets\Scripts\TunnelVisionAlwaysMove.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\ViveSR\Scripts\SRanipal_Enums.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
@@ -111,6 +113,7 @@
     <Compile Include="Assets\Samples\Tobii XR SDK\3.0.1\Developer Tools\Scripts\SimpleMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Lip\Sample\SRanipal_MirrorCameraSample_Lip.cs" />
+    <Compile Include="Assets\Scripts\PizzaInOrder.cs" />
     <Compile Include="Assets\ViveSR\Scripts\SRWorks_Enums.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Eye\SRanipal_Eye.cs" />
@@ -137,9 +140,6 @@
     <Compile Include="Assets\ViveSR\Scripts\Lip\SRanipal_LipShapeTableDrawer_v2.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Eye\Sample\SRanipal_MirrorCameraSample_Eye.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Scripts\PizzaInOrder.cs" />
-    <Compile Include="Assets\Scripts\TunnelVisionAlwaysMove.cs" />
-    <Compile Include="Assets\Scripts\TunnelVisionLookAt.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

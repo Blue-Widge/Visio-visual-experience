@@ -14,7 +14,7 @@ public class BowlHandler : MonoBehaviour
         if (!container)
             container = transform;
         if (!foodContainer)
-            foodContainer = transform.parent;
+            foodContainer = transform.parent.transform.parent;
     }
 
     private void OnTriggerEnter(Collider other)

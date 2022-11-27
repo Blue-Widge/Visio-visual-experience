@@ -6,6 +6,8 @@ TagManager:
   tags:
   - XR Device Simulator
   - Food
+  - Container
+  - MeshPart
   layers:
   - Default
   - TransparentFX
