@@ -1,9 +1,29 @@
 fileFormatVersion: 2
-guid: 99f785d28ef4575438bd24cbe31e8a14
+guid: 5a0bf84f096d411499c75b54d2ed8670
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FridgeHandleMaterial
+    second: {fileID: 2100000, guid: ef87ed4fe2cc57744a9ee001c0e8bc22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FridgeInterior
+    second: {fileID: 2100000, guid: 8a689e4ff674e7d4eba7854578c1e081, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FridgeMaterial
+    second: {fileID: 2100000, guid: ca4edc1680d5a42489cd8251acb304c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TransparentPlastic
+    second: {fileID: 2100000, guid: fe68abded41f90344abf73f8a1939892, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
