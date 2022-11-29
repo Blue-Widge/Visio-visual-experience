@@ -112,6 +112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pepperoni Plate
       objectReference: {fileID: 0}
+    - target: {fileID: 2216290336601069145, guid: 9deddeb585a0c924e95e470f996242b7, type: 3}
+      propertyPath: m_TagString
+      value: Pepperoni
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9deddeb585a0c924e95e470f996242b7, type: 3}
 --- !u!4 &692735813932875969 stripped

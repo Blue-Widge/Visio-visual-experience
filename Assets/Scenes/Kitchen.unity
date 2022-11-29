@@ -4998,7 +4998,7 @@ MonoBehaviour:
   m_OriginBaseGameObject: {fileID: 1054423730}
   m_CameraFloorOffsetObject: {fileID: 1743389364}
   m_RequestedTrackingOriginMode: 1
-  m_CameraYOffset: 1.1
+  m_CameraYOffset: 0
 --- !u!4 &1054423732
 Transform:
   m_ObjectHideFlags: 0
@@ -5007,7 +5007,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1054423730}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.82, y: 1.55, z: 1}
+  m_LocalPosition: {x: -0.82, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5618,7 +5618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
@@ -9868,11 +9868,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300004, guid: a92fd95f7bd4407489bad6082f018ff6, type: 3}
---- !u!1 &919132149056046637 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4812379862349738832, guid: b8ffa34e999e99e40bc244e08bf3e804, type: 3}
-  m_PrefabInstance: {fileID: 5622858677350954365}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1003691398997011874
 Transform:
   m_ObjectHideFlags: 0
@@ -11251,11 +11246,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &8734118925647302963 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 412120638934896698, guid: a186ff5b5040d5542a0376db74aea935, type: 3}
-  m_PrefabInstance: {fileID: 8975101669564678409}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8736859627634885197 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 410523419659600708, guid: a186ff5b5040d5542a0376db74aea935, type: 3}
@@ -11744,11 +11734,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredients:
-  - {fileID: 919132149056046637}
+  - {fileID: 4812379862349738832, guid: b8ffa34e999e99e40bc244e08bf3e804, type: 3}
   - {fileID: 8687295065027494789, guid: addad88ea90799b4abe9c43e073ea87f, type: 3}
   - {fileID: 4140123354203388611, guid: 782b4a72e9de02943bbce59ccadb4a7d, type: 3}
   - {fileID: 204569781567314555, guid: aeb4fc9c6ecd29b4fb75c9d8532cd05e, type: 3}
-  - {fileID: 8734118925647302963}
+  - {fileID: 412120638934896698, guid: a186ff5b5040d5542a0376db74aea935, type: 3}
   - {fileID: 6157045755301238278, guid: 1147044a78205f6459c55887a5706550, type: 3}
   pizza:
   - {fileID: 8820186369724581961}
@@ -11765,7 +11755,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8820186369805436261}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.3061936, y: 0.04937833, z: 0.19836417}
