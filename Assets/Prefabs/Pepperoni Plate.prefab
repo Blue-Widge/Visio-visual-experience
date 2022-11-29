@@ -70,15 +70,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1552062904345070819, guid: 9deddeb585a0c924e95e470f996242b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.8421801
+      value: -0.39176738
       objectReference: {fileID: 0}
     - target: {fileID: 1552062904345070819, guid: 9deddeb585a0c924e95e470f996242b7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8060325
+      value: -0.044788837
       objectReference: {fileID: 0}
     - target: {fileID: 1552062904345070819, guid: 9deddeb585a0c924e95e470f996242b7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.2296718
+      value: -0.0681591
       objectReference: {fileID: 0}
     - target: {fileID: 1552062904345070819, guid: 9deddeb585a0c924e95e470f996242b7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -90,7 +90,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1552062904345070819, guid: 9deddeb585a0c924e95e470f996242b7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1552062904345070819, guid: 9deddeb585a0c924e95e470f996242b7, type: 3}
       propertyPath: m_LocalRotation.z
@@ -111,6 +111,10 @@ PrefabInstance:
     - target: {fileID: 2216290336601069145, guid: 9deddeb585a0c924e95e470f996242b7, type: 3}
       propertyPath: m_Name
       value: Pepperoni Plate
+      objectReference: {fileID: 0}
+    - target: {fileID: 2381847208931142933, guid: 9deddeb585a0c924e95e470f996242b7, type: 3}
+      propertyPath: m_MovementType
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9deddeb585a0c924e95e470f996242b7, type: 3}

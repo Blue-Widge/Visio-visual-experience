@@ -125,5 +125,7 @@ public class HideContainerContent : MonoBehaviour
     {
         Debug.Log(transform.name + " Stopped colliding " + ' ' + other.name + other.gameObject.layer);
         other.transform.parent = (other.gameObject.layer == 6) ? outsideContainer : other.transform.parent;
+
+        
     }
 }
