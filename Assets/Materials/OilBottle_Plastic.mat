@@ -10,12 +10,10 @@ Material:
   m_Name: OilBottle_Plastic
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords:
-  - _EMISSION
-  - _METALLICGLOSSMAP
   - _NORMALMAP
   - _PARALLAXMAP
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -25,7 +23,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 340e6529e03482f4b9b3af0888240be2, type: 3}
+        m_Texture: {fileID: 2800000, guid: a119e67f1b00414449d6566addfbcd52, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -45,19 +43,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: a72fed7440495ba4bb9153955c61ed94, type: 3}
+        m_Texture: {fileID: 2800000, guid: 65c62b71c24c4b741a1c8de3e4a04c76, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 739b8035bafdccf4380c61f168e9ebbf, type: 3}
+        m_Texture: {fileID: 2800000, guid: b0ad9200512b45d47bd7caa3c068e5e7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 49e39671e18e37745884f1da79e3e1e6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1c8d120e302316045a08f214d9efef67, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: f1a8f62a9a7aaac4a8e1fbd38809498f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 33b0eb385def60d409d907b090246f57, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []

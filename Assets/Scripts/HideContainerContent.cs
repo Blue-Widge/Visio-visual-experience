@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Collections.LowLevel.Unsafe;
 using Unity.VisualScripting;
 using UnityEditor.SearchService;
 using UnityEngine;
@@ -33,12 +34,16 @@ public class HideContainerContent : MonoBehaviour
             this.enabled = false;
             return;
         }
-        if (content.Count == 0)
+
+        if (!insideContainer)
         {
-            Debug.LogWarning("Please assign content of container to hide, put a parent for faster results (inside container is often used)");
+            Debug.LogWarning("An inside container is needed to know which gameobject to disable");
             this.enabled = false;
             return;
         }
+
+        if (content.Count == 0)
+            content.Add(insideContainer.gameObject);
 
         if (containerHingeJoint)
         {
@@ -52,7 +57,6 @@ public class HideContainerContent : MonoBehaviour
             spring = new JointSpring();
             spring.spring = 2f;
             containerHingeJoint.spring = spring;
-            containerHingeJoint.useSpring = true;
             startingAngle = containerHingeJoint.angle;
         }
         else
@@ -66,11 +70,6 @@ public class HideContainerContent : MonoBehaviour
             detectDoor = detectDrawerOpen;
             startingPosition = transform.position;
         }
-
-        if (!outsideContainer)
-            outsideContainer = transform.parent;
-        if (!insideContainer)
-            insideContainer = transform;
     }
 
     // Update is called once per frame
@@ -110,11 +109,9 @@ public class HideContainerContent : MonoBehaviour
         Debug.Log(transform.name + " Collided " + other.name + ' ' + other.gameObject.layer);
         if (!other.gameObject.GetComponentInParent<XRGrabInteractable>() && other.gameObject.layer == 6)
         {
-            Debug.Log("pas de XR grab pour : " + other.gameObject.name + " layer : " + other.gameObject.layer);
+            Debug.Log("No XR Grab interactable component for : " + other.gameObject.name + " (or parents) layer : " + other.gameObject.layer);
             return;
         }
-        if (!insideContainer)
-            Debug.Log("Pas de inside collider trou du cul");
 
         other.transform.parent = (other.gameObject.layer == 6 ) && 
                                  !other.gameObject.GetComponentInParent<XRGrabInteractable>().isSelected && 
