@@ -7,10 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcdc35eb-8eae-4eb9-9a9b-eb74dbf72023" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/narrow base cabinet.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/narrow base cabinet.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CabinetAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CabinetAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GazeModifierEditor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GazeModifierEditor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TobiiXRCore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TobiiXRCore.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TobiiXRDevTools.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TobiiXRDevTools.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TobiiXREditor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TobiiXREditor.csproj" afterDir="false" />
@@ -45,6 +46,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -123,6 +125,7 @@
       <workItem from="1668680040795" duration="18000" />
       <workItem from="1668680167968" duration="93000" />
       <workItem from="1668680382845" duration="581000" />
+      <workItem from="1670204233714" duration="80000" />
     </task>
     <servers />
   </component>
