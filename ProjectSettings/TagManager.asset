@@ -8,6 +8,7 @@ TagManager:
   - Food
   - Container
   - MeshPart
+  - Door
   layers:
   - Default
   - TransparentFX

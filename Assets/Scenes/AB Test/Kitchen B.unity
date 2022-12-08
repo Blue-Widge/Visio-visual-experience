@@ -5474,6 +5474,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1164081723}
+  - component: {fileID: 1164081724}
   m_Layer: 0
   m_Name: kitchen
   m_TagString: Untagged
@@ -5504,6 +5505,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1164081724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164081722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff8e011ec0f8e194882ee4ef2fbaa8be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_System: {fileID: 1255141569}
+  impairmentTimer: 5
+  fadeTime: 0
 --- !u!1001 &1232900052
 PrefabInstance:
   m_ObjectHideFlags: 0
