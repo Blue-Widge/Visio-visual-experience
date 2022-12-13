@@ -14,6 +14,7 @@ public class ChangeScene : MonoBehaviour
     {
         if (other.CompareTag(collideWith))
         {
+            Debug.Log("Collided");
             SceneManager.LoadScene(sceneName);    
         }
     }

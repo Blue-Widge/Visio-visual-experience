@@ -4047,11 +4047,6 @@ Transform:
   m_Father: {fileID: 1164081723}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!224 &785390134 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8225766341359189700, guid: 568477dcb6c71674d87d2286c2304d70, type: 3}
-  m_PrefabInstance: {fileID: 370961895}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &787858813 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0be347d0642fa48d0ba3a10c37e92355, type: 3}
@@ -5008,7 +5003,7 @@ MonoBehaviour:
   m_OriginBaseGameObject: {fileID: 1054423730}
   m_CameraFloorOffsetObject: {fileID: 1743389364}
   m_RequestedTrackingOriginMode: 1
-  m_CameraYOffset: 1.1
+  m_CameraYOffset: 0
 --- !u!4 &1054423732
 Transform:
   m_ObjectHideFlags: 0
@@ -5017,7 +5012,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1054423730}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.82, y: 1.55, z: 1}
+  m_LocalPosition: {x: -0.82, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6020,7 +6015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 0}
-  impairmentTimer: 10
+  impairmentTimer: 0
 --- !u!114 &1255141566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6168,7 +6163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8429981633443581377, guid: 1670dca8ee98f864eb412b51a24c08e1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8429981633443581382, guid: 1670dca8ee98f864eb412b51a24c08e1, type: 3}
       propertyPath: m_RootOrder
@@ -6679,10 +6674,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8429981633443581383, guid: 1670dca8ee98f864eb412b51a24c08e1, type: 3}
-      propertyPath: m_DefaultParameters.m_EaseInTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8429981633443581383, guid: 1670dca8ee98f864eb412b51a24c08e1, type: 3}
       propertyPath: m_DefaultParameters.m_ApertureSize
       value: 0.301
       objectReference: {fileID: 0}
@@ -6782,7 +6773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e28e3938343d974babca931a0999625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 785390134}
+  target: {fileID: 2069641883}
 --- !u!1001 &1476898101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9108,6 +9099,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063603273}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!224 &2069641883 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8225766341359189700, guid: 568477dcb6c71674d87d2286c2304d70, type: 3}
+  m_PrefabInstance: {fileID: 370961895}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2071987969 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3116618025734907792, guid: 17b906a425adea3409d15d979294c14e, type: 3}

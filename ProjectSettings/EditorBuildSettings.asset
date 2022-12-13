@@ -4,7 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/AB Test Visual Impairment/Kitchen B.unity
+    guid: 8a8b75a1efc21498cbf8a5ef284281b0
+  - enabled: 1
+    path: Assets/Scenes/AB Test Visual Impairment/Hallway B.unity
+    guid: 20e150bccc7bb41e0ac462d47fb0e3a4
+  - enabled: 1
+    path: Assets/Scenes/AB Test Visual Impairment/Kitchen A.unity
+    guid: 222cdaf3b61cb4a5a8082bb072728ff4
+  - enabled: 1
+    path: Assets/Scenes/AB Test Visual Impairment/Hallway A.unity
+    guid: dcfba7a86f2b54c1caef436727a96983
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: be57090e50a5474469d6d7f9d3eda844, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8908f1d6b11279a4980109f71bd58dbd, type: 2}
