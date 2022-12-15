@@ -77,7 +77,7 @@ Shader "TextMeshPro/Sprite"
 			};
 			
             sampler2D _MainTex;
-			fixed4 _Color;
+			fixed4 color;
 			fixed4 _TextureSampleAdd;
 			float4 _ClipRect;
             float4 _MainTex_ST;
@@ -92,7 +92,7 @@ Shader "TextMeshPro/Sprite"
 
                 OUT.texcoord = TRANSFORM_TEX(v.texcoord, _MainTex);
 				
-                OUT.color = v.color * _Color;
+                OUT.color = v.color * color;
 				return OUT;
 			}
 
