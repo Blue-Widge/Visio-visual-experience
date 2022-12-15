@@ -10076,6 +10076,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.044282466
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: d82bd062a0c434944ad89a0f63a8880d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 07f22b4ed53ad6a4b9be8225f6677ebd, type: 2}
     - target: {fileID: 919132149155446097, guid: d82bd062a0c434944ad89a0f63a8880d, type: 3}
       propertyPath: m_Name
       value: cutting board
