@@ -99,6 +99,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\ViveSR\Scripts\Lip\Sample\SRanipal_MirrorCameraSample_Lip.cs" />
      <Compile Include="Assets\Scripts\PizzaInOrder.cs" />
+     <Compile Include="Assets\Scripts\LiquidHeightLevel.cs" />
      <Compile Include="Assets\ViveSR\Scripts\SRWorks_Enums.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\ViveSR\Scripts\Eye\SRanipal_Eye.cs" />
@@ -125,7 +126,7 @@
      <Compile Include="Assets\ViveSR\Scripts\Lip\SRanipal_LipShapeTableDrawer_v2.cs" />
      <Compile Include="Assets\ViveSR\Scripts\Eye\Sample\SRanipal_MirrorCameraSample_Eye.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\Scripts\liquidHeightLevel.cs" />
+     <Compile Include="Assets\Scripts\PointOrOpen.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\ViveSR\Scenes\Lip" />
      <None Include="Assets\StreamingAssets\SteamVR\binding_holographic_hmd.json" />
@@ -134,6 +135,7 @@
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Sprites" />
      <Folder Include="Assets\Food Pack Mixed\Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Shaders\HologramShader.shader" />
      <Folder Include="Assets\Samples\XR Interaction Toolkit\2.2.0\Tunneling Vignette" />
      <Folder Include="Assets\TextMesh Pro\Sprites" />
      <Folder Include="Assets\ViveSR\Scripts\Lip" />
@@ -161,6 +163,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
      <Folder Include="Assets\ViveSR\Scripts\Lip\Sample" />
+     <Folder Include="Assets\Assets\Materials" />
      <None Include="Assets\StreamingAssets\SteamVR\binding_vive_tracker_camera.json" />
      <Folder Include="Assets\Samples\Tobii XR SDK\3.0.1\Developer Tools\Materials" />
      <Folder Include="Assets\Samples\Tobii XR SDK" />
@@ -203,6 +206,7 @@
      <Folder Include="Packages\TobiiXRSDK_3.0.1.179\Runtime" />
      <Folder Include="Assets\Samples\XR Interaction Toolkit\2.2.0\XR Device Simulator" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <Folder Include="Assets\Assets" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <Folder Include="Assets\Oculus Hands\Animations" />
      <None Include="Assets\StreamingAssets\SteamVR\binding_vive.json" />
@@ -214,6 +218,7 @@
      <Folder Include="Assets\Models\Materials" />
      <Folder Include="Assets\StreamingAssets\SteamVR" />
      <Folder Include="Assets\ViveSR\Models\version1" />
+     <Folder Include="Assets\Assets\Prefab" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
      <Folder Include="Assets\Models" />
@@ -265,6 +270,7 @@
      <Folder Include="Assets\ViveSR\Models\version2\Avatar_Shieh" />
      <Folder Include="Assets\Food Pack Mixed\Textures" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Fonts &amp; Materials" />
+     <Folder Include="Assets\Assets\Shaders" />
      <Folder Include="Assets\XR\Loaders" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Color Gradient Presets" />
      <None Include="Packages\TobiiXRSDK_3.0.1.179\package.json" />
