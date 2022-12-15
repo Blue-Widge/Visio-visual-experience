@@ -127,6 +127,8 @@
      <Compile Include="Assets\ViveSR\Scripts\Eye\Sample\SRanipal_MirrorCameraSample_Eye.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Scripts\PointOrOpen.cs" />
+     <Compile Include="Assets\DontDestory.cs" />
+     <Compile Include="Assets\Scripts\UIButtons.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\ViveSR\Scenes\Lip" />
      <None Include="Assets\StreamingAssets\SteamVR\binding_holographic_hmd.json" />
@@ -163,7 +165,6 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
      <Folder Include="Assets\ViveSR\Scripts\Lip\Sample" />
-     <Folder Include="Assets\Assets\Materials" />
      <None Include="Assets\StreamingAssets\SteamVR\binding_vive_tracker_camera.json" />
      <Folder Include="Assets\Samples\Tobii XR SDK\3.0.1\Developer Tools\Materials" />
      <Folder Include="Assets\Samples\Tobii XR SDK" />
@@ -185,6 +186,7 @@
      <Folder Include="Assets\Samples\XR Interaction Toolkit\2.2.0" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources" />
+     <Folder Include="Assets\Assets\Textures" />
      <Folder Include="Assets\Oculus Hands\Prefabs" />
      <Folder Include="Assets\Scenes\Kitchen" />
      <Folder Include="Assets\ViveSR\Models" />
@@ -218,7 +220,6 @@
      <Folder Include="Assets\Models\Materials" />
      <Folder Include="Assets\StreamingAssets\SteamVR" />
      <Folder Include="Assets\ViveSR\Models\version1" />
-     <Folder Include="Assets\Assets\Prefab" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
      <Folder Include="Assets\Models" />
@@ -270,7 +271,6 @@
      <Folder Include="Assets\ViveSR\Models\version2\Avatar_Shieh" />
      <Folder Include="Assets\Food Pack Mixed\Textures" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Fonts &amp; Materials" />
-     <Folder Include="Assets\Assets\Shaders" />
      <Folder Include="Assets\XR\Loaders" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Color Gradient Presets" />
      <None Include="Packages\TobiiXRSDK_3.0.1.179\package.json" />
