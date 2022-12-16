@@ -87,10 +87,10 @@ public class UIButtons : MonoBehaviour
                 SceneManager.LoadScene("Kitchen");
                 break;
             case 1:
-                SceneManager.LoadScene("KitchenMain");
+                SceneManager.LoadScene("Kitchen SameColours");
                 break;
             case 2:
-                SceneManager.LoadScene("SampleScene");
+                SceneManager.LoadScene("Kitchen RandomColor");
                 break;
             default:
                 break;
