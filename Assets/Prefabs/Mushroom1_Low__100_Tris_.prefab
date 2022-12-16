@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 425740420572625653}
   m_Layer: 6
   m_Name: Mushroom1_Low__100_Tris_
-  m_TagString: Untagged
+  m_TagString: Mushrooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

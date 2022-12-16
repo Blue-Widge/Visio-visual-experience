@@ -705,6 +705,28 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &200201190 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2621990092508685434, guid: 03e6a11241b27c64d9046c0dc771690e, type: 3}
+  m_PrefabInstance: {fileID: 1714912847}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a5df2202a8b96488c744be3bd0c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &204171884 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2621990091098435080, guid: 03e6a11241b27c64d9046c0dc771690e, type: 3}
+  m_PrefabInstance: {fileID: 1714912847}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &253832694
 GameObject:
   m_ObjectHideFlags: 0
@@ -738,7 +760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2130517298}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -1024,7 +1046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2130517298}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -1610,7 +1632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2130517298}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -1821,7 +1843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2130517298}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -2134,7 +2156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2130517298}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -2309,7 +2331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2130517298}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -2564,7 +2586,7 @@ PrefabInstance:
     - target: {fileID: 698228127985749689, guid: 54aeb17e15faf834b84e3f6ad007d55c, type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 2130517298}
+      objectReference: {fileID: 0}
     - target: {fileID: 6165996765031268090, guid: 54aeb17e15faf834b84e3f6ad007d55c, type: 3}
       propertyPath: outsideContainer
       value: 
@@ -2649,7 +2671,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5332182575419722937, guid: 7117da9c1d9d7e242b872bccb055b99b, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5332182575419722937, guid: 7117da9c1d9d7e242b872bccb055b99b, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2925,7 +2947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2130517298}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -3336,7 +3358,7 @@ PrefabInstance:
     - target: {fileID: 2033849846601277465, guid: 793c150b12d77064f94097f06bfb521f, type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 2130517298}
+      objectReference: {fileID: 0}
     - target: {fileID: 3054719504564190897, guid: 793c150b12d77064f94097f06bfb521f, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -3686,7 +3708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2130517298}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -4214,7 +4236,7 @@ PrefabInstance:
     - target: {fileID: 1303652784631440871, guid: 5f0044ab56568b94395d290cb2d45b6e, type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 2130517298}
+      objectReference: {fileID: 0}
     - target: {fileID: 2077037815975732553, guid: 5f0044ab56568b94395d290cb2d45b6e, type: 3}
       propertyPath: m_Name
       value: SodaCan_Low__350_Tris_ (1)
@@ -4456,7 +4478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2130517298}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 1328156159}
   m_InteractionLayerMask:
@@ -4776,7 +4798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2130517298}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -5176,7 +5198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3f2b1c52cb694640b8f75bef17ed683, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_System: {fileID: 0}
+  m_System: {fileID: 200201190}
 --- !u!114 &1255141566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5270,7 +5292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Timeout: 10
-  m_XROrigin: {fileID: 0}
+  m_XROrigin: {fileID: 204171884}
 --- !u!4 &1255141570
 Transform:
   m_ObjectHideFlags: 0
@@ -5284,7 +5306,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1267231109 stripped
 MonoBehaviour:
@@ -5443,7 +5465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2130517298}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -6010,6 +6032,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 31879f2c7dc8bc9478db6f00182b3c31, type: 3}
   m_PrefabInstance: {fileID: 2137653097}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1600598261 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2621990092174002569, guid: 03e6a11241b27c64d9046c0dc771690e, type: 3}
+  m_PrefabInstance: {fileID: 1714912847}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1650292488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6106,7 +6139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2130517298}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 1678224552}
   m_InteractionLayerMask:
@@ -6319,7 +6352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2621990091098435087, guid: 03e6a11241b27c64d9046c0dc771690e, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2621990091098435087, guid: 03e6a11241b27c64d9046c0dc771690e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6562,7 +6595,7 @@ PrefabInstance:
     - target: {fileID: 3893674524929121099, guid: fd15327d5df76ba45965feacaff12040, type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 2130517298}
+      objectReference: {fileID: 0}
     - target: {fileID: 4333779446385891378, guid: fd15327d5df76ba45965feacaff12040, type: 3}
       propertyPath: m_Name
       value: TomatoSoup_Low__74_Tris_ (2)
@@ -6628,7 +6661,7 @@ PrefabInstance:
     - target: {fileID: 3893674524929121099, guid: fd15327d5df76ba45965feacaff12040, type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 2130517298}
+      objectReference: {fileID: 0}
     - target: {fileID: 4333779446385891378, guid: fd15327d5df76ba45965feacaff12040, type: 3}
       propertyPath: m_Name
       value: TomatoSoup_Low__74_Tris_ (1)
@@ -6886,7 +6919,7 @@ PrefabInstance:
     - target: {fileID: 1303652784631440871, guid: 5f0044ab56568b94395d290cb2d45b6e, type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 2130517298}
+      objectReference: {fileID: 0}
     - target: {fileID: 2077037815975732553, guid: 5f0044ab56568b94395d290cb2d45b6e, type: 3}
       propertyPath: m_Name
       value: SodaCan_Low__350_Tris_ (2)
@@ -7195,7 +7228,7 @@ PrefabInstance:
     - target: {fileID: 698228127985749689, guid: 54aeb17e15faf834b84e3f6ad007d55c, type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 2130517298}
+      objectReference: {fileID: 0}
     - target: {fileID: 8569312375212927296, guid: 54aeb17e15faf834b84e3f6ad007d55c, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -7265,7 +7298,7 @@ PrefabInstance:
     - target: {fileID: 698228127985749689, guid: 54aeb17e15faf834b84e3f6ad007d55c, type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 2130517298}
+      objectReference: {fileID: 0}
     - target: {fileID: 698228127985749691, guid: 54aeb17e15faf834b84e3f6ad007d55c, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -7395,7 +7428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2130517298}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -7676,67 +7709,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1552062904345070819, guid: 9deddeb585a0c924e95e470f996242b7, type: 3}
   m_PrefabInstance: {fileID: 584418556}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2130517297
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2130517299}
-  - component: {fileID: 2130517298}
-  - component: {fileID: 2130517300}
-  m_Layer: 0
-  m_Name: XR Interaction Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2130517298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130517297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_StartingHoverFilters: []
-  m_StartingSelectFilters: []
---- !u!4 &2130517299
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130517297}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.9398972, y: 2.878596, z: -5.1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2130517300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130517297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017c5e3933235514c9520e1dace2a4b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ActionAssets:
-  - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!4 &2132044267 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2421900065986048742, guid: 8a17e7aaf4c414d4193c282f020d0545, type: 3}
@@ -8001,7 +7973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2130517298}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -8176,7 +8148,7 @@ PrefabInstance:
     - target: {fileID: 1303652784631440871, guid: 5f0044ab56568b94395d290cb2d45b6e, type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 2130517298}
+      objectReference: {fileID: 0}
     - target: {fileID: 2077037815975732553, guid: 5f0044ab56568b94395d290cb2d45b6e, type: 3}
       propertyPath: m_Name
       value: SodaCan_Low__350_Tris_
@@ -8335,7 +8307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2130517298}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -8488,7 +8460,7 @@ PrefabInstance:
     - target: {fileID: 2033849846601277465, guid: 793c150b12d77064f94097f06bfb521f, type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 2130517298}
+      objectReference: {fileID: 0}
     - target: {fileID: 3054719504564190897, guid: 793c150b12d77064f94097f06bfb521f, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -8704,7 +8676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2130517298}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -8905,7 +8877,7 @@ PrefabInstance:
     - target: {fileID: 5622858678321565437, guid: b8ffa34e999e99e40bc244e08bf3e804, type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 2130517298}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8ffa34e999e99e40bc244e08bf3e804, type: 3}
 --- !u!23 &5627875301439729019
@@ -8961,7 +8933,7 @@ PrefabInstance:
     - target: {fileID: 580598307797286730, guid: addad88ea90799b4abe9c43e073ea87f, type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 2130517298}
+      objectReference: {fileID: 0}
     - target: {fileID: 8341977647496534335, guid: addad88ea90799b4abe9c43e073ea87f, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -9017,6 +8989,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4143133061306964471, guid: 782b4a72e9de02943bbce59ccadb4a7d, type: 3}
   m_PrefabInstance: {fileID: 7760657114272773112}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &5966206375153822226 stripped
+MeshCollider:
+  m_CorrespondingSourceObject: {fileID: 4143133061306964458, guid: 782b4a72e9de02943bbce59ccadb4a7d, type: 3}
+  m_PrefabInstance: {fileID: 7760657114272773112}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6132432322775862446
 GameObject:
   m_ObjectHideFlags: 0
@@ -9052,7 +9029,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6789713904768306364, guid: 1147044a78205f6459c55887a5706550, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5444515
+      value: 1.614
       objectReference: {fileID: 0}
     - target: {fileID: 6789713904768306364, guid: 1147044a78205f6459c55887a5706550, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9060,7 +9037,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6789713904768306364, guid: 1147044a78205f6459c55887a5706550, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.0003667
+      value: -0.175
       objectReference: {fileID: 0}
     - target: {fileID: 6789713904768306364, guid: 1147044a78205f6459c55887a5706550, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9205,7 +9182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2130517298}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -9370,7 +9347,15 @@ PrefabInstance:
     - target: {fileID: 4143133061306964456, guid: 782b4a72e9de02943bbce59ccadb4a7d, type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 2130517298}
+      objectReference: {fileID: 1600598261}
+    - target: {fileID: 4143133061306964456, guid: 782b4a72e9de02943bbce59ccadb4a7d, type: 3}
+      propertyPath: m_Colliders.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143133061306964456, guid: 782b4a72e9de02943bbce59ccadb4a7d, type: 3}
+      propertyPath: m_Colliders.Array.data[0]
+      value: 
+      objectReference: {fileID: 5966206375153822226}
     - target: {fileID: 4143133061306964471, guid: 782b4a72e9de02943bbce59ccadb4a7d, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -9427,7 +9412,7 @@ PrefabInstance:
     - target: {fileID: 698228127985749689, guid: 54aeb17e15faf834b84e3f6ad007d55c, type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 2130517298}
+      objectReference: {fileID: 0}
     - target: {fileID: 8569312375212927296, guid: 54aeb17e15faf834b84e3f6ad007d55c, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -9641,7 +9626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2130517298}
+  m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
@@ -9771,7 +9756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9d61592a516e20c4fa7fee0854449bb4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.0259
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9d61592a516e20c4fa7fee0854449bb4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10029,7 +10014,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8820186369805436261}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.3061936, y: 0.04937833, z: 0.19836417}
@@ -10102,7 +10087,7 @@ PrefabInstance:
     - target: {fileID: 425740420572625653, guid: a186ff5b5040d5542a0376db74aea935, type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 2130517298}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a186ff5b5040d5542a0376db74aea935, type: 3}
 --- !u!1001 &9120137961410736584
@@ -10115,7 +10100,7 @@ PrefabInstance:
     - target: {fileID: 3893674524929121099, guid: fd15327d5df76ba45965feacaff12040, type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 2130517298}
+      objectReference: {fileID: 0}
     - target: {fileID: 4333779446385891378, guid: fd15327d5df76ba45965feacaff12040, type: 3}
       propertyPath: m_Name
       value: TomatoSoup_Low__74_Tris_
