@@ -28,7 +28,7 @@ public class BowlHandler : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.layer ==6 && other.transform.parent != container && transform.parent != other.transform)
+        if (other.gameObject.layer == 6 && other.transform.parent != container && transform.parent != other.transform)
             other.transform.parent = container;
     }
 
