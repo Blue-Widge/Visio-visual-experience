@@ -1,5 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using UnityEditor;
+using UnityEditor.UIElements;
 using UnityEngine;
 
 public class PizzaInOrder : MonoBehaviour
@@ -12,23 +15,20 @@ public class PizzaInOrder : MonoBehaviour
     /// if so check if it the next one in order, 
     /// if so delete the ingredient and activate it on the pizza.
     /// </summary>
-    /// <param name="collision"></param>
-    private void OnCollisionEnter(Collision collision)
+    /// <param name="other"></param>
+    private void OnTriggerEnter(Collider other)
     {
-        if (ingredients.Contains(collision.gameObject))
+        if (ingredients[0].tag == other.gameObject.tag)
         {
-            if (ingredients.IndexOf(collision.gameObject) == 0)
-            {
-                ingredients.RemoveAt(0);
-                Destroy(collision.gameObject);
+            ingredients.RemoveAt(0);
+            Destroy(other.gameObject);
 
-                foreach (GameObject pizzaLayer in pizza)
+            foreach (GameObject pizzaLayer in pizza)
+            {
+                if (!pizzaLayer.activeSelf)
                 {
-                    if (!pizzaLayer.activeSelf)
-                    {
-                        pizzaLayer.SetActive(true);
-                        return;
-                    }
+                    pizzaLayer.SetActive(true);
+                    return;
                 }
             }
         }
