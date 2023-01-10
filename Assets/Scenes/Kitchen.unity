@@ -6322,8 +6322,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< Updated upstream
-=======
     - target: {fileID: 2621990091143363832, guid: 03e6a11241b27c64d9046c0dc771690e, type: 3}
       propertyPath: m_RenderingPath
       value: -1
@@ -6344,7 +6342,6 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: 0
       objectReference: {fileID: 0}
->>>>>>> Stashed changes
     - target: {fileID: 2621990092862339215, guid: 03e6a11241b27c64d9046c0dc771690e, type: 3}
       propertyPath: targetObject
       value: 
