@@ -10,7 +10,6 @@ public class PizzaInOrder : MonoBehaviour
 {
     public List<GameObject> ingredients = new List<GameObject>();
     public List<GameObject> pizza = new List<GameObject>();
-    private bool interactable = false;
     public XRGrabInteractable pizzaObject;
 
     /// <summary>
@@ -19,6 +18,7 @@ public class PizzaInOrder : MonoBehaviour
     /// if so delete the ingredient and activate it on the pizza.
     /// </summary>
     /// <param name="other"></param>
+
     private void OnTriggerEnter(Collider other)
     {
         if (ingredients[0].tag == other.gameObject.tag)
@@ -26,6 +26,10 @@ public class PizzaInOrder : MonoBehaviour
             ingredients.RemoveAt(0);
             Destroy(other.gameObject);
 
+            if (ingredients.Count < 4)
+            {
+                pizzaObject.interactionLayers = 1;
+            }
             foreach (GameObject pizzaLayer in pizza)
             {
                 if (!pizzaLayer.activeSelf)
@@ -34,11 +38,6 @@ public class PizzaInOrder : MonoBehaviour
                     return;
                 }
             }
-        }
-
-        if (interactable && ingredients.Count > 3) return;
-
-        pizzaObject.enabled = true;
-
+        }     
     }
 }
