@@ -6,35 +6,36 @@ using UnityEngine;
 public class StartAudio : MonoBehaviour
 {
     public AudioSource audioSource;
-    private string hand = "Hand";
+
     public AudioSource mandatoryPreviousSource;
 
-    private bool trigger;
+    private bool played = false;
+
+    private string hand = "Hand";
+    private bool trigger = true;
+    private float previousSourceLength = 0;
+
     // Start is called before the first frame update
     void Start()
     {
-        if (mandatoryPreviousSource == null)
-        {
-            trigger = true;
-        } else
+        if (mandatoryPreviousSource != null)
         {
             trigger = false;
+            previousSourceLength = mandatoryPreviousSource.clip.length;
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!trigger && mandatoryPreviousSource.isPlaying)
-        {
-            trigger = true;
-        }
+        if (audioSource.isPlaying) played = true;
+        if (!trigger && mandatoryPreviousSource.isPlaying) trigger = true;
+        if (trigger && previousSourceLength >= 0) previousSourceLength -= Time.deltaTime;
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        
-        if (other.CompareTag(hand) && trigger)
+        if (other.CompareTag(hand) && !played && trigger && previousSourceLength <= 0)
         {
             audioSource.Play();
         }
