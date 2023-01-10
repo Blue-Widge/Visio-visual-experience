@@ -4,11 +4,14 @@ using System.Linq;
 using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class PizzaInOrder : MonoBehaviour
 {
     public List<GameObject> ingredients = new List<GameObject>();
     public List<GameObject> pizza = new List<GameObject>();
+    private bool interactable = false;
+    public XRGrabInteractable pizzaObject;
 
     /// <summary>
     /// If an object collides with the cutting board check if its an ingredient, 
@@ -32,5 +35,10 @@ public class PizzaInOrder : MonoBehaviour
                 }
             }
         }
+
+        if (interactable && ingredients.Count > 3) return;
+
+        pizzaObject.enabled = true;
+
     }
 }
