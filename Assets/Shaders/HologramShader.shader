@@ -26,12 +26,22 @@ Shader "Unlit/HologramShader"
             #include "UnityCG.cginc"
             #define TAU 6.283185307179586
             
+<<<<<<< Updated upstream
             struct appdata
             {
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
                 float3 normal : NORMAL;
             };
+=======
+                    struct appdata
+                    {
+                        float4 vertex : POSITION;
+                        float2 uv : TEXCOORD0;
+                        float3 normal : NORMAL;
+                        UNITY_VERTEX_INPUT_INSTANCE_ID 
+                    };
+>>>>>>> Stashed changes
 
             struct v2f
             {
@@ -46,6 +56,7 @@ Shader "Unlit/HologramShader"
             float _LinesNumber;
             
             
+<<<<<<< Updated upstream
             v2f vert (appdata v)
             {
                 v2f o;
@@ -67,6 +78,35 @@ Shader "Unlit/HologramShader"
                 variable = (length(i.uv * 2 - 1) - (_Time.y * _ScrollSpeed));
                 float topWave = cos(TAU * _LinesNumber * variable) * cos(TAU * _LinesNumber * variable * 0.2) * 0.5 + 0.5;
                 return saturate(_MainColor * (wave * !topMask + topWave * topMask) + fresnel);
+=======
+                    v2f vert (appdata v)
+                    {
+                        v2f o;
+                        UNITY_SETUP_INSTANCE_ID(v);
+                        UNITY_INITIALIZE_OUTPUT(v2f, o);
+                        UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
+                        o.vertex = UnityObjectToClipPos(v.vertex);
+                        o.uv = v.uv;
+                        o.wPos = mul(unity_ObjectToWorld, v.vertex);
+                        o.normal = UnityObjectToWorldNormal(v.normal);
+                        return o;
+                    }
+
+                    fixed4 frag (v2f i) : SV_Target
+                    {
+                        float3 viewVector = normalize(_WorldSpaceCameraPos - i.wPos);
+                        float3 normalVector = normalize(i.normal);
+                        float4 fresnel = _FresnelColor * (1 - dot(viewVector, normalVector)) * 0.9;
+                        float variable = length((i.wPos.y + (_Time.y * _ScrollSpeed)) * 2 - 1);
+                        float4 wave = cos(TAU * _LinesNumber * variable) * (cos(TAU * _LinesNumber * variable * 0.2)) * 0.5 + 0.5;
+                        bool topMask = (i.normal.y > 0.9999);
+                        variable = (length(i.uv * 2 - 1) - (_Time.y * _ScrollSpeed));
+                        float topWave = cos(TAU * _LinesNumber * variable) * cos(TAU * _LinesNumber * variable * 0.2) * 0.5 + 0.5;
+                        return saturate(_MainColor * (wave * !topMask + topWave * topMask) + fresnel);
+                    }
+                    ENDCG
+                }
+>>>>>>> Stashed changes
             }
             ENDCG
         }
