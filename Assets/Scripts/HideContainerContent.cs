@@ -24,6 +24,9 @@ public class HideContainerContent : MonoBehaviour
 
     private delegate void DetectDoorOpen();
     private DetectDoorOpen _detectDoor;
+    //for the event an id is mandatory to disable the right preview
+    public int id;
+
 
     // Start is called before the first frame update
     void Start()
@@ -75,6 +78,7 @@ public class HideContainerContent : MonoBehaviour
     void Update()
     {
         _detectDoor();
+
         if (_hiddenContent && isOpen)
         {
             foreach(GameObject item in content)
@@ -91,6 +95,7 @@ public class HideContainerContent : MonoBehaviour
             }
             _hiddenContent = true;
         }
+        if (isOpen) { EventSystemHandler.current.ContainerDoorOpened(id); }
     }
 
     void DetectAngleDoorOpen()
@@ -106,10 +111,9 @@ public class HideContainerContent : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         var otherGameObject = other.gameObject;
-        Debug.Log(transform.name + " Collided " + other.name + ' ' + otherGameObject.layer);
         if (!otherGameObject.GetComponentInParent<XRGrabInteractable>() && otherGameObject.layer == 6)
         {
-            Debug.Log("No XR Grab interactable component for : " + otherGameObject.name + " (or parents) layer : " + otherGameObject.layer);
+            Debug.LogWarning("No XR Grab interactable component for : " + otherGameObject.name + " (or parents) layer : " + otherGameObject.layer);
             return;
         }
 
@@ -121,7 +125,6 @@ public class HideContainerContent : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         var otherGameObject = other.gameObject;
-        Debug.Log(transform.name + " Stopped colliding " + ' ' + other.name + otherGameObject.layer);
         other.transform.parent = (otherGameObject.layer == 6) ? outsideContainer : other.transform.parent;
 
         

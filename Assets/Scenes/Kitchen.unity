@@ -1494,6 +1494,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8820186369805436260}
     m_Modifications:
+    - target: {fileID: 11321126, guid: fe903b07782bf5d43b59f7b6393edb1d, type: 3}
+      propertyPath: id
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6201387933148014094, guid: fe903b07782bf5d43b59f7b6393edb1d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1553,6 +1557,10 @@ PrefabInstance:
     - target: {fileID: 6201387934893333241, guid: fe903b07782bf5d43b59f7b6393edb1d, type: 3}
       propertyPath: point
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6201387934893333241, guid: fe903b07782bf5d43b59f7b6393edb1d, type: 3}
+      propertyPath: openPreview
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe903b07782bf5d43b59f7b6393edb1d, type: 3}
@@ -3467,6 +3475,10 @@ PrefabInstance:
       propertyPath: m_Colliders.Array.data[1]
       value: 
       objectReference: {fileID: 1298000672}
+    - target: {fileID: 6925518801242507810, guid: 17b906a425adea3409d15d979294c14e, type: 3}
+      propertyPath: id
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17b906a425adea3409d15d979294c14e, type: 3}
 --- !u!1001 &584418556
@@ -4857,6 +4869,7 @@ MonoBehaviour:
   outsideContainer: {fileID: 532778925}
   isOpen: 0
   sensibility: 0.1
+  id: 0
 --- !u!54 &1059879920
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6501,6 +6514,7 @@ MonoBehaviour:
   outsideContainer: {fileID: 532778925}
   isOpen: 0
   sensibility: 0.1
+  id: 0
 --- !u!54 &1688224107
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7058,14 +7072,6 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6201387933148014094, guid: fe903b07782bf5d43b59f7b6393edb1d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6201387933148014094, guid: fe903b07782bf5d43b59f7b6393edb1d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6201387933148014094, guid: fe903b07782bf5d43b59f7b6393edb1d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.058869
       objectReference: {fileID: 0}
@@ -7108,14 +7114,6 @@ PrefabInstance:
     - target: {fileID: 6201387933148014095, guid: fe903b07782bf5d43b59f7b6393edb1d, type: 3}
       propertyPath: m_Name
       value: HandHelpAnimation (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6201387934893333241, guid: fe903b07782bf5d43b59f7b6393edb1d, type: 3}
-      propertyPath: point
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6201387934893333241, guid: fe903b07782bf5d43b59f7b6393edb1d, type: 3}
-      propertyPath: openPreview
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe903b07782bf5d43b59f7b6393edb1d, type: 3}
@@ -8040,6 +8038,7 @@ GameObject:
   - component: {fileID: 112610977068540713}
   - component: {fileID: 112610977068540712}
   - component: {fileID: 112610977068541143}
+  - component: {fileID: 112610977068541144}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -8085,6 +8084,18 @@ MonoBehaviour:
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
   m_CancelButton: Cancel
+--- !u!114 &112610977068541144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112610977068541142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fec68568fb2137a41b08a7ebb5771909, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &543450652546616734 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6789713904768306364, guid: 1147044a78205f6459c55887a5706550, type: 3}
@@ -10369,6 +10380,7 @@ MonoBehaviour:
   - {fileID: 8820186369724581962}
   - {fileID: 8820186369724581963}
   - {fileID: 8820186369724581965}
+  id: 1
 --- !u!65 &8820186369805436259
 BoxCollider:
   m_ObjectHideFlags: 0
