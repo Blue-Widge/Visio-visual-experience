@@ -2587,10 +2587,10 @@ HingeJoint:
   m_GameObject: {fileID: 1316188105}
   m_ConnectedBody: {fileID: 0}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0.39273632, z: 0}
+  m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: -1.8153269, y: 0.46800008, z: 0.9780001}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2715,7 +2715,7 @@ MonoBehaviour:
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
-  m_ThrowOnDetach: 1
+  m_ThrowOnDetach: 0
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
     serializedVersion: 2
@@ -2752,7 +2752,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -2767,8 +2767,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0000001, y: 0.39273554, z: 1.9999994}
-  m_Center: {x: 0.5000003, y: 0.19636855, z: 0.0000000039014973}
+  m_Size: {x: 0.891, y: 0.39273548, z: 0.33234614}
+  m_Center: {x: 0.45515665, y: 0.1963686, z: -0.0062581436}
 --- !u!114 &1316188113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2940,10 +2940,10 @@ HingeJoint:
   m_GameObject: {fileID: 1389677255}
   m_ConnectedBody: {fileID: 0}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0.39273632, z: 0}
+  m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_AutoConfigureConnectedAnchor: 0
+  m_ConnectedAnchor: {x: -1.874237, y: 0.46800005, z: 1.7280002}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2956,8 +2956,8 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: 0
-    max: 90
+    min: -90
+    max: 0
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -3068,7 +3068,7 @@ MonoBehaviour:
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
-  m_ThrowOnDetach: 1
+  m_ThrowOnDetach: 0
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
     serializedVersion: 2
@@ -3105,7 +3105,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -3120,8 +3120,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0000001, y: 0.39273548, z: 1.9999994}
-  m_Center: {x: -0.49999934, y: 0.19636858, z: 0.0000001231107}
+  m_Size: {x: 0.692841, y: 0.39273548, z: 0.3056733}
+  m_Center: {x: -0.46145675, y: 0.19636856, z: -0.0077476637}
 --- !u!114 &1389677263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3978,10 +3978,10 @@ HingeJoint:
   m_GameObject: {fileID: 1767401417}
   m_ConnectedBody: {fileID: 0}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0.39273536, z: 0}
+  m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: -1.8742375, y: 0.46800008, z: 0.22799993}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -4016,8 +4016,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0000001, y: 0.39273554, z: 1.9999994}
-  m_Center: {x: 0.49999988, y: 0.19636759, z: 0.0000000039014973}
+  m_Size: {x: 0.87220657, y: 0.39273548, z: 0.2773066}
+  m_Center: {x: 0.4361032, y: 0.19636768, z: 0.0030959107}
 --- !u!114 &1767401421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4119,7 +4119,7 @@ MonoBehaviour:
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
-  m_ThrowOnDetach: 1
+  m_ThrowOnDetach: 0
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
     serializedVersion: 2
@@ -4156,7 +4156,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -4254,10 +4254,10 @@ HingeJoint:
   m_GameObject: {fileID: 1840423452}
   m_ConnectedBody: {fileID: 0}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0.3927353, z: 0}
+  m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: -1.8742375, y: 0.46800008, z: 0.22799993}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -4270,8 +4270,8 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: 0
-    max: 90
+    min: -90
+    max: 0
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -4382,7 +4382,7 @@ MonoBehaviour:
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
-  m_ThrowOnDetach: 1
+  m_ThrowOnDetach: 0
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
     serializedVersion: 2
@@ -4419,7 +4419,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -4434,8 +4434,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0000001, y: 0.39273548, z: 1.9999994}
-  m_Center: {x: -0.49999982, y: 0.19636756, z: 0.000000003901446}
+  m_Size: {x: 0.7250706, y: 0.39273548, z: 0.3163176}
+  m_Center: {x: -0.5039958, y: 0.19636755, z: -0.00648777}
 --- !u!114 &1840423460
 MonoBehaviour:
   m_ObjectHideFlags: 0
