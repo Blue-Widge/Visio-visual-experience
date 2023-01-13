@@ -52,15 +52,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9d3752ba319071840afdbbf05b1835d8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.29368556
+      value: -0.3076688
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9d3752ba319071840afdbbf05b1835d8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.19204646
+      value: 0.15444583
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9d3752ba319071840afdbbf05b1835d8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.5528313
+      value: -0.5434704
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9d3752ba319071840afdbbf05b1835d8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -68,7 +68,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9d3752ba319071840afdbbf05b1835d8, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.000000021855694
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9d3752ba319071840afdbbf05b1835d8, type: 3}
       propertyPath: m_LocalRotation.y
@@ -622,7 +622,7 @@ MonoBehaviour:
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -655,7 +655,7 @@ MonoBehaviour:
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
-  m_RetainTransformParent: 0
+  m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []

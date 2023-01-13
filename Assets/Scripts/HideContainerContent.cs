@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Collections.LowLevel.Unsafe;
 using Unity.VisualScripting;
 using UnityEditor.SearchService;
 using UnityEngine;
@@ -14,15 +15,15 @@ public class HideContainerContent : MonoBehaviour
     public Transform outsideContainer;
 
     [SerializeField]
-    private bool isOpen = false;
-    private bool hiddenContent = false;
-    JointSpring spring;
-    float startingAngle;
-    Vector3 startingPosition;
+    private bool isOpen;
+    private bool _hiddenContent;
+    private JointSpring _spring;
+    private float _startingAngle;
+    private Vector3 _startingPosition;
     public float sensibility;
 
-    delegate void DetectDoorOpen();
-    DetectDoorOpen detectDoor;
+    private delegate void DetectDoorOpen();
+    private DetectDoorOpen _detectDoor;
 
     // Start is called before the first frame update
     void Start()
@@ -33,12 +34,16 @@ public class HideContainerContent : MonoBehaviour
             this.enabled = false;
             return;
         }
-        if (content.Count == 0)
+
+        if (!insideContainer)
         {
-            Debug.LogWarning("Please assign content of container to hide, put a parent for faster results (inside container is often used)");
+            Debug.LogWarning("An inside container is needed to know which gameobject to disable");
             this.enabled = false;
             return;
         }
+
+        if (content.Count == 0)
+            content.Add(insideContainer.gameObject);
 
         if (containerHingeJoint)
         {
@@ -48,12 +53,10 @@ public class HideContainerContent : MonoBehaviour
                 this.enabled = false;
                 return;
             }
-            detectDoor = detectAngleDoorOpen;
-            spring = new JointSpring();
-            spring.spring = 2f;
-            containerHingeJoint.spring = spring;
-            containerHingeJoint.useSpring = true;
-            startingAngle = containerHingeJoint.angle;
+            _detectDoor = DetectAngleDoorOpen;
+            _spring = new JointSpring {spring = 2f};
+            containerHingeJoint.spring = _spring;
+            _startingAngle = containerHingeJoint.angle;
         }
         else
         {
@@ -63,67 +66,64 @@ public class HideContainerContent : MonoBehaviour
                 this.enabled = false;
                 return;
             }
-            detectDoor = detectDrawerOpen;
-            startingPosition = transform.position;
+            _detectDoor = DetectDrawerOpen;
+            _startingPosition = transform.position;
         }
-
-        if (!outsideContainer)
-            outsideContainer = transform.parent;
-        if (!insideContainer)
-            insideContainer = transform;
     }
 
     // Update is called once per frame
     void Update()
     {
-        detectDoor();
-        if (hiddenContent && isOpen)
+        _detectDoor();
+        if (_hiddenContent && isOpen)
         {
             foreach(GameObject item in content)
             {
                 item.SetActive(true);
             }
-            hiddenContent = false;
+            _hiddenContent = false;
         }
-        if (!(hiddenContent || isOpen))
+        if (!(_hiddenContent || isOpen))
         {
             foreach (GameObject item in content)
             {
                 item.SetActive(false);
             }
-            hiddenContent = true;
+            _hiddenContent = true;
         }
     }
 
-    void detectAngleDoorOpen()
+    void DetectAngleDoorOpen()
     {
-        isOpen = Mathf.Abs(containerHingeJoint.angle - startingAngle) > sensibility;
+        isOpen = Mathf.Abs(containerHingeJoint.angle - _startingAngle) > sensibility;
         containerHingeJoint.useSpring = !(containerHingeJoint.angle > 85f);
     }
-    void detectDrawerOpen()
+    void DetectDrawerOpen()
     {
-        isOpen = Mathf.Abs(transform.position.x - startingPosition.x) > sensibility;
+        isOpen = Mathf.Abs(transform.position.x - _startingPosition.x) > sensibility;
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(transform.name + " Collided " + other.name + ' ' + other.gameObject.layer);
-        if (!other.gameObject.GetComponentInParent<XRGrabInteractable>() && other.gameObject.layer == 6)
+        var otherGameObject = other.gameObject;
+        Debug.Log(transform.name + " Collided " + other.name + ' ' + otherGameObject.layer);
+        if (!otherGameObject.GetComponentInParent<XRGrabInteractable>() && otherGameObject.layer == 6)
         {
-            Debug.Log("pas de XR grab pour : " + other.gameObject.name + " layer : " + other.gameObject.layer);
+            Debug.Log("No XR Grab interactable component for : " + otherGameObject.name + " (or parents) layer : " + otherGameObject.layer);
             return;
         }
-        if (!insideContainer)
-            Debug.Log("Pas de inside collider trou du cul");
 
-        other.transform.parent = (other.gameObject.layer == 6 ) && 
-                                 !other.gameObject.GetComponentInParent<XRGrabInteractable>().isSelected && 
-                                  other.transform.parent.gameObject.tag != "Container" ? insideContainer : other.transform.parent;
+        other.transform.parent = (otherGameObject.layer == 6 ) && 
+                                 !otherGameObject.GetComponentInParent<XRGrabInteractable>().isSelected && 
+                                  !other.transform.parent.gameObject.CompareTag("Container") ? insideContainer : other.transform.parent;
     }
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log(transform.name + " Stopped colliding " + ' ' + other.name + other.gameObject.layer);
-        other.transform.parent = (other.gameObject.layer == 6) ? outsideContainer : other.transform.parent;
+        var otherGameObject = other.gameObject;
+        Debug.Log(transform.name + " Stopped colliding " + ' ' + other.name + otherGameObject.layer);
+        other.transform.parent = (otherGameObject.layer == 6) ? outsideContainer : other.transform.parent;
+
+        
     }
 }

@@ -48,7 +48,7 @@
 				UNITY_VERTEX_OUTPUT_STEREO
 			};
 			
-			fixed4 _Color;
+			fixed4 color;
 
 			v2f vert(appdata_t v)
 			{
@@ -60,7 +60,7 @@
 
 				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.uv = v.uv;
-				o.color = v.color * _Color;
+				o.color = v.color * color;
 #ifdef PIXELSNAP_ON
 				o.vertex = UnityPixelSnap (o.vertex);
 #endif
