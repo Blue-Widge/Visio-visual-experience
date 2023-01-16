@@ -36,7 +36,7 @@ public class StartAudio : MonoBehaviour
     {
         if (other.CompareTag(hand) && !played && trigger && previousSourceLength <= 0)
         {
-            audioSource.Play();
+            AudioController.PlayAudio(audioSource, audioSource.clip, false);
         }
     }
 }

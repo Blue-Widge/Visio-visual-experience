@@ -21,11 +21,12 @@ public class CabinetAudioController : MonoBehaviour
         if (playWhenSmaller && hingeJoint.angle <= turnOnAngle && !played)
         {
             played = true;
-            audioSource.Play();
-        } else if (!playWhenSmaller && hingeJoint.angle >= turnOnAngle && !played)
+            AudioController.PlayAudio(audioSource, audioSource.clip, false);
+        }
+        else if (!playWhenSmaller && hingeJoint.angle >= turnOnAngle && !played)
         {
             played = true;
-            audioSource.Play();
+            AudioController.PlayAudio(audioSource, audioSource.clip, false);
         }
     }
 }

@@ -32,7 +32,7 @@ public class PhoneAudio : MonoBehaviour
         if (!trigger && mandatoryPreviousSource.isPlaying)
         {
             trigger = true;
-            PlayRingingAudio();
+            AudioController.PlayAudio(audioSource, ringingAudio, true);
         }
         if (trigger && previousSourceLength >= 0) previousSourceLength -= Time.deltaTime;
     }
@@ -41,17 +41,7 @@ public class PhoneAudio : MonoBehaviour
     {
         if (other.CompareTag(hand) && !played && trigger && previousSourceLength <= 0)
         {
-            audioSource.Stop();
-            audioSource.clip = explanationAudio;
-            audioSource.loop = false;
-            audioSource.Play();
+            AudioController.PlayAudio(audioSource, explanationAudio, false);
         }
-    }
-
-    private void PlayRingingAudio()
-    {
-        audioSource.clip = ringingAudio;
-        audioSource.loop = true;
-        audioSource.Play();
     }
 }
