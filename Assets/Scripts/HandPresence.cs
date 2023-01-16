@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
+using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation;
 
 public class HandPresence : MonoBehaviour
@@ -17,7 +18,7 @@ public class HandPresence : MonoBehaviour
         if (GameObject.FindGameObjectWithTag("XR Device Simulator"))
         {
             Debug.Log("Device Simulator is enabled");
-            gameObject.SetActive(false);
+            this.enabled = false;
             return;
         }
         Debug.Log("Device Simulator is disabled");
@@ -38,14 +39,18 @@ public class HandPresence : MonoBehaviour
         {
             InputDevices.GetDevicesWithCharacteristics(characteristics, inputDevices);
             inputDevice = inputDevices[0];
-            deviceAnimator = GetComponent<Animator>();
+            deviceAnimator = GetComponentInParent<Animator>();
+            
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        UpdateHandAnimator();
+        if (deviceAnimator != null)
+        {
+            UpdateHandAnimator();
+        }
     }
 
     void UpdateHandAnimator()
@@ -59,5 +64,10 @@ public class HandPresence : MonoBehaviour
             deviceAnimator.SetFloat("Grip", gripValue);
         else
             deviceAnimator.SetFloat("Grip", .0f);
+    }
+
+    void disableApplyRootMotion()
+    {
+        deviceAnimator.applyRootMotion = false;
     }
 }
