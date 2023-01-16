@@ -5387,6 +5387,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
+      propertyPath: m_TagString
+      value: XR Device Simulator
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
 --- !u!1 &1236147897 stripped
@@ -5553,6 +5557,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1268331372 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2621990092512302030, guid: 03e6a11241b27c64d9046c0dc771690e, type: 3}
+  m_PrefabInstance: {fileID: 1714912847}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1268331374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268331372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0adbac466e92f234c91435e24c4ca1f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characteristics: 320
 --- !u!64 &1298000672 stripped
 MeshCollider:
   m_CorrespondingSourceObject: {fileID: 9150375716226597604, guid: 17b906a425adea3409d15d979294c14e, type: 3}
@@ -5904,6 +5926,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 1.9999996, z: 1.9999996}
   m_Center: {x: -1, y: -0.00000011920927, z: 1.0000017}
+--- !u!1 &1454705991 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2621990091522361735, guid: 03e6a11241b27c64d9046c0dc771690e, type: 3}
+  m_PrefabInstance: {fileID: 1714912847}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1454705993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454705991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0adbac466e92f234c91435e24c4ca1f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characteristics: 576
 --- !u!1001 &1476898101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6623,10 +6663,18 @@ PrefabInstance:
       propertyPath: m_ModelPrefab
       value: 
       objectReference: {fileID: 5686134208185136530, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+    - target: {fileID: 2621990091522361855, guid: 03e6a11241b27c64d9046c0dc771690e, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2621990092512302017, guid: 03e6a11241b27c64d9046c0dc771690e, type: 3}
       propertyPath: m_ModelPrefab
       value: 
       objectReference: {fileID: 109434732395451517, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+    - target: {fileID: 2621990092512302022, guid: 03e6a11241b27c64d9046c0dc771690e, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2621990092512302023, guid: 03e6a11241b27c64d9046c0dc771690e, type: 3}
       propertyPath: m_Center.y
       value: -0.05

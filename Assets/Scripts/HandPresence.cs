@@ -17,7 +17,7 @@ public class HandPresence : MonoBehaviour
         if (GameObject.FindGameObjectWithTag("XR Device Simulator"))
         {
             Debug.Log("Device Simulator is enabled");
-            gameObject.SetActive(false);
+            this.enabled = false;
             return;
         }
         Debug.Log("Device Simulator is disabled");
@@ -45,7 +45,8 @@ public class HandPresence : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UpdateHandAnimator();
+        if (deviceAnimator != null)
+            UpdateHandAnimator();
     }
 
     void UpdateHandAnimator()
