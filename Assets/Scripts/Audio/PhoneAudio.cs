@@ -10,7 +10,11 @@ public class PhoneAudio : MonoBehaviour
     public AudioClip ringingAudio;
     public AudioClip explanationAudio;
 
+    public GameObject book;
+    public GameObject button;
+
     private bool played = false;
+    private bool playedRinging = false;
 
     private string hand = "Hand";
     private bool trigger = true;
@@ -32,9 +36,14 @@ public class PhoneAudio : MonoBehaviour
         if (!trigger && mandatoryPreviousSource.isPlaying)
         {
             trigger = true;
-            AudioController.PlayAudio(audioSource, ringingAudio, true);
         }
         if (trigger && previousSourceLength >= 0) previousSourceLength -= Time.deltaTime;
+        if (!playedRinging && previousSourceLength <= 0)
+        {
+            AudioController.PlayAudio(audioSource, ringingAudio, true);
+            playedRinging = true;
+        }
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -42,6 +51,8 @@ public class PhoneAudio : MonoBehaviour
         if (other.CompareTag(hand) && !played && trigger && previousSourceLength <= 0)
         {
             AudioController.PlayAudio(audioSource, explanationAudio, false);
+            button.SetActive(false);
+            book.SetActive(true);
         }
     }
 }

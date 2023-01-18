@@ -2,11 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class StartAudio : MonoBehaviour
 {
     public AudioSource audioSource;
     public AudioSource mandatoryPreviousSource;
+    public VideoPlayer videoPlayer;
 
     private bool played = false;
 
@@ -36,6 +38,7 @@ public class StartAudio : MonoBehaviour
     {
         if (other.CompareTag(hand) && !played && trigger && previousSourceLength <= 0)
         {
+            videoPlayer.Play();
             AudioController.PlayAudio(audioSource, audioSource.clip, false);
         }
     }

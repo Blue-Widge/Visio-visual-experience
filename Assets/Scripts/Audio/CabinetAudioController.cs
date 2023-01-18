@@ -18,6 +18,7 @@ public class CabinetAudioController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (audioSource.isPlaying) played = true;
         if (playWhenSmaller && hingeJoint.angle <= turnOnAngle && !played)
         {
             played = true;

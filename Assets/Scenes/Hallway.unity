@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731689, g: 0.13414702, b: 0.1210784, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -582,6 +582,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 60549818}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!328 &103548299 stripped
+VideoPlayer:
+  m_CorrespondingSourceObject: {fileID: 2359285655618734164, guid: 7a86306c7c5af5d4f8666dbc24b45de9, type: 3}
+  m_PrefabInstance: {fileID: 622114038}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &115167925 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 94b343d627bf5934dbc78f7e68681b43, type: 3}
@@ -1414,6 +1419,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4029276965778842, guid: eded3844e29c2ec40bc278e2cbd31279, type: 3}
   m_PrefabInstance: {fileID: 924345560}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &597131139 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5c25212a5ed2437478b7ce9575d5708e, type: 3}
+  m_PrefabInstance: {fileID: 1766335409}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &622114038
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1425,6 +1435,10 @@ PrefabInstance:
       propertyPath: m_VideoClip
       value: 
       objectReference: {fileID: 32900000, guid: 78977d29fad044da5a870e0465160f5e, type: 3}
+    - target: {fileID: 2359285655618734164, guid: 7a86306c7c5af5d4f8666dbc24b45de9, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2359285655618734164, guid: 7a86306c7c5af5d4f8666dbc24b45de9, type: 3}
       propertyPath: m_ControlledAudioTrackCount
       value: 0
@@ -1756,6 +1770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1671769488}
   mandatoryPreviousSource: {fileID: 0}
+  videoPlayer: {fileID: 103548299}
 --- !u!54 &798893606
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5028,6 +5043,8 @@ MonoBehaviour:
   mandatoryPreviousSource: {fileID: 1565221051}
   ringingAudio: {fileID: 8300000, guid: c3435b14747e7514385138f4764343c9, type: 3}
   explanationAudio: {fileID: 8300000, guid: 739d6c136dc1b9c4c9e0f239b50337f9, type: 3}
+  book: {fileID: 597131139}
+  button: {fileID: 798893604}
 --- !u!1 &1863837861
 GameObject:
   m_ObjectHideFlags: 0
