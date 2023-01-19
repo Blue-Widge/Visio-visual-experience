@@ -63,7 +63,7 @@
                         float4 fresnel = _FresnelColor * (1 - dot(viewVector, normalVector)) * 0.9;
                         float variable = length((i.wPos.y + (_Time.y * _ScrollSpeed)) * 2 - 1);
                         float4 wave = cos(TAU * _LinesNumber * variable) * (cos(TAU * _LinesNumber * variable * 0.2)) * 0.5 + 0.5;
-                        bool topMask = (i.normal.y > 0.999);
+                        bool topMask = (i.normal.y > 0.99999);
                         variable = (length(i.uv * 2 - 1) - (_Time.y * _ScrollSpeed));
                         float topWave = cos(TAU * _LinesNumber * variable) * cos(TAU * _LinesNumber * variable * 0.2) * 0.5 + 0.5;
                         return saturate(_MainColor * (wave * !topMask + topWave * topMask) + fresnel);

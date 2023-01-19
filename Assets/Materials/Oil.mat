@@ -22,9 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Oil
   m_Shader: {fileID: -6465566751694194690, guid: f5e508fb36ecb25418176963f10f619a, type: 3}
-  m_ValidKeywords:
-  - _BUILTIN_ALPHATEST_ON
-  - _BUILTIN_AlphaClip
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -54,6 +52,6 @@ Material:
     - _WobbleX: 0
     - _WobbleZ: 0
     m_Colors:
-    - _SideColor: {r: 0.76108485, g: 0.8113208, b: 0, a: 0}
-    - _TopColor: {r: 0.56674975, g: 0.6037736, b: 0.014239941, a: 0}
+    - _SideColor: {r: 0.5395014, g: 0.5754717, b: 0.0027144956, a: 0}
+    - _TopColor: {r: 0.42523667, g: 0.4528302, b: 0.0021359965, a: 1}
   m_BuildTextureStacks: []

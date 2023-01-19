@@ -12,7 +12,9 @@ public class PizzaInOrder : MonoBehaviour
     public List<GameObject> pizza = new List<GameObject>();
     public XRGrabInteractable pizzaObject;
 
-    /// <summary>
+    //to disable the right preview
+    public int id;
+    /// <summary>   
     /// If an object collides with the cutting board check if its an ingredient, 
     /// if so check if it the next one in order, 
     /// if so delete the ingredient and activate it on the pizza.
@@ -25,6 +27,7 @@ public class PizzaInOrder : MonoBehaviour
         {
             ingredients.RemoveAt(0);
             Destroy(other.gameObject);
+            //EventSystemHandler.current.CuttingBoardUsed(id);
 
             if (ingredients.Count < 4)
             {
