@@ -7,8 +7,12 @@ public class PizzaInOrder : MonoBehaviour
     public List<GameObject> ingredients = new List<GameObject>();
     public List<GameObject> pizza = new List<GameObject>();
 
+    private int _ingredientsDone;
     //to disable the right preview
     public int id;
+    public Material recipeMaterial;
+    private static readonly int PizzaIngredientsDone = Shader.PropertyToID("_PizzaIngredientsDone");
+
     /// <summary>   
     /// If an object collides with the cutting board check if its an ingredient, 
     /// if so check if it the next one in order, 
@@ -21,6 +25,8 @@ public class PizzaInOrder : MonoBehaviour
         {
             if (ingredients.IndexOf(collision.gameObject) == 0)
             {
+                _ingredientsDone++;
+                recipeMaterial.SetFloat(PizzaIngredientsDone, _ingredientsDone);
                 ingredients.RemoveAt(0);
                 Destroy(collision.gameObject);
                 EventSystemHandler.current.CuttingBoardUsed(id);

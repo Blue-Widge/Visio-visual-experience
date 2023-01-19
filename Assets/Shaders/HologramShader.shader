@@ -39,6 +39,7 @@
                         float4 vertex : SV_POSITION;
                         float3 wPos : TEXCOORD1;
                         float3 normal : NORMAL;
+                        UNITY_VERTEX_INPUT_INSTANCE_ID
                     };
                     float4 _FresnelColor;
                     float4 _MainColor;
@@ -49,6 +50,14 @@
                     v2f vert (appdata v)
                     {
                         v2f o;
+                        //Necessary for multi pass for VR
+                        UNITY_SETUP_INSTANCE_ID(v);
+                        UNITY_TRANSFER_INSTANCE_ID(v, o);
+                        #if UNITY_UV_STARTS_AT_TOP
+                            v.uv.y = 1 - v.uv.y;
+                        #endif
+                        UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
+                        
                         o.vertex = UnityObjectToClipPos(v.vertex);
                         o.uv = v.uv;
                         o.wPos = mul(unity_ObjectToWorld, v.vertex);
@@ -66,6 +75,7 @@
                         bool topMask = (i.normal.y > 0.99999);
                         variable = (length(i.uv * 2 - 1) - (_Time.y * _ScrollSpeed));
                         float topWave = cos(TAU * _LinesNumber * variable) * cos(TAU * _LinesNumber * variable * 0.2) * 0.5 + 0.5;
+                        
                         return saturate(_MainColor * (wave * !topMask + topWave * topMask) + fresnel);
                     }
                     ENDCG

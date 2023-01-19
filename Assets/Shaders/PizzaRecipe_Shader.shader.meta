@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 6e4c1498b6a829c40a7100fbf429fe2c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _PizzaRecipeTex: {fileID: 2800000, guid: 2f90da8408de5f2438579558a6ca6092, type: 3}
+  - _PizzaRecipeRedBars: {fileID: 2800000, guid: 60e67e5c632af7148a3e89f01f97f29e, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
