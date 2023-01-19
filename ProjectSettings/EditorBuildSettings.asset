@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Hallway.unity
+    guid: 7796477fbca153a48b85280c2eac6ed9
+  - enabled: 1
+    path: Assets/Scenes/Kitchen.unity
+    guid: dcead88530aa92245b0e3527ae375968
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: be57090e50a5474469d6d7f9d3eda844, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8908f1d6b11279a4980109f71bd58dbd, type: 2}
