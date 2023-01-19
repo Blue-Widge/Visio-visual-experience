@@ -28,12 +28,12 @@ public class CabinetAudioController : MonoBehaviour
         if (!trigger && mandatoryPreviousSource.isPlaying) trigger = true;
         if (trigger && previousSourceLength >= 0) previousSourceLength -= Time.deltaTime;
         if (audioSource.isPlaying) played = true;
-        if (trigger && playWhenSmaller && hingeJoint.angle <= turnOnAngle && !played)
+        if (trigger && playWhenSmaller && hingeJoint.angle <= turnOnAngle && !played && previousSourceLength <= 0)
         {
             played = true;
             AudioController.PlayAudio(audioSource, audioSource.clip, false);
         }
-        else if (trigger && !playWhenSmaller && hingeJoint.angle >= turnOnAngle && !played)
+        else if (trigger && !playWhenSmaller && hingeJoint.angle >= turnOnAngle && !played && previousSourceLength <= 0)
         {
             played = true;
             AudioController.PlayAudio(audioSource, audioSource.clip, false);
