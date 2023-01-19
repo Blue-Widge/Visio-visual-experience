@@ -141,8 +141,10 @@
     <Compile Include="Assets\Samples\Tobii XR SDK\3.0.1\Developer Tools\Scripts\SimpleRotation.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Windows\opencloseWindow.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\Scripts\CalibrateEye.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Scripts\Audio\CabinetAudioController.cs" />
+    <Compile Include="Assets\Scripts\PhoneFlickerButton.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Eye\Sample\SRanipal_GazeRaySample_v2.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Eye\Sample\SRanipal_EyeSettingSample.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Eye\Sample\SRanipal_AvatarEyeSample.cs" />
@@ -169,7 +171,6 @@
     <Compile Include="Assets\ViveSR\Scripts\Lip\SRanipal_LipShapeTableDrawer_v2.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Eye\Sample\SRanipal_MirrorCameraSample_Eye.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Scripts\PhoneFlickerButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
