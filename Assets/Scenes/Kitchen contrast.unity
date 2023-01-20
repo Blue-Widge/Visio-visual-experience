@@ -1323,14 +1323,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1164081723}
     m_Modifications:
-    - target: {fileID: 2156392856783257490, guid: b066b862b78f4ca439120cc911bda88a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2156392856783257490, guid: b066b862b78f4ca439120cc911bda88a, type: 3}
-      propertyPath: m_TagString
-      value: Pizza
-      objectReference: {fileID: 0}
     - target: {fileID: 3659120134235041126, guid: b066b862b78f4ca439120cc911bda88a, type: 3}
       propertyPath: ingredients.Array.data[0]
       value: 
@@ -7335,51 +7327,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2421900065986048742, guid: 8a17e7aaf4c414d4193c282f020d0545, type: 3}
   m_PrefabInstance: {fileID: 1869388362}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &924230031
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 924230032}
-  - component: {fileID: 924230033}
-  m_Layer: 0
-  m_Name: AboveCollider
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &924230032
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 924230031}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.9435515, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 628873341}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &924230033
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 924230031}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.76, y: 0.118332446, z: 0.69}
-  m_Center: {x: 0, y: -0.049166232, z: 0}
 --- !u!1 &931502129 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4036401650617736041, guid: 779448ecd3c494cb9a9d883725856aff, type: 3}
@@ -10451,24 +10398,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91edf4af8bdd53e49821dd92060dd5ed, type: 3}
---- !u!1 &1479410655 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7003578790663818985, guid: 67e50134580666a4686e7d200a3e7f7c, type: 3}
-  m_PrefabInstance: {fileID: 1650292488}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1479410659
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479410655}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.758825, y: 0.055489205, z: 0.1966642}
-  m_Center: {x: 0, y: -0.31787047, z: 0.0983321}
 --- !u!1 &1500836087
 GameObject:
   m_ObjectHideFlags: 0
@@ -11896,6 +11825,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 756820002}
     m_Modifications:
+    - target: {fileID: 2038490901, guid: 67e50134580666a4686e7d200a3e7f7c, type: 3}
+      propertyPath: pizza
+      value: 
+      objectReference: {fileID: 1188639317}
+    - target: {fileID: 2038490901, guid: 67e50134580666a4686e7d200a3e7f7c, type: 3}
+      propertyPath: locomotionProviderAlwaysMove
+      value: 
+      objectReference: {fileID: 637217734}
     - target: {fileID: 8152263789494837193, guid: 67e50134580666a4686e7d200a3e7f7c, type: 3}
       propertyPath: m_Name
       value: Stove (3)
@@ -11943,10 +11880,6 @@ PrefabInstance:
     - target: {fileID: 8820713380037707123, guid: 67e50134580666a4686e7d200a3e7f7c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9071306730030476655, guid: 67e50134580666a4686e7d200a3e7f7c, type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67e50134580666a4686e7d200a3e7f7c, type: 3}
@@ -12764,56 +12697,6 @@ Transform:
   m_Father: {fileID: 1164081723}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1787283138
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1787283139}
-  - component: {fileID: 1787283140}
-  m_Layer: 0
-  m_Name: InsideCollider (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1787283139
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787283138}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0092999935, y: -0.097, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 628873341}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1787283140
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787283138}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.82367057, y: 0.05287409, z: 0.55353117}
-  m_Center: {x: 0.014169186, y: 0.47356296, z: -0.03726065}
---- !u!59 &1801150594 stripped
-HingeJoint:
-  m_CorrespondingSourceObject: {fileID: 9071306730030476642, guid: 67e50134580666a4686e7d200a3e7f7c, type: 3}
-  m_PrefabInstance: {fileID: 1650292488}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1802779039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14068,82 +13951,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8569312375212927296, guid: 54aeb17e15faf834b84e3f6ad007d55c, type: 3}
   m_PrefabInstance: {fileID: 2033687102}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2038490898
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2038490899}
-  - component: {fileID: 2038490900}
-  - component: {fileID: 2038490901}
-  - component: {fileID: 2038490902}
-  m_Layer: 0
-  m_Name: InsideCollider
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2038490899
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2038490898}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0093, y: 0.55, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 628873341}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2038490900
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2038490898}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.69901186, y: 0.064243406, z: 0.55353117}
-  m_Center: {x: 0.003042221, y: -0.05020474, z: -0.03726065}
---- !u!114 &2038490901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2038490898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5138a7994c615bf47a9c7b3acf041b53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pizza: {fileID: 1188639317}
-  ovenHingeJoint: {fileID: 1801150594}
-  hingeAngle: 5
-  locomotionProviderAlwaysMove: {fileID: 637217734}
---- !u!65 &2038490902
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2038490898}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.69, y: 0.009999998, z: 0.58391565}
-  m_Center: {x: -1.0540441e-16, y: -0.06, z: -0.023042172}
 --- !u!1 &2053428506
 GameObject:
   m_ObjectHideFlags: 0

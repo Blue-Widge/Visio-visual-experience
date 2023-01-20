@@ -10,6 +10,7 @@ public class PizzaDone : MonoBehaviour
     public float hingeAngle = -85;
     public TunnelVisionAlwaysMove locomotionProviderAlwaysMove;
     private bool finished = false;
+    public AudioSource ovenAudioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +30,7 @@ public class PizzaDone : MonoBehaviour
     IEnumerator finishGame()
     {
         yield return new WaitForSeconds(3f);
-        //play soundeffect
+        ovenAudioSource.Play();
         locomotionProviderAlwaysMove.changeLocoationPhase(LocomotionPhase.Done);
     }
 }
