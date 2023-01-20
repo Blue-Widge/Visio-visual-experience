@@ -9,6 +9,13 @@ TagManager:
   - Container
   - MeshPart
   - Hand
+  - Tomato
+  - Cheese
+  - Pepperoni
+  - Basil
+  - Mushrooms
+  - PizzaDough
+  - Pizza
   layers:
   - Default
   - TransparentFX

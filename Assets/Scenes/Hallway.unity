@@ -657,7 +657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collideWith: Hand
-  sceneName: Kitchen
+  sceneName: Kitchen contrast
 --- !u!65 &101580999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1223,6 +1223,11 @@ Transform:
   m_Father: {fileID: 1860113889}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 116.787, z: 0}
+--- !u!1 &196607399 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6201387934001203463, guid: fe903b07782bf5d43b59f7b6393edb1d, type: 3}
+  m_PrefabInstance: {fileID: 1498452934}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &213771613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2373,7 +2378,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorFrame_Apt_03
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4929668019831370810, guid: f3e82dc7c471ff447b3ca0e0bfded076, type: 3}
+    - {fileID: 4929668019831370809, guid: f3e82dc7c471ff447b3ca0e0bfded076, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f3e82dc7c471ff447b3ca0e0bfded076, type: 3}
 --- !u!1001 &839609704
 PrefabInstance:
@@ -2870,6 +2877,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6201387933148014095, guid: fe903b07782bf5d43b59f7b6393edb1d, type: 3}
   m_PrefabInstance: {fileID: 1498452934}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1125265818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125265815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab084659a562f4c408fe688b2c072375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handPointer: {fileID: 196607399}
 --- !u!1 &1164081722
 GameObject:
   m_ObjectHideFlags: 0
@@ -4667,6 +4687,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11321126, guid: fe903b07782bf5d43b59f7b6393edb1d, type: 3}
+      propertyPath: id
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6201387933148014094, guid: fe903b07782bf5d43b59f7b6393edb1d, type: 3}
       propertyPath: m_RootOrder
       value: 10

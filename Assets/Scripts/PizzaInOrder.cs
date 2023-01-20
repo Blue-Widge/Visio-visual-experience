@@ -27,7 +27,7 @@ public class PizzaInOrder : MonoBehaviour
         {
             ingredients.RemoveAt(0);
             Destroy(other.gameObject);
-            EventSystemHandler.current.CuttingBoardUsed(id);
+            //EventSystemHandler.current.CuttingBoardUsed(id);
 
             if (ingredients.Count < 4)
             {
