@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,12 @@ public class PizzaInOrder : MonoBehaviour
     public Material recipeMaterial;
     private static readonly int PizzaIngredientsDone = Shader.PropertyToID("_PizzaIngredientsDone");
 
+    private void Start()
+    {
+        _ingredientsDone = 0;
+        recipeMaterial.SetFloat(PizzaIngredientsDone, _ingredientsDone);
+    }
+
     /// <summary>   
     /// If an object collides with the cutting board check if its an ingredient, 
     /// if so check if it the next one in order, 
@@ -27,27 +34,24 @@ public class PizzaInOrder : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (ingredients[0].tag == other.gameObject.tag)
+        if (!ingredients[0].CompareTag(other.gameObject.tag)) return;
+        
+        _ingredientsDone++;
+        recipeMaterial.SetFloat(PizzaIngredientsDone, _ingredientsDone);
+                
+        ingredients.RemoveAt(0);
+        Destroy(other.gameObject);
+        EventSystemHandler.Current.CuttingBoardUsed(id);
+                
+        if (ingredients.Count < 4)
+            pizzaObject.interactionLayers = 1;
+
+        foreach (var pizzaLayer in pizza)
         {
-			_ingredientsDone++;
-            recipeMaterial.SetFloat(PizzaIngredientsDone, _ingredientsDone);
-                
-            ingredients.RemoveAt(0);
-            Destroy(other.gameObject);
-			EventSystemHandler.current.CuttingBoardUsed(id);
-                
-            if (ingredients.Count < 4)
-            {
-                pizzaObject.interactionLayers = 1;
-            }
-            foreach (GameObject pizzaLayer in pizza)
-            {
-                if (!pizzaLayer.activeSelf)
-                {
-                    pizzaLayer.SetActive(true);
-                    return;
-                }
-            }
-        }     
+            if (pizzaLayer.activeSelf) continue;
+            
+            pizzaLayer.SetActive(true);
+            return;
+        }
     }
 }

@@ -29,7 +29,7 @@ public class HideContainerContent : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         if (!(GetComponent<BoxCollider>() || GetComponent<MeshCollider>() || GetComponent<CapsuleCollider>()))
         {
@@ -75,7 +75,7 @@ public class HideContainerContent : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         _detectDoor();
 
@@ -95,15 +95,16 @@ public class HideContainerContent : MonoBehaviour
             }
             _hiddenContent = true;
         }
-        if (isOpen) { EventSystemHandler.current.ContainerDoorOpened(id); }
+        if (isOpen) { EventSystemHandler.Current.ContainerDoorOpened(id); }
     }
 
-    void DetectAngleDoorOpen()
+    private void DetectAngleDoorOpen()
     {
         isOpen = Mathf.Abs(containerHingeJoint.angle - _startingAngle) > sensibility;
         containerHingeJoint.useSpring = !(containerHingeJoint.angle > 85f);
     }
-    void DetectDrawerOpen()
+
+    private void DetectDrawerOpen()
     {
         isOpen = Mathf.Abs(transform.position.x - _startingPosition.x) > sensibility;
     }

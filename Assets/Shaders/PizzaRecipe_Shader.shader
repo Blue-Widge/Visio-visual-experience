@@ -21,7 +21,7 @@ Shader "Unlit/PizzaRecipe_Shader"
             #include "UnityCG.cginc"
 
             #define UPPER_LIST_Y_COORD 0.72
-            #define REDBARS_DISTANCE 0.0967
+            #define RED_BARS_DISTANCE 0.0967
             struct appdata
             {
                 float4 vertex : POSITION;
@@ -55,9 +55,10 @@ Shader "Unlit/PizzaRecipe_Shader"
             {
                 // sample the texture
                 fixed4 col = tex2D(_PizzaRecipeTex, i.uv);
-                fixed4 redBars = tex2D(_PizzaRecipeRedBars, i.uv);
+                //tex2dlod because otherwise redbars disappear from afar
+                fixed4 redBars = tex2Dlod(_PizzaRecipeRedBars, fixed4(i.uv, 0, 0));
 
-                float mask = (i.uv.y > (UPPER_LIST_Y_COORD - _PizzaIngredientsDone * REDBARS_DISTANCE)) && redBars == fixed4(1,0,0,1);
+                float mask = (i.uv.y > (UPPER_LIST_Y_COORD - _PizzaIngredientsDone * RED_BARS_DISTANCE)) && redBars == fixed4(1,0,0,1);
                 return mask ? redBars : col;
             }
             ENDCG

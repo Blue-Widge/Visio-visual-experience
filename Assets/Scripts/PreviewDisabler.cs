@@ -5,7 +5,7 @@ public class PreviewDisabler : MonoBehaviour
     public int id;
     private void Start()
     {
-        EventSystemHandler.current.onFirstActionPerformed += disableAnimationPreview;
+        EventSystemHandler.Current.OnFirstActionPerformed += disableAnimationPreview;
     }
 
     private void disableAnimationPreview(int p_id)
@@ -16,6 +16,6 @@ public class PreviewDisabler : MonoBehaviour
 
     private void OnDestroy()
     {
-        EventSystemHandler.current.onFirstActionPerformed -= disableAnimationPreview;
+        EventSystemHandler.Current.OnFirstActionPerformed -= disableAnimationPreview;
     }
 }
