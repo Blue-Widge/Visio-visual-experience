@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using UnityEditor;
+using UnityEditor.UIElements;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class PizzaInOrder : MonoBehaviour
 {
     public List<GameObject> ingredients = new List<GameObject>();
     public List<GameObject> pizza = new List<GameObject>();
+    public XRGrabInteractable pizzaObject;
 
     //to disable the right preview
     public int id;
@@ -14,25 +19,28 @@ public class PizzaInOrder : MonoBehaviour
     /// if so check if it the next one in order, 
     /// if so delete the ingredient and activate it on the pizza.
     /// </summary>
-    /// <param name="collision"></param>
-    private void OnCollisionEnter(Collision collision)
+    /// <param name="other"></param>
+
+    private void OnTriggerEnter(Collider other)
     {
-        if (ingredients.Contains(collision.gameObject))
+        if (ingredients[0].tag == other.gameObject.tag)
         {
-            if (ingredients.IndexOf(collision.gameObject) == 0)
+            ingredients.RemoveAt(0);
+            Destroy(other.gameObject);
+            //EventSystemHandler.current.CuttingBoardUsed(id);
+
+            if (ingredients.Count < 4)
             {
-                ingredients.RemoveAt(0);
-                Destroy(collision.gameObject);
-                EventSystemHandler.current.CuttingBoardUsed(id);
-                foreach (GameObject pizzaLayer in pizza)
+                pizzaObject.interactionLayers = 1;
+            }
+            foreach (GameObject pizzaLayer in pizza)
+            {
+                if (!pizzaLayer.activeSelf)
                 {
-                    if (!pizzaLayer.activeSelf)
-                    {
-                        pizzaLayer.SetActive(true);
-                        return;
-                    }
+                    pizzaLayer.SetActive(true);
+                    return;
                 }
             }
-        }
+        }     
     }
 }
