@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4143133061306964456}
   m_Layer: 6
   m_Name: Cheese_Low__50_Tris_
-  m_TagString: Untagged
+  m_TagString: Cheese
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4140123354203388611}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.38047206, y: -0.18741274, z: -0.14911342}
   m_LocalScale: {x: 0.025, y: 0.025000002, z: 0.025000002}
   m_ConstrainProportionsScale: 0
@@ -203,7 +203,7 @@ MonoBehaviour:
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 0
+  m_MovementType: 2
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1

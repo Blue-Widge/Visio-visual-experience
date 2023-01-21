@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8611565665384236830}
   - component: {fileID: 3280742449680177858}
   - component: {fileID: 4539927868444593913}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 1935349245480813304}
   - component: {fileID: 392850403542840374}
   - component: {fileID: 3718253621758110738}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Leaves 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 654703946796345028}
   - component: {fileID: 7082223502192710405}
   - component: {fileID: 5131435266510018231}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plane.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 8814711001832290455}
   - component: {fileID: 3396268867323716981}
   - component: {fileID: 7100997367378230193}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Leaves 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -345,7 +345,7 @@ GameObject:
   - component: {fileID: 5652796046714157011}
   m_Layer: 6
   m_Name: basil plant in pot high-poly
-  m_TagString: Untagged
+  m_TagString: Basil
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -357,7 +357,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6157045755301238278}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.5444515, y: 0.09917861, z: -2.0003667}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -431,7 +431,7 @@ GameObject:
   - component: {fileID: 3594921531314131924}
   - component: {fileID: 878921715014019428}
   - component: {fileID: 7463545259554826308}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Leaves 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
