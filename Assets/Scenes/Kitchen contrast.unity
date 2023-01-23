@@ -11845,6 +11845,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 756820002}
     m_Modifications:
+    - target: {fileID: 1876972800, guid: 67e50134580666a4686e7d200a3e7f7c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: aa7ee697cda616f4592e4b7b21267dff, type: 3}
     - target: {fileID: 2038490901, guid: 67e50134580666a4686e7d200a3e7f7c, type: 3}
       propertyPath: pizza
       value: 
