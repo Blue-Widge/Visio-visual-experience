@@ -2189,14 +2189,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1164081723}
     m_Modifications:
-    - target: {fileID: 2156392856783257490, guid: b066b862b78f4ca439120cc911bda88a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2727460518975817696, guid: b066b862b78f4ca439120cc911bda88a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3659120134235041126, guid: b066b862b78f4ca439120cc911bda88a, type: 3}
       propertyPath: ingredients.Array.data[0]
       value: 
@@ -2251,22 +2243,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4993791219254756774, guid: b066b862b78f4ca439120cc911bda88a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6544015045635393991, guid: b066b862b78f4ca439120cc911bda88a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7033014409576089225, guid: b066b862b78f4ca439120cc911bda88a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7239910324183061508, guid: b066b862b78f4ca439120cc911bda88a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8541275245998465199, guid: b066b862b78f4ca439120cc911bda88a, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -21205,10 +21181,22 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: aa7ee697cda616f4592e4b7b21267dff, type: 3}
+    - target: {fileID: 2038490900, guid: 67e50134580666a4686e7d200a3e7f7c, type: 3}
+      propertyPath: m_Size.y
+      value: 0.3567558
+      objectReference: {fileID: 0}
+    - target: {fileID: 2038490900, guid: 67e50134580666a4686e7d200a3e7f7c, type: 3}
+      propertyPath: m_Center.y
+      value: -0.02004692
+      objectReference: {fileID: 0}
     - target: {fileID: 2038490901, guid: 67e50134580666a4686e7d200a3e7f7c, type: 3}
       propertyPath: pizza
       value: 
       objectReference: {fileID: 1188639317}
+    - target: {fileID: 2038490901, guid: 67e50134580666a4686e7d200a3e7f7c, type: 3}
+      propertyPath: hingeAngle
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 2038490901, guid: 67e50134580666a4686e7d200a3e7f7c, type: 3}
       propertyPath: locomotionProviderAlwaysMove
       value: 
