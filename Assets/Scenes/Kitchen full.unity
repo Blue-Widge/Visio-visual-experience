@@ -3825,6 +3825,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2727460518975817696, guid: b066b862b78f4ca439120cc911bda88a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3659120134235041126, guid: b066b862b78f4ca439120cc911bda88a, type: 3}
       propertyPath: ingredients.Array.data[0]
       value: 
@@ -3879,6 +3883,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4993791219254756774, guid: b066b862b78f4ca439120cc911bda88a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6544015045635393991, guid: b066b862b78f4ca439120cc911bda88a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7033014409576089225, guid: b066b862b78f4ca439120cc911bda88a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239910324183061508, guid: b066b862b78f4ca439120cc911bda88a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8541275245998465199, guid: b066b862b78f4ca439120cc911bda88a, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
