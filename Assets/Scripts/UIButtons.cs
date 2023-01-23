@@ -40,6 +40,7 @@ public class UIButtons : MonoBehaviour
         SceneManager.activeSceneChanged += SceneChanged;
         eyeTracking = GameObject.Find("Tobii Gaze Visualizer").gameObject;
         tunnelVision = GameObject.Find("TunnelingVignette").gameObject;
+        eyeTracking.SetActive(false);
         tunnelingVignetteController = tunnelVision.GetComponent<TunnelingVignetteController>();
         tunnelVisionSizeText.text = tunnelingVignetteController.defaultParameters.apertureSize.ToString();
         tunnelVisionSlider.value = tunnelingVignetteController.defaultParameters.apertureSize;
@@ -58,6 +59,7 @@ public class UIButtons : MonoBehaviour
     public void ToggleEyeTracking()
     {
         eyeTracking.SetActive(!eyeTracking.activeInHierarchy);
+        tunnelVision.transform.localRotation = Quaternion.identity;
     }
 
     public void ToggleTunnelVision()
@@ -84,13 +86,13 @@ public class UIButtons : MonoBehaviour
         switch (number) 
         {
             case 0:
-                SceneManager.LoadScene("Kitchen");
+                SceneManager.LoadScene("Kitchen contrast");
                 break;
             case 1:
-                SceneManager.LoadScene("KitchenMain");
+                SceneManager.LoadScene("Kitchen full");
                 break;
             case 2:
-                SceneManager.LoadScene("SampleScene");
+                SceneManager.LoadScene("Kitchen white");
                 break;
             default:
                 break;

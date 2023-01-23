@@ -4,7 +4,22 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Hallway.unity
+    guid: 7796477fbca153a48b85280c2eac6ed9
+  - enabled: 1
+    path: Assets/Scenes/Kitchen.unity
+    guid: dcead88530aa92245b0e3527ae375968
+  - enabled: 1
+    path: Assets/Scenes/Kitchen contrast.unity
+    guid: 8a425f0c379936c429fd9e9b4385aa0c
+  - enabled: 1
+    path: Assets/Scenes/Kitchen full.unity
+    guid: c23eb633c56f31745a43393db7b37df5
+  - enabled: 1
+    path: Assets/Scenes/Kitchen white.unity
+    guid: 54e92e777706c5a4c851fc67e176bbe9
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: be57090e50a5474469d6d7f9d3eda844, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8908f1d6b11279a4980109f71bd58dbd, type: 2}
