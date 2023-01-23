@@ -27022,6 +27022,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.8299999
       objectReference: {fileID: 0}
+    - target: {fileID: 149652980, guid: 1147044a78205f6459c55887a5706550, type: 3}
+      propertyPath: m_MovementType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6157045755301238278, guid: 1147044a78205f6459c55887a5706550, type: 3}
       propertyPath: m_Name
       value: basil plant in pot high-poly
@@ -27346,6 +27350,10 @@ PrefabInstance:
     - target: {fileID: 4140123354203388611, guid: 782b4a72e9de02943bbce59ccadb4a7d, type: 3}
       propertyPath: m_Name
       value: Cheese_Low__50_Tris_
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143133061306964456, guid: 782b4a72e9de02943bbce59ccadb4a7d, type: 3}
+      propertyPath: m_MovementType
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4143133061306964456, guid: 782b4a72e9de02943bbce59ccadb4a7d, type: 3}
       propertyPath: m_InteractionManager
