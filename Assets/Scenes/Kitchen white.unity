@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: b242c14f88dd75b4a9b8097dd7ebff98, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: c40770e3b3532c641a063f83dee9522f, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 266fdcc8a5e1bff43a9c27d913d7b650, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -4605,9 +4605,29 @@ PrefabInstance:
     m_TransformParent: {fileID: 1164081723}
     m_Modifications:
     - target: {fileID: 2061611098, guid: 17b906a425adea3409d15d979294c14e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061611098, guid: 17b906a425adea3409d15d979294c14e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.021214284
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061611098, guid: 17b906a425adea3409d15d979294c14e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.021214284
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061611098, guid: 17b906a425adea3409d15d979294c14e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.054
       objectReference: {fileID: 0}
+    - target: {fileID: 2061611098, guid: 17b906a425adea3409d15d979294c14e, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061611099, guid: 17b906a425adea3409d15d979294c14e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e524552ea9ee1e24a9a4a44098e9c702, type: 2}
     - target: {fileID: 3776815359610749923, guid: 17b906a425adea3409d15d979294c14e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -14476,6 +14496,7 @@ GameObject:
   - component: {fileID: 112610977068540713}
   - component: {fileID: 112610977068540712}
   - component: {fileID: 112610977068541143}
+  - component: {fileID: 112610977068541144}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -14521,6 +14542,18 @@ MonoBehaviour:
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
   m_CancelButton: Cancel
+--- !u!114 &112610977068541144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112610977068541142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fec68568fb2137a41b08a7ebb5771909, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &543450652546616734 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6789713904768306364, guid: 1147044a78205f6459c55887a5706550, type: 3}
