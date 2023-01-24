@@ -29,8 +29,8 @@ public class PizzaDone : MonoBehaviour
 
     IEnumerator finishGame()
     {
-        yield return new WaitForSeconds(9f);
         ovenAudioSource.Play();
+        yield return new WaitForSeconds(9f);
         locomotionProviderAlwaysMove.changeLocoationPhase(LocomotionPhase.Done);
     }
 }
