@@ -31,6 +31,7 @@
                         float4 vertex : POSITION;
                         float2 uv : TEXCOORD0;
                         float3 normal : NORMAL;
+                        UNITY_VERTEX_INPUT_INSTANCE_ID
                     };
 
                     struct v2f
@@ -56,7 +57,6 @@
                         #if UNITY_UV_STARTS_AT_TOP
                             v.uv.y = 1 - v.uv.y;
                         #endif
-                        UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
                         
                         o.vertex = UnityObjectToClipPos(v.vertex);
                         o.uv = v.uv;
