@@ -3331,6 +3331,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 532778925}
     m_Modifications:
+    - target: {fileID: 1000084361, guid: 91edf4af8bdd53e49821dd92060dd5ed, type: 3}
+      propertyPath: m_RetainTransformParent
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5987413141699733319, guid: 91edf4af8bdd53e49821dd92060dd5ed, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -6625,6 +6629,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 532778925}
     m_Modifications:
+    - target: {fileID: 1000084361, guid: 91edf4af8bdd53e49821dd92060dd5ed, type: 3}
+      propertyPath: m_RetainTransformParent
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5987413141699733319, guid: 91edf4af8bdd53e49821dd92060dd5ed, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -21979,6 +21987,10 @@ PrefabInstance:
     - target: {fileID: 2216290336601069145, guid: 9deddeb585a0c924e95e470f996242b7, type: 3}
       propertyPath: m_Name
       value: Plate
+      objectReference: {fileID: 0}
+    - target: {fileID: 2381847208931142933, guid: 9deddeb585a0c924e95e470f996242b7, type: 3}
+      propertyPath: m_RetainTransformParent
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9deddeb585a0c924e95e470f996242b7, type: 3}
