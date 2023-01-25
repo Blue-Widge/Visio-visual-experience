@@ -814,7 +814,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Normal Kitchen
+  m_text: Contrast Kitchen
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1050,11 +1050,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Normal Kitchen
-      m_Image: {fileID: 0}
-    - m_Text: Messy Kitchen
-      m_Image: {fileID: 0}
     - m_Text: Contrast Kitchen
+      m_Image: {fileID: 0}
+    - m_Text: Full Kitchen
+      m_Image: {fileID: 0}
+    - m_Text: White Kitchen
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1714,7 +1714,7 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -1738,7 +1738,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1900, y: 1080}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -2812,7 +2812,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &5332182576697319024
 GameObject:
   m_ObjectHideFlags: 0
@@ -3011,7 +3011,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3387197096932826511, guid: c82e8c79f89420f45ae176c486c452a5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1038
+      value: 998
       objectReference: {fileID: 0}
     - target: {fileID: 3387197096932826511, guid: c82e8c79f89420f45ae176c486c452a5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
