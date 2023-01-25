@@ -1,0 +1,28 @@
+var annotated_dup =
+[
+    [ "AudioController", "class_audio_controller.html", "class_audio_controller" ],
+    [ "BowlHandler", "class_bowl_handler.html", "class_bowl_handler" ],
+    [ "CabinetAnimation", "class_cabinet_animation.html", "class_cabinet_animation" ],
+    [ "CabinetAudioController", "class_cabinet_audio_controller.html", "class_cabinet_audio_controller" ],
+    [ "CalibrateEye", "class_calibrate_eye.html", "class_calibrate_eye" ],
+    [ "ChangeScene", "class_change_scene.html", null ],
+    [ "EventSystemHandler", "class_event_system_handler.html", "class_event_system_handler" ],
+    [ "HandAnimationHallway", "class_hand_animation_hallway.html", "class_hand_animation_hallway" ],
+    [ "HandPresence", "class_hand_presence.html", "class_hand_presence" ],
+    [ "HideContainerContent", "class_hide_container_content.html", "class_hide_container_content" ],
+    [ "LeafHandler", "class_leaf_handler.html", "class_leaf_handler" ],
+    [ "LiquidHeightLevel", "class_liquid_height_level.html", null ],
+    [ "OvenLightController", "class_oven_light_controller.html", "class_oven_light_controller" ],
+    [ "PhoneAudio", "class_phone_audio.html", "class_phone_audio" ],
+    [ "PhoneFlickerButton", "class_phone_flicker_button.html", "class_phone_flicker_button" ],
+    [ "PizzaDone", "class_pizza_done.html", "class_pizza_done" ],
+    [ "PizzaInOrder", "class_pizza_in_order.html", "class_pizza_in_order" ],
+    [ "PointOrOpen", "class_point_or_open.html", "class_point_or_open" ],
+    [ "PreviewDisabler", "class_preview_disabler.html", "class_preview_disabler" ],
+    [ "StartAudio", "class_start_audio.html", "class_start_audio" ],
+    [ "TunnelVisionAlwaysMove", "class_tunnel_vision_always_move.html", "class_tunnel_vision_always_move" ],
+    [ "TunnelVisionLookAt", "class_tunnel_vision_look_at.html", "class_tunnel_vision_look_at" ],
+    [ "TunnelVisionStrenght", "class_tunnel_vision_strenght.html", "class_tunnel_vision_strenght" ],
+    [ "UIButtons", "class_u_i_buttons.html", "class_u_i_buttons" ],
+    [ "Wobble", "class_wobble.html", "class_wobble" ]
+];
