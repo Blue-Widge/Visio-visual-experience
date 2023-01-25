@@ -6,7 +6,6 @@ var hierarchy =
     ] ],
     [ "MonoBehaviour", null, [
       [ "BowlHandler", "class_bowl_handler.html", null ],
-      [ "CabinetAnimation", "class_cabinet_animation.html", null ],
       [ "CabinetAudioController", "class_cabinet_audio_controller.html", null ],
       [ "CalibrateEye", "class_calibrate_eye.html", null ],
       [ "ChangeScene", "class_change_scene.html", null ],

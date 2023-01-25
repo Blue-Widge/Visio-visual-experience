@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Visio visual experience: PizzaDone Class Reference</title>
+<title>visio visual experience: PizzaDone Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Visio visual experience<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">visio visual experience<span id="projectnumber">&#160;1.0.0</span>
    </div>
   </td>
  </tr>
@@ -99,6 +99,9 @@ $(document).ready(function(){initNavTree('class_pizza_done.html',''); initResiza
   <div class="headertitle"><div class="title">PizzaDone Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class that handles the end of the pizza mini-game.  
+ <a href="class_pizza_done.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for PizzaDone:</div>
 <div class="dyncontent">
@@ -108,8 +111,8 @@ Inheritance diagram for PizzaDone:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aaef2fe2f0ecb55840ba7ba0452df4077"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pizza_done.html#aaef2fe2f0ecb55840ba7ba0452df4077">pizza</a></td></tr>
-<tr class="separator:aaef2fe2f0ecb55840ba7ba0452df4077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88a795eea29c06d0d191f0436942014c"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pizza_done.html#a88a795eea29c06d0d191f0436942014c">pizzaGameobject</a></td></tr>
+<tr class="separator:a88a795eea29c06d0d191f0436942014c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a340ed15d3a667f8d72286670c3f23c9b"><td class="memItemLeft" align="right" valign="top">HingeJoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pizza_done.html#a340ed15d3a667f8d72286670c3f23c9b">ovenHingeJoint</a></td></tr>
 <tr class="separator:a340ed15d3a667f8d72286670c3f23c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d550f7397504caf4121e7d4637fb2d9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pizza_done.html#a2d550f7397504caf4121e7d4637fb2d9">hingeAngle</a> = -85</td></tr>
@@ -121,11 +124,11 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a027d50f819a0f90b8fe936f44fbf4879"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pizza_done.html#a027d50f819a0f90b8fe936f44fbf4879">Start</a> ()</td></tr>
-<tr class="separator:a027d50f819a0f90b8fe936f44fbf4879"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a0db013d9b110920d8c15304f42d1e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pizza_done.html#a8a0db013d9b110920d8c15304f42d1e5">OnTriggerStay</a> (Collider other)</td></tr>
+<tr class="memdesc:a8a0db013d9b110920d8c15304f42d1e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that detects if the pizza is in the oven and the door is closed before launching the end of the game /.  <br /></td></tr>
 <tr class="separator:a8a0db013d9b110920d8c15304f42d1e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2c91d36dd0249973203f3b81c58cfa4"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pizza_done.html#ad2c91d36dd0249973203f3b81c58cfa4">FinishGame</a> ()</td></tr>
+<tr class="memdesc:ad2c91d36dd0249973203f3b81c58cfa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coroutine that plays the oven sound, wait 9 seconds before ending the game.  <br /></td></tr>
 <tr class="separator:ad2c91d36dd0249973203f3b81c58cfa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
@@ -133,7 +136,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:abb894aa4954aefd89b21eb9fb6990715"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pizza_done.html#abb894aa4954aefd89b21eb9fb6990715">_finished</a> = false</td></tr>
 <tr class="separator:abb894aa4954aefd89b21eb9fb6990715"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class that handles the end of the pizza mini-game. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad2c91d36dd0249973203f3b81c58cfa4" name="ad2c91d36dd0249973203f3b81c58cfa4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad2c91d36dd0249973203f3b81c58cfa4">&#9670;&#160;</a></span>FinishGame()</h2>
 
@@ -156,6 +161,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Coroutine that plays the oven sound, wait 9 seconds before ending the game. </p>
 
 </div>
 </div>
@@ -183,30 +190,13 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a027d50f819a0f90b8fe936f44fbf4879" name="a027d50f819a0f90b8fe936f44fbf4879"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a027d50f819a0f90b8fe936f44fbf4879">&#9670;&#160;</a></span>Start()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void PizzaDone.Start </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Function that detects if the pizza is in the oven and the door is closed before launching the end of the game /. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>The object that stayed in the trigger box </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -289,14 +279,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aaef2fe2f0ecb55840ba7ba0452df4077" name="aaef2fe2f0ecb55840ba7ba0452df4077"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaef2fe2f0ecb55840ba7ba0452df4077">&#9670;&#160;</a></span>pizza</h2>
+<a id="a88a795eea29c06d0d191f0436942014c" name="a88a795eea29c06d0d191f0436942014c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88a795eea29c06d0d191f0436942014c">&#9670;&#160;</a></span>pizzaGameobject</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">GameObject PizzaDone.pizza</td>
+          <td class="memname">GameObject PizzaDone.pizzaGameobject</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -304,7 +294,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Programmes/Unity/Projects/visio-visual-experience/Assets/Scripts/<a class="el" href="_pizza_done_8cs.html">PizzaDone.cs</a></li>
+<li>C:/Users/Yann/Unity Projects/visio-visual-experience-main/Assets/Scripts/<a class="el" href="_pizza_done_8cs.html">PizzaDone.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -312,7 +302,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_pizza_done.html">PizzaDone</a></li>
-    <li class="footer">Generated on Wed Jan 25 2023 12:58:55 for Visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Wed Jan 25 2023 16:08:15 for visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

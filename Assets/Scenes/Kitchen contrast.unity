@@ -809,8 +809,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 232dd8d721230014f993f78bf2450488, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bottleHeight: 0
-  _minHeight: 0
+  bottleHeight: 0
+  minHeight: 0
   rotationVectorX: 0
 --- !u!114 &59874364
 MonoBehaviour:
@@ -824,9 +824,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b50aac4512440c448bd871d240483735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxWobble: 0.05
-  WobbleSpeed: 1
-  Recovery: 1
+  maxWobble: 0.05
+  wobbleSpeed: 1
+  recovery: 1
 --- !u!1 &60549818
 GameObject:
   m_ObjectHideFlags: 0
@@ -7561,6 +7561,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6925518801242507810, guid: 17b906a425adea3409d15d979294c14e, type: 3}
+      propertyPath: outsideContainer
+      value: 
+      objectReference: {fileID: 532778925}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17b906a425adea3409d15d979294c14e, type: 3}
 --- !u!1001 &572814744
@@ -16151,7 +16155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
@@ -26720,7 +26724,7 @@ MonoBehaviour:
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
-  m_RetainTransformParent: 1
+  m_RetainTransformParent: 0
   m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []

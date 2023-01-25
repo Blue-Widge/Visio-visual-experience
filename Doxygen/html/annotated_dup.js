@@ -2,7 +2,6 @@ var annotated_dup =
 [
     [ "AudioController", "class_audio_controller.html", "class_audio_controller" ],
     [ "BowlHandler", "class_bowl_handler.html", "class_bowl_handler" ],
-    [ "CabinetAnimation", "class_cabinet_animation.html", "class_cabinet_animation" ],
     [ "CabinetAudioController", "class_cabinet_audio_controller.html", "class_cabinet_audio_controller" ],
     [ "CalibrateEye", "class_calibrate_eye.html", "class_calibrate_eye" ],
     [ "ChangeScene", "class_change_scene.html", "class_change_scene" ],

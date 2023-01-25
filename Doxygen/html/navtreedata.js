@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Visio visual experience", "index.html", [
+  [ "visio visual experience", "index.html", [
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -44,8 +44,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_audio_controller_8cs.html",
-"functions_evnt.html"
+"_audio_controller_8cs.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

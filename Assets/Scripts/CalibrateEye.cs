@@ -4,9 +4,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using ViveSR.anipal.Eye;
 
+
+/** @brief Class that launches the eye calibration*/
 public class CalibrateEye : MonoBehaviour
 {
-
     public void CalibrateEyes()
     {
         Debug.Log("Start Calibration");

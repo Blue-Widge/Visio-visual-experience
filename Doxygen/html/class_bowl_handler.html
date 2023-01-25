@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Visio visual experience: BowlHandler Class Reference</title>
+<title>visio visual experience: BowlHandler Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Visio visual experience<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">visio visual experience<span id="projectnumber">&#160;1.0.0</span>
    </div>
   </td>
  </tr>
@@ -99,6 +99,9 @@ $(document).ready(function(){initNavTree('class_bowl_handler.html',''); initResi
   <div class="headertitle"><div class="title">BowlHandler Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class that allows items in bowl to be children of the bowl so they fall less easily when the bowl is handled.  
+ <a href="class_bowl_handler.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for BowlHandler:</div>
 <div class="dyncontent">
@@ -109,27 +112,33 @@ Inheritance diagram for BowlHandler:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ac9e75eb02c340adad8e26375e5f50113"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bowl_handler.html#ac9e75eb02c340adad8e26375e5f50113">container</a></td></tr>
+<tr class="memdesc:ac9e75eb02c340adad8e26375e5f50113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parent of all the items contained by the bowl.  <br /></td></tr>
 <tr class="separator:ac9e75eb02c340adad8e26375e5f50113"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07dcf5e817f02c386d74eb9918a6be38"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bowl_handler.html#a07dcf5e817f02c386d74eb9918a6be38">foodContainer</a></td></tr>
+<tr class="memdesc:a07dcf5e817f02c386d74eb9918a6be38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parent of all the items contained in the scene.  <br /></td></tr>
 <tr class="separator:a07dcf5e817f02c386d74eb9918a6be38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a7d7b04ec738fe781564dcdffa91b5ffc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bowl_handler.html#a7d7b04ec738fe781564dcdffa91b5ffc">Start</a> ()</td></tr>
+<tr class="memdesc:a7d7b04ec738fe781564dcdffa91b5ffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the containers if they are not.  <br /></td></tr>
 <tr class="separator:a7d7b04ec738fe781564dcdffa91b5ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2f8321eceb26683720fa91f213e4e3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bowl_handler.html#ad2f8321eceb26683720fa91f213e4e3f">OnTriggerEnter</a> (Collider other)</td></tr>
+<tr class="memdesc:ad2f8321eceb26683720fa91f213e4e3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">If a new item is put inside the bowl, change its parent to the bowl container /.  <br /></td></tr>
 <tr class="separator:ad2f8321eceb26683720fa91f213e4e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee3ca7a498c9c2c5ec0cf03d504a0b76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bowl_handler.html#aee3ca7a498c9c2c5ec0cf03d504a0b76">OnTriggerStay</a> (Collider other)</td></tr>
-<tr class="separator:aee3ca7a498c9c2c5ec0cf03d504a0b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae31b40c976703191320ec9ed1499fda9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bowl_handler.html#ae31b40c976703191320ec9ed1499fda9">OnTriggerExit</a> (Collider other)</td></tr>
+<tr class="memdesc:ae31b40c976703191320ec9ed1499fda9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unparent the bowl to the item when it goes out of it /.  <br /></td></tr>
 <tr class="separator:ae31b40c976703191320ec9ed1499fda9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a7e67fa9d31d9606696fe6b3e9639a27b"><td class="memItemLeft" align="right" valign="top">List&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bowl_handler.html#a7e67fa9d31d9606696fe6b3e9639a27b">content</a></td></tr>
+<tr class="memdesc:a7e67fa9d31d9606696fe6b3e9639a27b"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of all the items contained.  <br /></td></tr>
 <tr class="separator:a7e67fa9d31d9606696fe6b3e9639a27b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class that allows items in bowl to be children of the bowl so they fall less easily when the bowl is handled. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad2f8321eceb26683720fa91f213e4e3f" name="ad2f8321eceb26683720fa91f213e4e3f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad2f8321eceb26683720fa91f213e4e3f">&#9670;&#160;</a></span>OnTriggerEnter()</h2>
 
@@ -153,6 +162,14 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>If a new item is put inside the bowl, change its parent to the bowl container /. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>Object that entered the trigger box </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -180,31 +197,13 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="aee3ca7a498c9c2c5ec0cf03d504a0b76" name="aee3ca7a498c9c2c5ec0cf03d504a0b76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee3ca7a498c9c2c5ec0cf03d504a0b76">&#9670;&#160;</a></span>OnTriggerStay()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void BowlHandler.OnTriggerStay </td>
-          <td>(</td>
-          <td class="paramtype">Collider&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Unparent the bowl to the item when it goes out of it /. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>Object that exited the trigger box </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -231,6 +230,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Set the containers if they are not. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -245,6 +246,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Parent of all the items contained by the bowl. </p>
 
 </div>
 </div>
@@ -268,6 +271,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>List of all the items contained. </p>
+
 </div>
 </div>
 <a id="a07dcf5e817f02c386d74eb9918a6be38" name="a07dcf5e817f02c386d74eb9918a6be38"></a>
@@ -282,10 +287,12 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Parent of all the items contained in the scene. </p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Programmes/Unity/Projects/visio-visual-experience/Assets/Scripts/<a class="el" href="_bowl_handler_8cs.html">BowlHandler.cs</a></li>
+<li>C:/Users/Yann/Unity Projects/visio-visual-experience-main/Assets/Scripts/<a class="el" href="_bowl_handler_8cs.html">BowlHandler.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -293,7 +300,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_bowl_handler.html">BowlHandler</a></li>
-    <li class="footer">Generated on Wed Jan 25 2023 12:58:55 for Visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Wed Jan 25 2023 16:08:15 for visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

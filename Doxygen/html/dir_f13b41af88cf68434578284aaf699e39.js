@@ -2,7 +2,6 @@ var dir_f13b41af88cf68434578284aaf699e39 =
 [
     [ "Audio", "dir_6fe29c2f24f63154fef8b881604b63a0.html", "dir_6fe29c2f24f63154fef8b881604b63a0" ],
     [ "BowlHandler.cs", "_bowl_handler_8cs.html", "_bowl_handler_8cs" ],
-    [ "CabinetAnimation.cs", "_cabinet_animation_8cs.html", "_cabinet_animation_8cs" ],
     [ "CalibrateEye.cs", "_calibrate_eye_8cs.html", "_calibrate_eye_8cs" ],
     [ "ChangeScene.cs", "_change_scene_8cs.html", "_change_scene_8cs" ],
     [ "EventSystemHandler.cs", "_event_system_handler_8cs.html", "_event_system_handler_8cs" ],

@@ -8,6 +8,8 @@ using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 
+
+/** @brief Class that handles the UI's button, in order to control the visual impairment and the scene */
 public class UIButtons : MonoBehaviour
 {
     [SerializeField]
@@ -24,7 +26,6 @@ public class UIButtons : MonoBehaviour
     public Toggle tunnelVisionToggle;
     public bool updatedThisScene = false;
 
-    // Start is called before the first frame update
     void Start()
     {
         DontDestroyOnLoad(this);
@@ -46,7 +47,7 @@ public class UIButtons : MonoBehaviour
         tunnelVisionSlider.value = tunnelingVignetteController.defaultParameters.apertureSize;
     }
 
-    // Update is called once per frame
+    /** @brief Change the scene if updated s*/
     void Update()
     {
         if (updatedThisScene)

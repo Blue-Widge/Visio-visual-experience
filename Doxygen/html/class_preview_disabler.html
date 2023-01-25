@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Visio visual experience: PreviewDisabler Class Reference</title>
+<title>visio visual experience: PreviewDisabler Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Visio visual experience<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">visio visual experience<span id="projectnumber">&#160;1.0.0</span>
    </div>
   </td>
  </tr>
@@ -98,6 +98,9 @@ $(document).ready(function(){initNavTree('class_preview_disabler.html',''); init
   <div class="headertitle"><div class="title">PreviewDisabler Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class that handle the disabling of the hand preview animators.  
+ <a href="class_preview_disabler.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for PreviewDisabler:</div>
 <div class="dyncontent">
@@ -108,18 +111,24 @@ Inheritance diagram for PreviewDisabler:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:af2b9a94d05612499e497425b95a0c8ad"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preview_disabler.html#af2b9a94d05612499e497425b95a0c8ad">id</a></td></tr>
+<tr class="memdesc:af2b9a94d05612499e497425b95a0c8ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">The id of the hand preview.  <br /></td></tr>
 <tr class="separator:af2b9a94d05612499e497425b95a0c8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:ac0bd642f1d1f47ac55287e6dc0a3e9bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preview_disabler.html#ac0bd642f1d1f47ac55287e6dc0a3e9bc">Start</a> ()</td></tr>
+<tr class="memdesc:ac0bd642f1d1f47ac55287e6dc0a3e9bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the DisableAnimationPreview function to the OnFirstActionPerformed event.  <br /></td></tr>
 <tr class="separator:ac0bd642f1d1f47ac55287e6dc0a3e9bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2f4d3cb0853c747bf604c2d4009c28b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preview_disabler.html#ac2f4d3cb0853c747bf604c2d4009c28b">DisableAnimationPreview</a> (int pID)</td></tr>
+<tr class="memdesc:ac2f4d3cb0853c747bf604c2d4009c28b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the hand preview gameobject if the id of the hand is the same as the one passed on by the function.  <br /></td></tr>
 <tr class="separator:ac2f4d3cb0853c747bf604c2d4009c28b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a99a8c4aff3838bb6a0755042dbf4e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_preview_disabler.html#a3a99a8c4aff3838bb6a0755042dbf4e1">OnDestroy</a> ()</td></tr>
+<tr class="memdesc:a3a99a8c4aff3838bb6a0755042dbf4e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the DisableAnimationPreview function to the OnFirstActionPerformed event.  <br /></td></tr>
 <tr class="separator:a3a99a8c4aff3838bb6a0755042dbf4e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class that handle the disabling of the hand preview animators. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac2f4d3cb0853c747bf604c2d4009c28b" name="ac2f4d3cb0853c747bf604c2d4009c28b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac2f4d3cb0853c747bf604c2d4009c28b">&#9670;&#160;</a></span>DisableAnimationPreview()</h2>
 
@@ -143,6 +152,14 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Destroy the hand preview gameobject if the id of the hand is the same as the one passed on by the function. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pID</td><td>Id of the hand preview that needs to be disabled </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -169,6 +186,8 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Remove the DisableAnimationPreview function to the OnFirstActionPerformed event. </p>
+
 </div>
 </div>
 <a id="ac0bd642f1d1f47ac55287e6dc0a3e9bc" name="ac0bd642f1d1f47ac55287e6dc0a3e9bc"></a>
@@ -194,6 +213,8 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Add the DisableAnimationPreview function to the OnFirstActionPerformed event. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -209,10 +230,12 @@ Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The id of the hand preview. </p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Programmes/Unity/Projects/visio-visual-experience/Assets/Scripts/<a class="el" href="_preview_disabler_8cs.html">PreviewDisabler.cs</a></li>
+<li>C:/Users/Yann/Unity Projects/visio-visual-experience-main/Assets/Scripts/<a class="el" href="_preview_disabler_8cs.html">PreviewDisabler.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -220,7 +243,7 @@ Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_preview_disabler.html">PreviewDisabler</a></li>
-    <li class="footer">Generated on Wed Jan 25 2023 12:58:55 for Visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Wed Jan 25 2023 16:08:15 for visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

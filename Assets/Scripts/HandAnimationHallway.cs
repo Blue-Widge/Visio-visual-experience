@@ -2,30 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/** @brief Class that disable the hallway hand animation when the button is pressed*/
 public class HandAnimationHallway : MonoBehaviour
 {
+    /** @brief The hand animation */
     public GameObject handPointer;
 
+    /** @brief Tag to compare to detect if the collided object is a hand */
     private string _hand = "Hand";
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    /** @brief Disable the hand preview when the collided object is the user's hand */
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag(_hand))
         {
             handPointer.SetActive(false);
         }
-
     }
 }

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Visio visual experience: TunnelVisionAlwaysMove Class Reference</title>
+<title>visio visual experience: TunnelVisionAlwaysMove Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Visio visual experience<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">visio visual experience<span id="projectnumber">&#160;1.0.0</span>
    </div>
   </td>
  </tr>
@@ -98,6 +98,10 @@ $(document).ready(function(){initNavTree('class_tunnel_vision_always_move.html',
   <div class="headertitle"><div class="title">TunnelVisionAlwaysMove Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class that tricks the locomotion system to think the player is always moving to use the XR Interaction toolkit's vignette <br  />
+  
+ <a href="class_tunnel_vision_always_move.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for TunnelVisionAlwaysMove:</div>
 <div class="dyncontent">
@@ -108,8 +112,10 @@ Inheritance diagram for TunnelVisionAlwaysMove:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a54d55ea345f85598df9462902990b0ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tunnel_vision_always_move.html#a54d55ea345f85598df9462902990b0ba">Start</a> ()</td></tr>
+<tr class="memdesc:a54d55ea345f85598df9462902990b0ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the user movements to "Idle".  <br /></td></tr>
 <tr class="separator:a54d55ea345f85598df9462902990b0ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94965e9b11f69da324777e0e6dee4184"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tunnel_vision_always_move.html#a94965e9b11f69da324777e0e6dee4184">Update</a> ()</td></tr>
+<tr class="memdesc:a94965e9b11f69da324777e0e6dee4184"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the locomotion to "Moving" after the impairment delay.  <br /></td></tr>
 <tr class="separator:a94965e9b11f69da324777e0e6dee4184"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22abf52ce5c364aa0ca3b748cf18e499"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tunnel_vision_always_move.html#a22abf52ce5c364aa0ca3b748cf18e499">ChangeLocoationPhase</a> (LocomotionPhase phase)</td></tr>
 <tr class="separator:a22abf52ce5c364aa0ca3b748cf18e499"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,11 +123,15 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a8bb108be0cea7fc884c6a76b37140e88"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tunnel_vision_always_move.html#a8bb108be0cea7fc884c6a76b37140e88">impairmentTimer</a></td></tr>
+<tr class="memdesc:a8bb108be0cea7fc884c6a76b37140e88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time before enabling the impairment.  <br /></td></tr>
 <tr class="separator:a8bb108be0cea7fc884c6a76b37140e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab94502aa8a5cb4d3b5892196b4813a82"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tunnel_vision_always_move.html#ab94502aa8a5cb4d3b5892196b4813a82">turnedOn</a> = false</td></tr>
 <tr class="separator:ab94502aa8a5cb4d3b5892196b4813a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class that tricks the locomotion system to think the player is always moving to use the XR Interaction toolkit's vignette <br  />
+ </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a22abf52ce5c364aa0ca3b748cf18e499" name="a22abf52ce5c364aa0ca3b748cf18e499"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a22abf52ce5c364aa0ca3b748cf18e499">&#9670;&#160;</a></span>ChangeLocoationPhase()</h2>
 
@@ -155,6 +165,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set the user movements to "Idle". </p>
+
 </div>
 </div>
 <a id="a94965e9b11f69da324777e0e6dee4184" name="a94965e9b11f69da324777e0e6dee4184"></a>
@@ -172,6 +184,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set the locomotion to "Moving" after the impairment delay. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -186,6 +200,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Time before enabling the impairment. </p>
 
 </div>
 </div>
@@ -204,7 +220,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Programmes/Unity/Projects/visio-visual-experience/Assets/Scripts/<a class="el" href="_tunnel_vision_always_move_8cs.html">TunnelVisionAlwaysMove.cs</a></li>
+<li>C:/Users/Yann/Unity Projects/visio-visual-experience-main/Assets/Scripts/<a class="el" href="_tunnel_vision_always_move_8cs.html">TunnelVisionAlwaysMove.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -212,7 +228,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_tunnel_vision_always_move.html">TunnelVisionAlwaysMove</a></li>
-    <li class="footer">Generated on Wed Jan 25 2023 12:58:55 for Visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Wed Jan 25 2023 16:08:15 for visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

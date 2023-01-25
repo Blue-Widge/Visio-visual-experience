@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
+
+/** @brief Script found online that simulate the wobbling of liquid inside of a bottle */
 public class Wobble : MonoBehaviour
 {
     Renderer _rend;
