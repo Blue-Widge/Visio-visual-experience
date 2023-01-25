@@ -366,9 +366,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 232dd8d721230014f993f78bf2450488, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bottleHeight: 0
-  _minHeight: 0
-  rotationVectorX: 0
+  _liquidHeight: 0
+  _minliquidHeight: 0
+  _facingDownRatio: 0
 --- !u!114 &59874364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -381,9 +381,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b50aac4512440c448bd871d240483735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxWobble: 0.05
-  WobbleSpeed: 1
-  Recovery: 1
+  maxWobble: 0.05
+  wobbleSpeed: 1
+  recovery: 1
 --- !u!1 &60549818
 GameObject:
   m_ObjectHideFlags: 0
@@ -5016,7 +5016,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_TagString
