@@ -22,7 +22,7 @@ public class TunnelVisionAlwaysMove : LocomotionProvider
             turnedOn = true;
         }
     }
-    public void changeLocoationPhase(LocomotionPhase phase)
+    public void ChangeLocoationPhase(LocomotionPhase phase)
     {
         locomotionPhase = phase;
     }

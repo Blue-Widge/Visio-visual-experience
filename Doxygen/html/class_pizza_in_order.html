@@ -93,6 +93,9 @@ $(document).ready(function(){initNavTree('class_pizza_in_order.html',''); initRe
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_pizza_in_order-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">PizzaInOrder Class Reference</div></div>
 </div><!--header-->
@@ -116,8 +119,110 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a0fd2052c209d8e3563240d4ec15b1f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeee604cdc5ac1d05eb01a99186338e73"><td class="memItemLeft" align="right" valign="top">Material&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pizza_in_order.html#aeee604cdc5ac1d05eb01a99186338e73">recipeMaterial</a></td></tr>
 <tr class="separator:aeee604cdc5ac1d05eb01a99186338e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a05cdaefe191e436c4c22da2897450f7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pizza_in_order.html#a05cdaefe191e436c4c22da2897450f7b">Start</a> ()</td></tr>
+<tr class="separator:a05cdaefe191e436c4c22da2897450f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0341a41d625e918df00feb6ca543dd3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pizza_in_order.html#a0341a41d625e918df00feb6ca543dd3a">OnTriggerEnter</a> (Collider other)</td></tr>
+<tr class="memdesc:a0341a41d625e918df00feb6ca543dd3a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br  />
+ If an object collides with the cutting board check if its an ingredient, if so check if it the next one in order, if so delete the ingredient and activate it on the pizza.  <br /></td></tr>
+<tr class="separator:a0341a41d625e918df00feb6ca543dd3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a031790fad12e029419a5cee6fbdb71fa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pizza_in_order.html#a031790fad12e029419a5cee6fbdb71fa">_ingredientsDone</a></td></tr>
+<tr class="separator:a031790fad12e029419a5cee6fbdb71fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a791e8d2bed962ecbbd39eae63881efff"><td class="memItemLeft" align="right" valign="top">static readonly int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pizza_in_order.html#a791e8d2bed962ecbbd39eae63881efff">PizzaIngredientsDone</a> = Shader.PropertyToID(&quot;_PizzaIngredientsDone&quot;)</td></tr>
+<tr class="separator:a791e8d2bed962ecbbd39eae63881efff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0341a41d625e918df00feb6ca543dd3a" name="a0341a41d625e918df00feb6ca543dd3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0341a41d625e918df00feb6ca543dd3a">&#9670;&#160;</a></span>OnTriggerEnter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PizzaInOrder.OnTriggerEnter </td>
+          <td>(</td>
+          <td class="paramtype">Collider&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><br  />
+ If an object collides with the cutting board check if its an ingredient, if so check if it the next one in order, if so delete the ingredient and activate it on the pizza. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a05cdaefe191e436c4c22da2897450f7b" name="a05cdaefe191e436c4c22da2897450f7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05cdaefe191e436c4c22da2897450f7b">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PizzaInOrder.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a031790fad12e029419a5cee6fbdb71fa" name="a031790fad12e029419a5cee6fbdb71fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a031790fad12e029419a5cee6fbdb71fa">&#9670;&#160;</a></span>_ingredientsDone</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int PizzaInOrder._ingredientsDone</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0fd2052c209d8e3563240d4ec15b1f77" name="a0fd2052c209d8e3563240d4ec15b1f77"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0fd2052c209d8e3563240d4ec15b1f77">&#9670;&#160;</a></span>id</h2>
 
@@ -160,6 +265,28 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a791e8d2bed962ecbbd39eae63881efff" name="a791e8d2bed962ecbbd39eae63881efff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a791e8d2bed962ecbbd39eae63881efff">&#9670;&#160;</a></span>PizzaIngredientsDone</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly int PizzaInOrder.PizzaIngredientsDone = Shader.PropertyToID(&quot;_PizzaIngredientsDone&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a88821147649ae58fe045522b8ce92f04" name="a88821147649ae58fe045522b8ce92f04"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a88821147649ae58fe045522b8ce92f04">&#9670;&#160;</a></span>pizzaObject</h2>
 
@@ -197,7 +324,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_pizza_in_order.html">PizzaInOrder</a></li>
-    <li class="footer">Generated on Wed Jan 25 2023 12:12:49 for Visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Wed Jan 25 2023 12:58:55 for Visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

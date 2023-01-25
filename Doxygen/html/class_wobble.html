@@ -93,6 +93,8 @@ $(document).ready(function(){initNavTree('class_wobble.html',''); initResizable(
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_wobble-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Wobble Class Reference</div></div>
 </div><!--header-->
@@ -106,50 +108,375 @@ Inheritance diagram for Wobble:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a659ce43e9fefbfc9d89a84b0cf81c5ae"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#a659ce43e9fefbfc9d89a84b0cf81c5ae">MaxWobble</a> = 0.03f</td></tr>
-<tr class="separator:a659ce43e9fefbfc9d89a84b0cf81c5ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65f1d9c046d9b3a7dc233989eaa3173d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#a65f1d9c046d9b3a7dc233989eaa3173d">WobbleSpeed</a> = 1f</td></tr>
-<tr class="separator:a65f1d9c046d9b3a7dc233989eaa3173d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadc84210d0ee4a824a5cc599d5bf7e80"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#aadc84210d0ee4a824a5cc599d5bf7e80">Recovery</a> = 1f</td></tr>
-<tr class="separator:aadc84210d0ee4a824a5cc599d5bf7e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07c03460a3f4a863857b45ea990a27ed"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#a07c03460a3f4a863857b45ea990a27ed">maxWobble</a> = 0.03f</td></tr>
+<tr class="separator:a07c03460a3f4a863857b45ea990a27ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafc0602acaa1b998cdbeb9d8ae761c31"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#aafc0602acaa1b998cdbeb9d8ae761c31">wobbleSpeed</a> = 1f</td></tr>
+<tr class="separator:aafc0602acaa1b998cdbeb9d8ae761c31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef3a191bcdd63fc252aa268061aa1423"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#aef3a191bcdd63fc252aa268061aa1423">recovery</a> = 1f</td></tr>
+<tr class="separator:aef3a191bcdd63fc252aa268061aa1423"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a680a2d12245625b5fa1cca69a499c704"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#a680a2d12245625b5fa1cca69a499c704">Start</a> ()</td></tr>
+<tr class="separator:a680a2d12245625b5fa1cca69a499c704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9df6ecf46307fda9aa1cc56c090aa35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#ab9df6ecf46307fda9aa1cc56c090aa35">Update</a> ()</td></tr>
+<tr class="separator:ab9df6ecf46307fda9aa1cc56c090aa35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a6550cf06b9f81411d3ad2961e7631419"><td class="memItemLeft" align="right" valign="top">Renderer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#a6550cf06b9f81411d3ad2961e7631419">_rend</a></td></tr>
+<tr class="separator:a6550cf06b9f81411d3ad2961e7631419"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa620bb408028e9ef56106d50a685c159"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#aa620bb408028e9ef56106d50a685c159">_lastPos</a></td></tr>
+<tr class="separator:aa620bb408028e9ef56106d50a685c159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8f1e35b383494bf28f99d2b240cd797"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#ad8f1e35b383494bf28f99d2b240cd797">_velocity</a></td></tr>
+<tr class="separator:ad8f1e35b383494bf28f99d2b240cd797"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af50c5d55ac9b449e8bdc8983cb023c6e"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#af50c5d55ac9b449e8bdc8983cb023c6e">_lastRot</a></td></tr>
+<tr class="separator:af50c5d55ac9b449e8bdc8983cb023c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa35118ec266981f8223e506b0ddca7e3"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#aa35118ec266981f8223e506b0ddca7e3">_angularVelocity</a></td></tr>
+<tr class="separator:aa35118ec266981f8223e506b0ddca7e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcead9a15065cca5df274d31723249d7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#abcead9a15065cca5df274d31723249d7">_wobbleAmountX</a></td></tr>
+<tr class="separator:abcead9a15065cca5df274d31723249d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad28028b101bd6674f4c99de05b48cd98"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#ad28028b101bd6674f4c99de05b48cd98">_wobbleAmountZ</a></td></tr>
+<tr class="separator:ad28028b101bd6674f4c99de05b48cd98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c8e21c813a2da6bc20b764b79ea1234"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#a0c8e21c813a2da6bc20b764b79ea1234">_wobbleAmountToAddX</a></td></tr>
+<tr class="separator:a0c8e21c813a2da6bc20b764b79ea1234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac538dbcb8f51325e739918349edf16e8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#ac538dbcb8f51325e739918349edf16e8">_wobbleAmountToAddZ</a></td></tr>
+<tr class="separator:ac538dbcb8f51325e739918349edf16e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a632504832ed243eafc57c03496058f3a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#a632504832ed243eafc57c03496058f3a">_pulse</a></td></tr>
+<tr class="separator:a632504832ed243eafc57c03496058f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace59b6446206d4cdbd523aad4db3eeb8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wobble.html#ace59b6446206d4cdbd523aad4db3eeb8">_time</a> = 0.5f</td></tr>
+<tr class="separator:ace59b6446206d4cdbd523aad4db3eeb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a680a2d12245625b5fa1cca69a499c704" name="a680a2d12245625b5fa1cca69a499c704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a680a2d12245625b5fa1cca69a499c704">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Wobble.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9df6ecf46307fda9aa1cc56c090aa35" name="ab9df6ecf46307fda9aa1cc56c090aa35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9df6ecf46307fda9aa1cc56c090aa35">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Wobble.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a659ce43e9fefbfc9d89a84b0cf81c5ae" name="a659ce43e9fefbfc9d89a84b0cf81c5ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a659ce43e9fefbfc9d89a84b0cf81c5ae">&#9670;&#160;</a></span>MaxWobble</h2>
+<a id="aa35118ec266981f8223e506b0ddca7e3" name="aa35118ec266981f8223e506b0ddca7e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa35118ec266981f8223e506b0ddca7e3">&#9670;&#160;</a></span>_angularVelocity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Wobble._angularVelocity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa620bb408028e9ef56106d50a685c159" name="aa620bb408028e9ef56106d50a685c159"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa620bb408028e9ef56106d50a685c159">&#9670;&#160;</a></span>_lastPos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Wobble._lastPos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af50c5d55ac9b449e8bdc8983cb023c6e" name="af50c5d55ac9b449e8bdc8983cb023c6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af50c5d55ac9b449e8bdc8983cb023c6e">&#9670;&#160;</a></span>_lastRot</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Wobble._lastRot</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a632504832ed243eafc57c03496058f3a" name="a632504832ed243eafc57c03496058f3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a632504832ed243eafc57c03496058f3a">&#9670;&#160;</a></span>_pulse</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Wobble._pulse</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6550cf06b9f81411d3ad2961e7631419" name="a6550cf06b9f81411d3ad2961e7631419"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6550cf06b9f81411d3ad2961e7631419">&#9670;&#160;</a></span>_rend</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Renderer Wobble._rend</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ace59b6446206d4cdbd523aad4db3eeb8" name="ace59b6446206d4cdbd523aad4db3eeb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace59b6446206d4cdbd523aad4db3eeb8">&#9670;&#160;</a></span>_time</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Wobble._time = 0.5f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad8f1e35b383494bf28f99d2b240cd797" name="ad8f1e35b383494bf28f99d2b240cd797"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8f1e35b383494bf28f99d2b240cd797">&#9670;&#160;</a></span>_velocity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Wobble._velocity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c8e21c813a2da6bc20b764b79ea1234" name="a0c8e21c813a2da6bc20b764b79ea1234"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c8e21c813a2da6bc20b764b79ea1234">&#9670;&#160;</a></span>_wobbleAmountToAddX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Wobble._wobbleAmountToAddX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac538dbcb8f51325e739918349edf16e8" name="ac538dbcb8f51325e739918349edf16e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac538dbcb8f51325e739918349edf16e8">&#9670;&#160;</a></span>_wobbleAmountToAddZ</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Wobble._wobbleAmountToAddZ</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abcead9a15065cca5df274d31723249d7" name="abcead9a15065cca5df274d31723249d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcead9a15065cca5df274d31723249d7">&#9670;&#160;</a></span>_wobbleAmountX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Wobble._wobbleAmountX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad28028b101bd6674f4c99de05b48cd98" name="ad28028b101bd6674f4c99de05b48cd98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad28028b101bd6674f4c99de05b48cd98">&#9670;&#160;</a></span>_wobbleAmountZ</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Wobble._wobbleAmountZ</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07c03460a3f4a863857b45ea990a27ed" name="a07c03460a3f4a863857b45ea990a27ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07c03460a3f4a863857b45ea990a27ed">&#9670;&#160;</a></span>maxWobble</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float Wobble.MaxWobble = 0.03f</td>
+          <td class="memname">float Wobble.maxWobble = 0.03f</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aadc84210d0ee4a824a5cc599d5bf7e80" name="aadc84210d0ee4a824a5cc599d5bf7e80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadc84210d0ee4a824a5cc599d5bf7e80">&#9670;&#160;</a></span>Recovery</h2>
+<a id="aef3a191bcdd63fc252aa268061aa1423" name="aef3a191bcdd63fc252aa268061aa1423"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef3a191bcdd63fc252aa268061aa1423">&#9670;&#160;</a></span>recovery</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float Wobble.Recovery = 1f</td>
+          <td class="memname">float Wobble.recovery = 1f</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a65f1d9c046d9b3a7dc233989eaa3173d" name="a65f1d9c046d9b3a7dc233989eaa3173d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65f1d9c046d9b3a7dc233989eaa3173d">&#9670;&#160;</a></span>WobbleSpeed</h2>
+<a id="aafc0602acaa1b998cdbeb9d8ae761c31" name="aafc0602acaa1b998cdbeb9d8ae761c31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafc0602acaa1b998cdbeb9d8ae761c31">&#9670;&#160;</a></span>wobbleSpeed</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float Wobble.WobbleSpeed = 1f</td>
+          <td class="memname">float Wobble.wobbleSpeed = 1f</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -165,7 +492,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_wobble.html">Wobble</a></li>
-    <li class="footer">Generated on Wed Jan 25 2023 12:12:49 for Visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Wed Jan 25 2023 12:58:56 for Visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

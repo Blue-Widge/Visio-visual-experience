@@ -93,10 +93,15 @@ $(document).ready(function(){initNavTree('class_hand_presence.html',''); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_hand_presence-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">HandPresence Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class that detects hands inputs to trigger animations.  
+ <a href="class_hand_presence.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for HandPresence:</div>
 <div class="dyncontent">
@@ -107,9 +112,227 @@ Inheritance diagram for HandPresence:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a0dab6c184f938fcddd4ec557a73236d9"><td class="memItemLeft" align="right" valign="top">InputDeviceCharacteristics&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_presence.html#a0dab6c184f938fcddd4ec557a73236d9">characteristics</a></td></tr>
+<tr class="memdesc:a0dab6c184f938fcddd4ec557a73236d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains characteristics to differentiate a device from another.  <br /></td></tr>
 <tr class="separator:a0dab6c184f938fcddd4ec557a73236d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a32380bc88ae8b2e8995f8f3f34ed3bf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_presence.html#a32380bc88ae8b2e8995f8f3f34ed3bf8">Start</a> ()</td></tr>
+<tr class="memdesc:a32380bc88ae8b2e8995f8f3f34ed3bf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detect if the controllers are being simulated, if not start the DetectDevices() coroutine.  <br /></td></tr>
+<tr class="separator:a32380bc88ae8b2e8995f8f3f34ed3bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72ccbb4b7ef7984f4234b27d9243be4e"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_presence.html#a72ccbb4b7ef7984f4234b27d9243be4e">GetDevices</a> (float delayTime)</td></tr>
+<tr class="memdesc:a72ccbb4b7ef7984f4234b27d9243be4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detect during the whole experience the devices, at all time in case controllers are being disconnected and reconnected.  <br /></td></tr>
+<tr class="separator:a72ccbb4b7ef7984f4234b27d9243be4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac045f32a28f52fe99410488161a64fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_presence.html#aac045f32a28f52fe99410488161a64fc">Update</a> ()</td></tr>
+<tr class="memdesc:aac045f32a28f52fe99410488161a64fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call the UpdateHandAnimator function if an animator is on the hand.  <br /></td></tr>
+<tr class="separator:aac045f32a28f52fe99410488161a64fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92b9f543be6335a0e9eee65e64625f44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_presence.html#a92b9f543be6335a0e9eee65e64625f44">UpdateHandAnimator</a> ()</td></tr>
+<tr class="memdesc:a92b9f543be6335a0e9eee65e64625f44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the hand animator depending on the controller inputs.  <br /></td></tr>
+<tr class="separator:a92b9f543be6335a0e9eee65e64625f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ae9f1c4ec023b10e5de6583b7c497c470"><td class="memItemLeft" align="right" valign="top">List&lt; InputDevice &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_presence.html#ae9f1c4ec023b10e5de6583b7c497c470">_inputDevices</a></td></tr>
+<tr class="memdesc:ae9f1c4ec023b10e5de6583b7c497c470"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains all the detected devices.  <br /></td></tr>
+<tr class="separator:ae9f1c4ec023b10e5de6583b7c497c470"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af76e6cd01ead268a6d221acd4f97a662"><td class="memItemLeft" align="right" valign="top">InputDevice&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_presence.html#af76e6cd01ead268a6d221acd4f97a662">_inputDevice</a></td></tr>
+<tr class="memdesc:af76e6cd01ead268a6d221acd4f97a662"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains the concerned controlled.  <br /></td></tr>
+<tr class="separator:af76e6cd01ead268a6d221acd4f97a662"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a182ef9700524fcb41ecf278b48d647a5"><td class="memItemLeft" align="right" valign="top">Animator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hand_presence.html#a182ef9700524fcb41ecf278b48d647a5">_deviceAnimator</a></td></tr>
+<tr class="memdesc:a182ef9700524fcb41ecf278b48d647a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hand animator.  <br /></td></tr>
+<tr class="separator:a182ef9700524fcb41ecf278b48d647a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class that detects hands inputs to trigger animations. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a72ccbb4b7ef7984f4234b27d9243be4e" name="a72ccbb4b7ef7984f4234b27d9243be4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72ccbb4b7ef7984f4234b27d9243be4e">&#9670;&#160;</a></span>GetDevices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerator HandPresence.GetDevices </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>delayTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Detect during the whole experience the devices, at all time in case controllers are being disconnected and reconnected. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">delayTime</td><td>time to wait before trying to detect again any device connected </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a32380bc88ae8b2e8995f8f3f34ed3bf8" name="a32380bc88ae8b2e8995f8f3f34ed3bf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32380bc88ae8b2e8995f8f3f34ed3bf8">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HandPresence.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Detect if the controllers are being simulated, if not start the DetectDevices() coroutine. </p>
+
+</div>
+</div>
+<a id="aac045f32a28f52fe99410488161a64fc" name="aac045f32a28f52fe99410488161a64fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac045f32a28f52fe99410488161a64fc">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HandPresence.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Call the UpdateHandAnimator function if an animator is on the hand. </p>
+
+</div>
+</div>
+<a id="a92b9f543be6335a0e9eee65e64625f44" name="a92b9f543be6335a0e9eee65e64625f44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92b9f543be6335a0e9eee65e64625f44">&#9670;&#160;</a></span>UpdateHandAnimator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HandPresence.UpdateHandAnimator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Change the hand animator depending on the controller inputs. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a182ef9700524fcb41ecf278b48d647a5" name="a182ef9700524fcb41ecf278b48d647a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a182ef9700524fcb41ecf278b48d647a5">&#9670;&#160;</a></span>_deviceAnimator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Animator HandPresence._deviceAnimator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Hand animator. </p>
+
+</div>
+</div>
+<a id="af76e6cd01ead268a6d221acd4f97a662" name="af76e6cd01ead268a6d221acd4f97a662"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af76e6cd01ead268a6d221acd4f97a662">&#9670;&#160;</a></span>_inputDevice</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">InputDevice HandPresence._inputDevice</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Contains the concerned controlled. </p>
+
+</div>
+</div>
+<a id="ae9f1c4ec023b10e5de6583b7c497c470" name="ae9f1c4ec023b10e5de6583b7c497c470"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9f1c4ec023b10e5de6583b7c497c470">&#9670;&#160;</a></span>_inputDevices</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;InputDevice&gt; HandPresence._inputDevices</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Contains all the detected devices. </p>
+
+</div>
+</div>
 <a id="a0dab6c184f938fcddd4ec557a73236d9" name="a0dab6c184f938fcddd4ec557a73236d9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0dab6c184f938fcddd4ec557a73236d9">&#9670;&#160;</a></span>characteristics</h2>
 
@@ -122,6 +345,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Contains characteristics to differentiate a device from another. </p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -133,7 +358,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_hand_presence.html">HandPresence</a></li>
-    <li class="footer">Generated on Wed Jan 25 2023 12:12:49 for Visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Wed Jan 25 2023 12:58:55 for Visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

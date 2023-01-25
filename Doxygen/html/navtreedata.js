@@ -44,7 +44,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_audio_controller_8cs.html"
+"_audio_controller_8cs.html",
+"functions_evnt.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,32 +1,33 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class LiquidHeightLevel : MonoBehaviour
 {
-    private GameObject _Oil;
+    private GameObject _oil;
     private Renderer _renderer;
-    [SerializeField]
-    private float _bottleHeight;
-    [SerializeField]
-    private float _minHeight;
+    [FormerlySerializedAs("_bottleHeight")] [SerializeField]
+    private float bottleHeight;
+    [FormerlySerializedAs("_minHeight")] [SerializeField]
+    private float minHeight;
     private Vector3 _rotation;
     [SerializeField]
     float rotationVectorX;
-    private static readonly int _level = Shader.PropertyToID("_Level");
+    private static readonly int Level = Shader.PropertyToID("_Level");
 
     // Start is called before the first frame update
     void Start()
     {
-        _Oil = transform.gameObject;
+        _oil = transform.gameObject;
         _renderer = GetComponent<Renderer>();
-        if (!_Oil || !_renderer)
+        if (!_oil || !_renderer)
             this.enabled = false;
-        _bottleHeight = _minHeight = _renderer.material.GetFloat(_level);
+        bottleHeight = minHeight = _renderer.material.GetFloat(Level);
     }
 
     private void Update()
     {
-        rotationVectorX = 2.0f - Vector3.Distance(_Oil.transform.up, Vector3.down);
-        _bottleHeight = Mathf.Lerp(_minHeight, _minHeight + 0.05f, rotationVectorX / 2.0f);
-        _renderer.material.SetFloat(_level, _bottleHeight); 
+        rotationVectorX = 2.0f - Vector3.Distance(_oil.transform.up, Vector3.down);
+        bottleHeight = Mathf.Lerp(minHeight, minHeight + 0.05f, rotationVectorX / 2.0f);
+        _renderer.material.SetFloat(Level, bottleHeight); 
     }
 }

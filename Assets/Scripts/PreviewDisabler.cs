@@ -5,17 +5,17 @@ public class PreviewDisabler : MonoBehaviour
     public int id;
     private void Start()
     {
-        EventSystemHandler.Current.OnFirstActionPerformed += disableAnimationPreview;
+        EventSystemHandler.Current.OnFirstActionPerformed += DisableAnimationPreview;
     }
 
-    private void disableAnimationPreview(int p_id)
+    private void DisableAnimationPreview(int pID)
     {
-        if (id == p_id)
+        if (id == pID)
             Destroy(gameObject);
     }
 
     private void OnDestroy()
     {
-        EventSystemHandler.Current.OnFirstActionPerformed -= disableAnimationPreview;
+        EventSystemHandler.Current.OnFirstActionPerformed -= DisableAnimationPreview;
     }
 }

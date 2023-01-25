@@ -13,19 +13,19 @@ public class PhoneAudio : MonoBehaviour
     public GameObject book;
     public GameObject button;
 
-    private bool played = false;
-    private bool playedRinging = false;
+    private bool _played = false;
+    private bool _playedRinging = false;
 
-    private string hand = "Hand";
-    private bool trigger = true;
-    private float previousSourceLength = 0;
+    private string _hand = "Hand";
+    private bool _trigger = true;
+    private float _previousSourceLength = 0;
     // Start is called before the first frame update
     void Start()
     {
         if (mandatoryPreviousSource != null)
         {
-            trigger = false;
-            previousSourceLength = mandatoryPreviousSource.clip.length;
+            _trigger = false;
+            _previousSourceLength = mandatoryPreviousSource.clip.length;
         }
     }
 
@@ -33,22 +33,22 @@ public class PhoneAudio : MonoBehaviour
     void Update()
     {
         //if (audioSource.isPlaying) played = true;
-        if (!trigger && mandatoryPreviousSource.isPlaying)
+        if (!_trigger && mandatoryPreviousSource.isPlaying)
         {
-            trigger = true;
+            _trigger = true;
         }
-        if (trigger && previousSourceLength >= 0) previousSourceLength -= Time.deltaTime;
-        if (!playedRinging && previousSourceLength <= 0)
+        if (_trigger && _previousSourceLength >= 0) _previousSourceLength -= Time.deltaTime;
+        if (!_playedRinging && _previousSourceLength <= 0)
         {
             AudioController.PlayAudio(audioSource, ringingAudio, true);
-            playedRinging = true;
+            _playedRinging = true;
         }
 
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag(hand) && !played && trigger && previousSourceLength <= 0)
+        if (other.CompareTag(_hand) && !_played && _trigger && _previousSourceLength <= 0)
         {
             AudioController.PlayAudio(audioSource, explanationAudio, false);
             button.SetActive(false);

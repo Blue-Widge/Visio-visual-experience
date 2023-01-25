@@ -5,7 +5,7 @@ using UnityEngine.Experimental.GlobalIllumination;
 
 public class OvenLightController : MonoBehaviour
 {
-    private HingeJoint hingeJoint;
+    private HingeJoint _hingeJoint;
 
     public Light ovenLight;
 
@@ -13,7 +13,7 @@ public class OvenLightController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        hingeJoint = GetComponent<HingeJoint>();
+        _hingeJoint = GetComponent<HingeJoint>();
         
         
     }
@@ -21,7 +21,7 @@ public class OvenLightController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (hingeJoint.angle >= turnOnAngle)
+        if (_hingeJoint.angle >= turnOnAngle)
         {
             ovenLight.enabled = true;
         } else

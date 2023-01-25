@@ -94,6 +94,9 @@ $(document).ready(function(){initNavTree('class_u_i_buttons.html',''); initResiz
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_u_i_buttons-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">UIButtons Class Reference</div></div>
 </div><!--header-->
@@ -130,6 +133,31 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a4b07024232f29384ae3d62082e22a75b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff4756a06773df877c2748ba4509301f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_buttons.html#aff4756a06773df877c2748ba4509301f">updatedThisScene</a> = false</td></tr>
 <tr class="separator:aff4756a06773df877c2748ba4509301f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a1d14186082597b71c7804e2d1558d2d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_buttons.html#a1d14186082597b71c7804e2d1558d2d1">Start</a> ()</td></tr>
+<tr class="separator:a1d14186082597b71c7804e2d1558d2d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa08320000f9e7bbd5487b785f6822a11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_buttons.html#aa08320000f9e7bbd5487b785f6822a11">Update</a> ()</td></tr>
+<tr class="separator:aa08320000f9e7bbd5487b785f6822a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b4d2fdb84fdd4e9536398653d9a21ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_buttons.html#a0b4d2fdb84fdd4e9536398653d9a21ac">SceneChanged</a> (Scene current, Scene next)</td></tr>
+<tr class="separator:a0b4d2fdb84fdd4e9536398653d9a21ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a74c0070449dbe74435676a2f3a034e6d"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_buttons.html#a74c0070449dbe74435676a2f3a034e6d">eyeTracking</a></td></tr>
+<tr class="separator:a74c0070449dbe74435676a2f3a034e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5248f7aa7a05648b12f8833b28eb4172"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_buttons.html#a5248f7aa7a05648b12f8833b28eb4172">tunnelVision</a></td></tr>
+<tr class="separator:a5248f7aa7a05648b12f8833b28eb4172"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ba57c4930dcfc6743eb7e364a80b8ab"><td class="memItemLeft" align="right" valign="top">TunnelingVignetteController&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_buttons.html#a9ba57c4930dcfc6743eb7e364a80b8ab">tunnelingVignetteController</a></td></tr>
+<tr class="separator:a9ba57c4930dcfc6743eb7e364a80b8ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe3185f16265b727713895b7c8579537"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_buttons.html#abe3185f16265b727713895b7c8579537">_tunnelVisionTextValue</a></td></tr>
+<tr class="separator:abe3185f16265b727713895b7c8579537"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ab6c85628da582e956b74e796ec8be444"><td class="memItemLeft" align="right" valign="top">static GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_buttons.html#ab6c85628da582e956b74e796ec8be444">_instance</a></td></tr>
+<tr class="separator:ab6c85628da582e956b74e796ec8be444"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa96311bba36b35e63275faa93d7ec7fc" name="aa96311bba36b35e63275faa93d7ec7fc"></a>
@@ -145,6 +173,67 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b4d2fdb84fdd4e9536398653d9a21ac" name="a0b4d2fdb84fdd4e9536398653d9a21ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b4d2fdb84fdd4e9536398653d9a21ac">&#9670;&#160;</a></span>SceneChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UIButtons.SceneChanged </td>
+          <td>(</td>
+          <td class="paramtype">Scene&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Scene&#160;</td>
+          <td class="paramname"><em>next</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1d14186082597b71c7804e2d1558d2d1" name="a1d14186082597b71c7804e2d1558d2d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d14186082597b71c7804e2d1558d2d1">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UIButtons.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -218,7 +307,98 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa08320000f9e7bbd5487b785f6822a11" name="aa08320000f9e7bbd5487b785f6822a11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa08320000f9e7bbd5487b785f6822a11">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UIButtons.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab6c85628da582e956b74e796ec8be444" name="ab6c85628da582e956b74e796ec8be444"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6c85628da582e956b74e796ec8be444">&#9670;&#160;</a></span>_instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject UIButtons._instance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe3185f16265b727713895b7c8579537" name="abe3185f16265b727713895b7c8579537"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe3185f16265b727713895b7c8579537">&#9670;&#160;</a></span>_tunnelVisionTextValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string UIButtons._tunnelVisionTextValue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74c0070449dbe74435676a2f3a034e6d" name="a74c0070449dbe74435676a2f3a034e6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74c0070449dbe74435676a2f3a034e6d">&#9670;&#160;</a></span>eyeTracking</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject UIButtons.eyeTracking</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab84c31da1479dc591513205a3936043d" name="ab84c31da1479dc591513205a3936043d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab84c31da1479dc591513205a3936043d">&#9670;&#160;</a></span>eyeTrackingToggle</h2>
 
@@ -229,6 +409,50 @@ Public Attributes</h2></td></tr>
           <td class="memname">Toggle UIButtons.eyeTrackingToggle</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ba57c4930dcfc6743eb7e364a80b8ab" name="a9ba57c4930dcfc6743eb7e364a80b8ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ba57c4930dcfc6743eb7e364a80b8ab">&#9670;&#160;</a></span>tunnelingVignetteController</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TunnelingVignetteController UIButtons.tunnelingVignetteController</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5248f7aa7a05648b12f8833b28eb4172" name="a5248f7aa7a05648b12f8833b28eb4172"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5248f7aa7a05648b12f8833b28eb4172">&#9670;&#160;</a></span>tunnelVision</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject UIButtons.tunnelVision</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -298,7 +522,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_u_i_buttons.html">UIButtons</a></li>
-    <li class="footer">Generated on Wed Jan 25 2023 12:12:49 for Visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Wed Jan 25 2023 12:58:56 for Visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

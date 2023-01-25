@@ -6,11 +6,11 @@ using UnityEngine;
 public class TunnelVisionLookAt : MonoBehaviour
 {
     public GameObject targetObject;
-    private RectTransform target;
+    private RectTransform _target;
 
     private void Start()
     {
-        target = targetObject.GetComponent<RectTransform>();
+        _target = targetObject.GetComponent<RectTransform>();
     }
     // Update is called once per frame
     void Update()
@@ -18,7 +18,7 @@ public class TunnelVisionLookAt : MonoBehaviour
         transform.LookAt(Camera.main.transform);
         if (targetObject.activeInHierarchy)
         {
-            transform.LookAt(target);
+            transform.LookAt(_target);
         }
     }
 }

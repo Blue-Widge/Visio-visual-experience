@@ -9,7 +9,7 @@ public class PizzaDone : MonoBehaviour
     public HingeJoint ovenHingeJoint;
     public float hingeAngle = -85;
     public TunnelVisionAlwaysMove locomotionProviderAlwaysMove;
-    private bool finished = false;
+    private bool _finished = false;
     public AudioSource ovenAudioSource;
 
     // Start is called before the first frame update
@@ -20,17 +20,17 @@ public class PizzaDone : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.tag == "Pizza" && ovenHingeJoint.angle < hingeAngle && !finished)
+        if (other.tag == "Pizza" && ovenHingeJoint.angle < hingeAngle && !_finished)
         {
-            finished = true;
-            StartCoroutine(finishGame());
+            _finished = true;
+            StartCoroutine(FinishGame());
         }
     }
 
-    IEnumerator finishGame()
+    IEnumerator FinishGame()
     {
         ovenAudioSource.Play();
         yield return new WaitForSeconds(9f);
-        locomotionProviderAlwaysMove.changeLocoationPhase(LocomotionPhase.Done);
+        locomotionProviderAlwaysMove.ChangeLocoationPhase(LocomotionPhase.Done);
     }
 }

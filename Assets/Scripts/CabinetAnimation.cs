@@ -7,10 +7,10 @@ public class CabinetAnimation : MonoBehaviour
     [SerializeField]
     private Animator animator;
 
-    private readonly string HAND = "Hand";
-    private readonly string TR_VALUE_OPEN = "TrOpen";
-    private readonly string TR_VALUE_CLOSE = "TrClose";
-    private readonly string STATE = "StateOpen";
+    private readonly string _hand = "Hand";
+    private readonly string _trValueOpen = "TrOpen";
+    private readonly string _trValueClose = "TrClose";
+    private readonly string _state = "StateOpen";
 
     //public void OnTriggerEnter(Collider other)
     //{
@@ -32,15 +32,15 @@ public class CabinetAnimation : MonoBehaviour
     public void OpenCabinet()
     {
         Debug.Log("Called");
-        if (!animator.GetBool(STATE))
+        if (!animator.GetBool(_state))
         {
-            animator.SetBool(STATE, true);
-            animator.SetTrigger(TR_VALUE_OPEN);
+            animator.SetBool(_state, true);
+            animator.SetTrigger(_trValueOpen);
         }
         else
         {
-            animator.SetBool(STATE, false);
-            animator.SetTrigger(TR_VALUE_CLOSE);
+            animator.SetBool(_state, false);
+            animator.SetTrigger(_trValueClose);
         }
     }
 }

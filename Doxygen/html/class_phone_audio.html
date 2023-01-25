@@ -93,6 +93,8 @@ $(document).ready(function(){initNavTree('class_phone_audio.html',''); initResiz
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_phone_audio-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">PhoneAudio Class Reference</div></div>
 </div><!--header-->
@@ -118,8 +120,217 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a58c6be1e1dbe7e54e0446f5c4b41b2d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7a552dad750784d5637a713b22af12f"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_phone_audio.html#af7a552dad750784d5637a713b22af12f">button</a></td></tr>
 <tr class="separator:af7a552dad750784d5637a713b22af12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a67ca81d8a4e743607054f68ca08c5ae1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_phone_audio.html#a67ca81d8a4e743607054f68ca08c5ae1">Start</a> ()</td></tr>
+<tr class="separator:a67ca81d8a4e743607054f68ca08c5ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba3d5c607006e89ebb295e8eb5d08aef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_phone_audio.html#aba3d5c607006e89ebb295e8eb5d08aef">Update</a> ()</td></tr>
+<tr class="separator:aba3d5c607006e89ebb295e8eb5d08aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a097f21c799fd0b58bc53a94b034ddd71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_phone_audio.html#a097f21c799fd0b58bc53a94b034ddd71">OnTriggerEnter</a> (Collider other)</td></tr>
+<tr class="separator:a097f21c799fd0b58bc53a94b034ddd71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a1601cfe3b5e2fa60eb94b28e22b3dfa2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_phone_audio.html#a1601cfe3b5e2fa60eb94b28e22b3dfa2">_played</a> = false</td></tr>
+<tr class="separator:a1601cfe3b5e2fa60eb94b28e22b3dfa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af69f58a2f1171637e5e6996b9c570465"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_phone_audio.html#af69f58a2f1171637e5e6996b9c570465">_playedRinging</a> = false</td></tr>
+<tr class="separator:af69f58a2f1171637e5e6996b9c570465"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90a0760b458809c9932023e36295c38f"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_phone_audio.html#a90a0760b458809c9932023e36295c38f">_hand</a> = &quot;Hand&quot;</td></tr>
+<tr class="separator:a90a0760b458809c9932023e36295c38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae91aa0af35ef41910606a251e981c3a7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_phone_audio.html#ae91aa0af35ef41910606a251e981c3a7">_trigger</a> = true</td></tr>
+<tr class="separator:ae91aa0af35ef41910606a251e981c3a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed42d5bf4e833842d19a27fb5f68a517"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_phone_audio.html#aed42d5bf4e833842d19a27fb5f68a517">_previousSourceLength</a> = 0</td></tr>
+<tr class="separator:aed42d5bf4e833842d19a27fb5f68a517"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a097f21c799fd0b58bc53a94b034ddd71" name="a097f21c799fd0b58bc53a94b034ddd71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a097f21c799fd0b58bc53a94b034ddd71">&#9670;&#160;</a></span>OnTriggerEnter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhoneAudio.OnTriggerEnter </td>
+          <td>(</td>
+          <td class="paramtype">Collider&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a67ca81d8a4e743607054f68ca08c5ae1" name="a67ca81d8a4e743607054f68ca08c5ae1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67ca81d8a4e743607054f68ca08c5ae1">&#9670;&#160;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhoneAudio.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba3d5c607006e89ebb295e8eb5d08aef" name="aba3d5c607006e89ebb295e8eb5d08aef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba3d5c607006e89ebb295e8eb5d08aef">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhoneAudio.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a90a0760b458809c9932023e36295c38f" name="a90a0760b458809c9932023e36295c38f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90a0760b458809c9932023e36295c38f">&#9670;&#160;</a></span>_hand</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string PhoneAudio._hand = &quot;Hand&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1601cfe3b5e2fa60eb94b28e22b3dfa2" name="a1601cfe3b5e2fa60eb94b28e22b3dfa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1601cfe3b5e2fa60eb94b28e22b3dfa2">&#9670;&#160;</a></span>_played</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhoneAudio._played = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af69f58a2f1171637e5e6996b9c570465" name="af69f58a2f1171637e5e6996b9c570465"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af69f58a2f1171637e5e6996b9c570465">&#9670;&#160;</a></span>_playedRinging</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhoneAudio._playedRinging = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed42d5bf4e833842d19a27fb5f68a517" name="aed42d5bf4e833842d19a27fb5f68a517"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed42d5bf4e833842d19a27fb5f68a517">&#9670;&#160;</a></span>_previousSourceLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float PhoneAudio._previousSourceLength = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae91aa0af35ef41910606a251e981c3a7" name="ae91aa0af35ef41910606a251e981c3a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae91aa0af35ef41910606a251e981c3a7">&#9670;&#160;</a></span>_trigger</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhoneAudio._trigger = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a35889c2dbd335929ebc5d628cd6d2b27" name="a35889c2dbd335929ebc5d628cd6d2b27"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a35889c2dbd335929ebc5d628cd6d2b27">&#9670;&#160;</a></span>audioSource</h2>
 
@@ -213,7 +424,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_phone_audio.html">PhoneAudio</a></li>
-    <li class="footer">Generated on Wed Jan 25 2023 12:12:49 for Visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Wed Jan 25 2023 12:58:55 for Visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

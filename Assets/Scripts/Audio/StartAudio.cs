@@ -10,33 +10,33 @@ public class StartAudio : MonoBehaviour
     public AudioSource mandatoryPreviousSource;
     public VideoPlayer videoPlayer;
 
-    private bool played = false;
+    private bool _played = false;
 
-    private string hand = "Hand";
-    private bool trigger = true;
-    private float previousSourceLength = 0;
+    private string _hand = "Hand";
+    private bool _trigger = true;
+    private float _previousSourceLength = 0;
 
     // Start is called before the first frame update
     void Start()
     {
         if (mandatoryPreviousSource != null)
         {
-            trigger = false;
-            previousSourceLength = mandatoryPreviousSource.clip.length;
+            _trigger = false;
+            _previousSourceLength = mandatoryPreviousSource.clip.length;
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (audioSource.isPlaying) played = true;
-        if (!trigger && mandatoryPreviousSource.isPlaying) trigger = true;
-        if (trigger && previousSourceLength >= 0) previousSourceLength -= Time.deltaTime;
+        if (audioSource.isPlaying) _played = true;
+        if (!_trigger && mandatoryPreviousSource.isPlaying) _trigger = true;
+        if (_trigger && _previousSourceLength >= 0) _previousSourceLength -= Time.deltaTime;
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag(hand) && !played && trigger && previousSourceLength <= 0)
+        if (other.CompareTag(_hand) && !_played && _trigger && _previousSourceLength <= 0)
         {
             videoPlayer.Play();
             AudioController.PlayAudio(audioSource, audioSource.clip, false);

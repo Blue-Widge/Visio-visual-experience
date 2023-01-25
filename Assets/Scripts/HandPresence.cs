@@ -4,14 +4,21 @@ using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation;
 
+/**
+ * @brief Class that detects hands inputs to trigger animations
+ */
 public class HandPresence : MonoBehaviour
 {
+    /** @brief Contains characteristics to differentiate a device from another*/
     public InputDeviceCharacteristics characteristics;
-    private List<InputDevice> inputDevices;
-    private InputDevice inputDevice;
-    private Animator deviceAnimator;
-
-// Start is called before the first frame update
+    /** @brief Contains all the detected devices */
+    private List<InputDevice> _inputDevices;
+    /** @brief Contains the concerned controlled */
+    private InputDevice _inputDevice;
+    /** @brief Hand animator */
+    private Animator _deviceAnimator;
+    
+    /** @brief Detect if the controllers are being simulated, if not start the DetectDevices() coroutine*/
     void Start()
     {
         if (GameObject.FindGameObjectWithTag("XR Device Simulator"))
@@ -21,44 +28,48 @@ public class HandPresence : MonoBehaviour
             return;
         }
         Debug.Log("Device Simulator is disabled");
-        inputDevices = new List<InputDevice>();
+        _inputDevices = new List<InputDevice>();
         StartCoroutine(GetDevices(1.0f));
     }
-
+    
+    /** @brief Detect during the whole experience the devices, at all time in case controllers are being disconnected and reconnected
+     * \param[in] delayTime time to wait before trying to detect again any device connected
+     */
     IEnumerator GetDevices(float delayTime)
     {
         yield return new WaitForSeconds(delayTime);
 
-        InputDevices.GetDevices(inputDevices);
+        InputDevices.GetDevices(_inputDevices);
 
-        foreach (var item in inputDevices)
+        foreach (var item in _inputDevices)
             Debug.Log(item.name + item.characteristics);
 
-        if (inputDevices.Count > 1)
+        if (_inputDevices.Count > 1)
         {
-            InputDevices.GetDevicesWithCharacteristics(characteristics, inputDevices);
-            inputDevice = inputDevices[0];
-            deviceAnimator = GetComponent<Animator>();
+            InputDevices.GetDevicesWithCharacteristics(characteristics, _inputDevices);
+            _inputDevice = _inputDevices[0];
+            _deviceAnimator = GetComponent<Animator>();
         }
     }
-
-    // Update is called once per frame
+    
+    /** @brief Call the UpdateHandAnimator function if an animator is on the hand */
     void Update()
     {
-        if (deviceAnimator != null)
+        if (_deviceAnimator != null)
             UpdateHandAnimator();
     }
-
+    
+    /** @brief Change the hand animator depending on the controller inputs */
     void UpdateHandAnimator()
     {
-        if (inputDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue))
-            deviceAnimator.SetFloat("Trigger", triggerValue);
+        if (_inputDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue))
+            _deviceAnimator.SetFloat("Trigger", triggerValue);
         else
-            deviceAnimator.SetFloat("Trigger", .0f);
+            _deviceAnimator.SetFloat("Trigger", .0f);
 
-        if (inputDevice.TryGetFeatureValue(CommonUsages.grip, out float gripValue))
-            deviceAnimator.SetFloat("Grip", gripValue);
+        if (_inputDevice.TryGetFeatureValue(CommonUsages.grip, out float gripValue))
+            _deviceAnimator.SetFloat("Grip", gripValue);
         else
-            deviceAnimator.SetFloat("Grip", .0f);
+            _deviceAnimator.SetFloat("Grip", .0f);
     }
 }

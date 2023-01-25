@@ -18,8 +18,8 @@ public class UIButtons : MonoBehaviour
     private TunnelingVignetteController tunnelingVignetteController;
     public Slider tunnelVisionSlider;
     public TextMeshProUGUI tunnelVisionSizeText;
-    private string tunnelVisionTextValue;
-    private static GameObject instance;
+    private string _tunnelVisionTextValue;
+    private static GameObject _instance;
     public Toggle eyeTrackingToggle;
     public Toggle tunnelVisionToggle;
     public bool updatedThisScene = false;
@@ -28,9 +28,9 @@ public class UIButtons : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(this);
-        if (instance == null)
+        if (_instance == null)
         {
-            instance = this.gameObject;
+            _instance = this.gameObject;
         }
         else
         {
@@ -72,8 +72,8 @@ public class UIButtons : MonoBehaviour
         tunnelingVignetteController.defaultParameters.apertureSize = tunnelVisionSlider.value;
         Debug.LogWarning("slider size= " + tunnelVisionSlider.value);
         Debug.LogWarning("size= " + tunnelingVignetteController.defaultParameters.apertureSize);
-        tunnelVisionTextValue = Math.Round(tunnelVisionSlider.value, 3).ToString();
-        tunnelVisionSizeText.text = tunnelVisionTextValue;
+        _tunnelVisionTextValue = Math.Round(tunnelVisionSlider.value, 3).ToString();
+        tunnelVisionSizeText.text = _tunnelVisionTextValue;
     }
 
     public void ResetGame()

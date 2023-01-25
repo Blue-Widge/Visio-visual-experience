@@ -6,7 +6,7 @@ public class HandAnimationHallway : MonoBehaviour
 {
     public GameObject handPointer;
 
-    private string hand = "Hand";
+    private string _hand = "Hand";
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class HandAnimationHallway : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag(hand))
+        if (other.CompareTag(_hand))
         {
             handPointer.SetActive(false);
         }

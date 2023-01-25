@@ -6,35 +6,35 @@ public class CabinetAudioController : MonoBehaviour
 {
     public AudioSource audioSource;
     public AudioSource mandatoryPreviousSource;
-    private HingeJoint hingeJoint;
+    private HingeJoint _hingeJoint;
 
     public int turnOnAngle;
     public bool playWhenSmaller;
-    private bool played = false;
-    private float previousSourceLength = 0;
+    private bool _played = false;
+    private float _previousSourceLength = 0;
 
-    private bool trigger = false;
+    private bool _trigger = false;
     // Start is called before the first frame update
     void Start()
     {
-        hingeJoint = GetComponent<HingeJoint>();
-        previousSourceLength = mandatoryPreviousSource.clip.length;
+        _hingeJoint = GetComponent<HingeJoint>();
+        _previousSourceLength = mandatoryPreviousSource.clip.length;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!trigger && mandatoryPreviousSource.isPlaying) trigger = true;
-        if (trigger && previousSourceLength >= 0) previousSourceLength -= Time.deltaTime;
-        if (audioSource.isPlaying) played = true;
-        if (trigger && playWhenSmaller && hingeJoint.angle <= turnOnAngle && !played && previousSourceLength <= 0)
+        if (!_trigger && mandatoryPreviousSource.isPlaying) _trigger = true;
+        if (_trigger && _previousSourceLength >= 0) _previousSourceLength -= Time.deltaTime;
+        if (audioSource.isPlaying) _played = true;
+        if (_trigger && playWhenSmaller && _hingeJoint.angle <= turnOnAngle && !_played && _previousSourceLength <= 0)
         {
-            played = true;
+            _played = true;
             AudioController.PlayAudio(audioSource, audioSource.clip, false);
         }
-        else if (trigger && !playWhenSmaller && hingeJoint.angle >= turnOnAngle && !played && previousSourceLength <= 0)
+        else if (_trigger && !playWhenSmaller && _hingeJoint.angle >= turnOnAngle && !_played && _previousSourceLength <= 0)
         {
-            played = true;
+            _played = true;
             AudioController.PlayAudio(audioSource, audioSource.clip, false);
         }
     }
