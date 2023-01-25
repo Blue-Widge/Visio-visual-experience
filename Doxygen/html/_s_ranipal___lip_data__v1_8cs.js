@@ -1,0 +1,35 @@
+var _s_ranipal___lip_data__v1_8cs =
+[
+    [ "ViveSR.anipal.Lip.PredictionData", "struct_vive_s_r_1_1anipal_1_1_lip_1_1_prediction_data.html", "struct_vive_s_r_1_1anipal_1_1_lip_1_1_prediction_data" ],
+    [ "ViveSR.anipal.Lip.LipData", "struct_vive_s_r_1_1anipal_1_1_lip_1_1_lip_data.html", "struct_vive_s_r_1_1anipal_1_1_lip_1_1_lip_data" ],
+    [ "LipShape", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654", [
+      [ "None", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Jaw_Forward", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654a9eaad0078f345decd8d261dcfbae3062", null ],
+      [ "Jaw_Right", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654a7b49e595f3721f44cf6fef29b6f5c510", null ],
+      [ "Jaw_Left", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654afd35946d108eeb486d00765db4930fcc", null ],
+      [ "Jaw_Open", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654ae0b1b39246e3d70b51ae0ce26eab8775", null ],
+      [ "Mouth_Ape_Shape", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654af4a4268d375d72835017d6652869dfa9", null ],
+      [ "Mouth_O_Shape", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654adb4236bea142806f5836cc11207a6544", null ],
+      [ "Mouth_Pout", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654a6f4923e2c2d3ddc5a8d547dcff262fd4", null ],
+      [ "Mouth_Lower_Right", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654a2e70aa282d175f98652ee0c66dd69a72", null ],
+      [ "Mouth_Lower_Left", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654acdc3fada308c6fd4f5b39b84c5467971", null ],
+      [ "Mouth_Smile_Right", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654a8e12a717d854826e513021b030791caa", null ],
+      [ "Mouth_Smile_Left", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654ad20a132d092193a66447085c16e87172", null ],
+      [ "Mouth_Sad_Right", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654a27b102f3e4c2d206d0b6c7207009db8f", null ],
+      [ "Mouth_Sad_Left", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654a716738d7b90859a576823c42dd9ebc3f", null ],
+      [ "Cheek_Puff_Right", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654abcb2145deb3546df50d6a26cfd5c27cf", null ],
+      [ "Cheek_Puff_Left", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654addcddb62cd81a4fc012d71f760e07a94", null ],
+      [ "Mouth_Lower_Inside", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654a393bffda3ce2eba9509b528ed9c22d53", null ],
+      [ "Mouth_Upper_Inside", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654acf3079f8553666cc6108bf6ba7b03411", null ],
+      [ "Mouth_Lower_Overlay", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654a2b561a937d574c68ecbe663600a8dc2e", null ],
+      [ "Mouth_Upper_Overlay", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654aaa3fa738104d11547cec865e12b990d1", null ],
+      [ "Cheek_Suck", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654a67b541f049a51adc5d4e2492c04e64a6", null ],
+      [ "Mouth_LowerRight_Down", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654a3849c584f33638b490d15bf33b63cac4", null ],
+      [ "Mouth_LowerLeft_Down", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654a3e26cdb4a219fde69ba889a453a83224", null ],
+      [ "Mouth_UpperRight_Up", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654adcad9c44f25df683f34d3918267fe9df", null ],
+      [ "Mouth_UpperLeft_Up", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654afa277c79cf36d2ab5e491795614e8038", null ],
+      [ "Mouth_Philtrum_Right", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654aabca7ac22acdd73d8b7d63d76aaf8639", null ],
+      [ "Mouth_Philtrum_Left", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654aa40fc7ff6639951d57fcc2423d017180", null ],
+      [ "Max", "_s_ranipal___lip_data__v1_8cs.html#abefa447d4797b9e59e6ece08481bf654a6a061313d22e51e0f25b7cd4dc065233", null ]
+    ] ]
+];

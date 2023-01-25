@@ -1,0 +1,28 @@
+var class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample =
+[
+    [ "CreateEyeAnchors", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#ad50e85eaa1403f9078a30b1d39b94c27", null ],
+    [ "DestroyEyeAnchors", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#a6de30071910eff03118f09ebf93f8878", null ],
+    [ "EyeCallback", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#a7885c8d3ba876eace8548f803e29c680", null ],
+    [ "OnDestroy", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#ac4ecf22a9f3fad1b05be072258978efa", null ],
+    [ "Release", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#adf778fa7ac4557617a822cfdd3527ab6", null ],
+    [ "RenderModelEyeShape", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#aac354cabceba5d5260d3ec7bebe1418b", null ],
+    [ "SetEyeShapeAnimationCurves", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#aa0242c518ff188c5f8ac2fdc065722a3", null ],
+    [ "SetEyeShapeTables", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#a0a73c734cd25705e8c896047cfa7f046", null ],
+    [ "SetEyesModels", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#a53e16e27e1162462ab6e3077477dfbd3", null ],
+    [ "Start", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#ab90703625d8c5134189992684ec5597a", null ],
+    [ "Update", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#a9cc785d1c7d718fbeee73ad25acb049f", null ],
+    [ "UpdateEyeShapes", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#a6891792276cc7a9b556e1f40891a552b", null ],
+    [ "UpdateGazeRay", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#ae47504cdbb35b610cc28887e362841bf", null ],
+    [ "eye_callback_registered", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#a925dbda0ef849384b7c4e2cbf7c78c31", null ],
+    [ "EyeAnchors", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#ac806e69ebfbbe2e7bffedce032a25df6", null ],
+    [ "EyebrowAnimationCurveHorizontal", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#a3c7955d24b574800148ed7d7a6d0d858", null ],
+    [ "EyebrowAnimationCurveLower", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#aa0932ee6f21baf3bdc49c8e5f6ff07f4", null ],
+    [ "EyebrowAnimationCurves", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#a365cc4e92bab60603f350b2d362759c0", null ],
+    [ "EyebrowAnimationCurveUpper", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#a6df913adcd0f06983aed17ae5b86e443", null ],
+    [ "eyeData", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#a9a61dcd77a5a3777ad92b1ff95cba540", null ],
+    [ "EyeShapeTables", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#a5974de48883e50a6b09bf6df7fecd853", null ],
+    [ "EyesModels", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#a81d0079a66978137eea91a0e840c1ae3", null ],
+    [ "EyeWeightings", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#ab07c3afa6db4896c22dcd5b07b0e8f83", null ],
+    [ "NeededToGetData", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#a634c8d8eae24b980d00b71b13030c7b8", null ],
+    [ "NUM_OF_EYES", "class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#a4bdd7fa199dd2a910e2989c563a69bc8", null ]
+];

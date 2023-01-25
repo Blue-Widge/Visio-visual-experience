@@ -2,23 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/** @brief Class that handles the keypad LEDs on the phone */
+
 public class PhoneFlickerButton : MonoBehaviour
 {
+    /** @brief Material of the LED */
     public Material flickMat;
     public AudioSource phoneTringAudioSource;
     public bool phoneIsTringing;
     public float timer = 0;
     public float timerCoolDown;
 
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-       // flickMat = GetComponent<Material>();
-    }
-
-    // Update is called once per frame
+    /** @brief Set the LED to black if the phone isn't ringing, otherwise makes it flick between black and red */
     void Update()
     {
         phoneIsTringing = phoneTringAudioSource.isPlaying;

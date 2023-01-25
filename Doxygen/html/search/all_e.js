@@ -1,7 +1,20 @@
 var searchData=
 [
-  ['recipematerial_0',['recipeMaterial',['../class_pizza_in_order.html#aeee604cdc5ac1d05eb01a99186338e73',1,'PizzaInOrder']]],
-  ['recovery_1',['recovery',['../class_wobble.html#aef3a191bcdd63fc252aa268061aa1423',1,'Wobble']]],
-  ['resetgame_2',['ResetGame',['../class_u_i_buttons.html#aa96311bba36b35e63275faa93d7ec7fc',1,'UIButtons']]],
-  ['ringingaudio_3',['ringingAudio',['../class_phone_audio.html#ac472064b99943f44ce3f7bd2002fdedf',1,'PhoneAudio']]]
+  ['neededtogetdata_0',['NeededToGetData',['../class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#a634c8d8eae24b980d00b71b13030c7b8',1,'ViveSR.anipal.Eye.SRanipal_AvatarEyeSample.NeededToGetData()'],['../class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample__v2.html#a9b388aeb35f46cddb4aeed0b0a478b15',1,'ViveSR.anipal.Eye.SRanipal_AvatarEyeSample_v2.NeededToGetData()'],['../class_vive_s_r_1_1anipal_1_1_lip_1_1_s_ranipal___avatar_lip_sample.html#af1610078964a89cc2803a86508bdefbb',1,'ViveSR.anipal.Lip.SRanipal_AvatarLipSample.NeededToGetData()'],['../class_vive_s_r_1_1anipal_1_1_lip_1_1_s_ranipal___avatar_lip_sample__v2.html#aee70022faae69d7ad6dda0a3b5b91949',1,'ViveSR.anipal.Lip.SRanipal_AvatarLipSample_v2.NeededToGetData()']]],
+  ['no_5fuser_1',['no_user',['../struct_vive_s_r_1_1anipal_1_1_eye_1_1_eye_data.html#a43a12fa28903fdcccb1bc10a98273c6d',1,'ViveSR.anipal.Eye.EyeData.no_user()'],['../struct_vive_s_r_1_1anipal_1_1_eye_1_1_eye_data__v2.html#a59adb0b69e2d407b76c751ccf76f92bf',1,'ViveSR.anipal.Eye.EyeData_v2.no_user()']]],
+  ['node_5fnot_5fexist_2',['NODE_NOT_EXIST',['../namespace_vive_s_r.html#ac705c99346a2b03e9c16a201bd497d4cab1f1a752a8b1e1639859300c5d961026',1,'ViveSR']]],
+  ['none_3',['None',['../namespace_vive_s_r_1_1anipal_1_1_eye.html#af640cd813da89868bfe8facfc4a53171a6adf97f83acf6453d4a6a4b1070f3754',1,'ViveSR.anipal.Eye.None()'],['../namespace_vive_s_r_1_1anipal_1_1_eye.html#a2742609d9f6d563c0b762f742064461aa6adf97f83acf6453d4a6a4b1070f3754',1,'ViveSR.anipal.Eye.None()'],['../namespace_vive_s_r_1_1anipal_1_1_lip.html#abefa447d4797b9e59e6ece08481bf654a6adf97f83acf6453d4a6a4b1070f3754',1,'ViveSR.anipal.Lip.None()'],['../namespace_vive_s_r_1_1anipal_1_1_lip.html#a6dab9ac79c7549fb3aafb7678eee3357a6adf97f83acf6453d4a6a4b1070f3754',1,'ViveSR.anipal.Lip.None()']]],
+  ['normal_4',['normal',['../struct_vive_s_r_1_1anipal_1_1_eye_1_1_focus_info.html#aa4d5ff37d109aa4d2788b3e9f2112e02',1,'ViveSR::anipal::Eye::FocusInfo']]],
+  ['not_5fauthorized_5',['NOT_AUTHORIZED',['../namespace_vive_s_r.html#ac705c99346a2b03e9c16a201bd497d4cae4db4f5f832166a100de8888a273b4f2',1,'ViveSR']]],
+  ['not_5favailable_6',['NOT_AVAILABLE',['../namespace_vive_s_r.html#ac705c99346a2b03e9c16a201bd497d4cad07995fa8f4a3a019d134fcbfca4669a',1,'ViveSR']]],
+  ['not_5fimplemented_7',['NOT_IMPLEMENTED',['../namespace_vive_s_r.html#ac705c99346a2b03e9c16a201bd497d4ca3e860a081575fc82cc7b6ed2ca602947',1,'ViveSR']]],
+  ['not_5finitial_8',['NOT_INITIAL',['../namespace_vive_s_r.html#ac705c99346a2b03e9c16a201bd497d4caed97178bcbff55ae98cebd84798a0e12',1,'ViveSR']]],
+  ['not_5fmatch_9',['NOT_MATCH',['../namespace_vive_s_r.html#ac705c99346a2b03e9c16a201bd497d4ca3850ecd82d5cc81641ac02f11449ea01',1,'ViveSR']]],
+  ['not_5fsupport_10',['NOT_SUPPORT',['../class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___eye___framework.html#aa1512f91cef292b24c86003215465162aada4b455ebd6b121160080cfb3a52db9',1,'ViveSR::anipal::Eye::SRanipal_Eye_Framework']]],
+  ['not_5fsupport_5feye_5ftracking_11',['NOT_SUPPORT_EYE_TRACKING',['../namespace_vive_s_r.html#ac705c99346a2b03e9c16a201bd497d4ca95542dd7a1482733788ab583f59d5cc3',1,'ViveSR']]],
+  ['not_5fsupported_12',['NOT_SUPPORTED',['../namespace_vive_s_r.html#ac705c99346a2b03e9c16a201bd497d4ca5343bcd21aad65124478a61831f6949e',1,'ViveSR']]],
+  ['null_5fpointer_13',['NULL_POINTER',['../namespace_vive_s_r.html#ac705c99346a2b03e9c16a201bd497d4cab0944ab2f24069b66f78e66edde810a0',1,'ViveSR']]],
+  ['num_5fof_5feyes_14',['NUM_OF_EYES',['../class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample.html#a4bdd7fa199dd2a910e2989c563a69bc8',1,'ViveSR.anipal.Eye.SRanipal_AvatarEyeSample.NUM_OF_EYES()'],['../class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___avatar_eye_sample__v2.html#a8e3df0ebe3185e51400f14f920c69e4e',1,'ViveSR.anipal.Eye.SRanipal_AvatarEyeSample_v2.NUM_OF_EYES()']]],
+  ['numberofnpc_15',['NumberOfNPC',['../class_t_m_pro_1_1_examples_1_1_benchmark02.html#ab564edc57654d2d1a52a5dd012f3b63e',1,'TMPro.Examples.Benchmark02.NumberOfNPC()'],['../class_t_m_pro_1_1_examples_1_1_text_mesh_spawner.html#a27f2e4feca0ce34a67de071e9e256bfb',1,'TMPro.Examples.TextMeshSpawner.NumberOfNPC()']]],
+  ['numberofsamples_16',['NumberOfSamples',['../class_t_m_pro_1_1_examples_1_1_benchmark03.html#a0018cd82081205ac1379fa8e66a394f0',1,'TMPro::Examples::Benchmark03']]]
 ];

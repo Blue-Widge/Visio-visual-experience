@@ -1,10 +1,26 @@
 var searchData=
 [
-  ['characteristics_0',['characteristics',['../class_hand_presence.html#a0dab6c184f938fcddd4ec557a73236d9',1,'HandPresence']]],
-  ['collidewith_1',['collideWith',['../class_change_scene.html#a90f440a20146ed4367c2c200aa0cc41f',1,'ChangeScene']]],
-  ['container_2',['container',['../class_bowl_handler.html#ac9e75eb02c340adad8e26375e5f50113',1,'BowlHandler']]],
-  ['containerhingejoint_3',['containerHingeJoint',['../class_hide_container_content.html#a34151fca7f0f6e5262f8e841a31e1139',1,'HideContainerContent']]],
-  ['containerspringjoint_4',['containerSpringJoint',['../class_hide_container_content.html#a4a25c0b94c02e9aaa8122fa334932a7d',1,'HideContainerContent']]],
-  ['content_5',['content',['../class_bowl_handler.html#a7e67fa9d31d9606696fe6b3e9639a27b',1,'BowlHandler.content()'],['../class_hide_container_content.html#ab36c62d2e23704df2151268b89f0e60c',1,'HideContainerContent.content()']]],
-  ['current_6',['Current',['../class_event_system_handler.html#a79d16c1a359238f5713c68db38176b9b',1,'EventSystemHandler']]]
+  ['cameramode_0',['CameraMode',['../class_t_m_pro_1_1_examples_1_1_camera_controller.html#a27513135088672400a14f64275a45190',1,'TMPro::Examples::CameraController']]],
+  ['cameratarget_1',['CameraTarget',['../class_t_m_pro_1_1_examples_1_1_camera_controller.html#a185480dc2cf1a5f480549dfebc0ee8e7',1,'TMPro::Examples::CameraController']]],
+  ['cameratransform_2',['cameraTransform',['../class_t_m_pro_1_1_examples_1_1_camera_controller.html#ac36764811b8b0bf7bc28f5d94652c86c',1,'TMPro::Examples::CameraController']]],
+  ['canvas_3',['canvas',['../class_t_m_pro_1_1_examples_1_1_benchmark01___u_g_u_i.html#a02cfe9754494cce88d818ab75c1da2d9',1,'TMPro::Examples::Benchmark01_UGUI']]],
+  ['characteristics_4',['characteristics',['../class_hand_presence.html#a0dab6c184f938fcddd4ec557a73236d9',1,'HandPresence']]],
+  ['chatdisplayoutput_5',['ChatDisplayOutput',['../class_chat_controller.html#a8878195f15891c5c291673c5117010b6',1,'ChatController']]],
+  ['chatinputfield_6',['ChatInputField',['../class_chat_controller.html#a79979151cb7bb96b48ec5ab977facaf5',1,'ChatController']]],
+  ['chatscrollbar_7',['ChatScrollbar',['../class_chat_controller.html#a76cac89a1da8d005d5da2e3a2a93de57',1,'ChatController']]],
+  ['clockspeed_8',['clockSpeed',['../class_clock.html#a266d039d7982e11a1f3630bc44572ea5',1,'Clock']]],
+  ['collider_9',['collider',['../struct_vive_s_r_1_1anipal_1_1_eye_1_1_focus_info.html#a1e398be9f6b92873dcb8d69d5919905b',1,'ViveSR::anipal::Eye::FocusInfo']]],
+  ['collidewith_10',['collideWith',['../class_change_scene.html#a90f440a20146ed4367c2c200aa0cc41f',1,'ChangeScene']]],
+  ['combined_11',['combined',['../struct_vive_s_r_1_1anipal_1_1_eye_1_1_verbose_data.html#ac05a2cb6e374030c0630b2161a285137',1,'ViveSR::anipal::Eye::VerboseData']]],
+  ['container_12',['container',['../class_bowl_handler.html#ac9e75eb02c340adad8e26375e5f50113',1,'BowlHandler']]],
+  ['containerhingejoint_13',['containerHingeJoint',['../class_hide_container_content.html#a34151fca7f0f6e5262f8e841a31e1139',1,'HideContainerContent']]],
+  ['containerspringjoint_14',['containerSpringJoint',['../class_hide_container_content.html#a4a25c0b94c02e9aaa8122fa334932a7d',1,'HideContainerContent']]],
+  ['content_15',['content',['../class_bowl_handler.html#a7e67fa9d31d9606696fe6b3e9639a27b',1,'BowlHandler.content()'],['../class_hide_container_content.html#ab36c62d2e23704df2151268b89f0e60c',1,'HideContainerContent.content()']]],
+  ['controller_16',['controller',['../class_soja_exiles_1_1_player_movement.html#ad814c0ba68963c2a4f0a40f540981625',1,'SojaExiles::PlayerMovement']]],
+  ['convergence_5fdistance_5fmm_17',['convergence_distance_mm',['../struct_vive_s_r_1_1anipal_1_1_eye_1_1_combined_eye_data.html#a7f1470a11b63bc7953fec044db654cab',1,'ViveSR::anipal::Eye::CombinedEyeData']]],
+  ['convergence_5fdistance_5fvalidity_18',['convergence_distance_validity',['../struct_vive_s_r_1_1anipal_1_1_eye_1_1_combined_eye_data.html#aed520aa229d6cf3063dd3e76a3d0e331',1,'ViveSR::anipal::Eye::CombinedEyeData']]],
+  ['count_19',['count',['../class_t_m_pro_1_1_examples_1_1_t_m_p___example_script__01.html#a1143f9bc8f88dd6da716bc495578b1e3',1,'TMPro.Examples.TMP_ExampleScript_01.count()'],['../struct_vive_s_r_1_1anipal_1_1_eye_1_1_tracking_improvements.html#a17b67b4f2aff0a888518bdbd3f1194f3',1,'ViveSR.anipal.Eye.TrackingImprovements.count()']]],
+  ['current_20',['Current',['../class_event_system_handler.html#a79d16c1a359238f5713c68db38176b9b',1,'EventSystemHandler']]],
+  ['currentvelocity_21',['currentVelocity',['../class_t_m_pro_1_1_examples_1_1_camera_controller.html#a3e6b37b51a026049ac063a651f95f56c',1,'TMPro::Examples::CameraController']]],
+  ['curvescale_22',['CurveScale',['../class_t_m_pro_1_1_examples_1_1_skew_text_example.html#a99a24dc0d0b4c3c9ae46c925a57031f1',1,'TMPro.Examples.SkewTextExample.CurveScale()'],['../class_t_m_pro_1_1_examples_1_1_vertex_jitter.html#a2950cda059be7e08282d0caee720df49',1,'TMPro.Examples.VertexJitter.CurveScale()'],['../class_t_m_pro_1_1_examples_1_1_vertex_shake_b.html#ab3c2718cdb0b13d63b37cc869801ce88',1,'TMPro.Examples.VertexShakeB.CurveScale()'],['../class_t_m_pro_1_1_examples_1_1_vertex_zoom.html#aaaaaeb0655b1d974a085b416c2e13522',1,'TMPro.Examples.VertexZoom.CurveScale()'],['../class_t_m_pro_1_1_examples_1_1_warp_text_example.html#aa76e772eda39a25ba1d9f033f6fc516c',1,'TMPro.Examples.WarpTextExample.CurveScale()']]]
 ];

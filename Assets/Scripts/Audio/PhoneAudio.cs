@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/** @brief Class that handles the phone audio playing */
 public class PhoneAudio : MonoBehaviour
 {
     public AudioSource audioSource;
@@ -19,7 +20,8 @@ public class PhoneAudio : MonoBehaviour
     private string _hand = "Hand";
     private bool _trigger = true;
     private float _previousSourceLength = 0;
-    // Start is called before the first frame update
+
+    /** @brief Checks if the previous audio is set, if so set the length of the audio clip.*/
     void Start()
     {
         if (mandatoryPreviousSource != null)
@@ -29,7 +31,9 @@ public class PhoneAudio : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
+    /** @brief 	Detect if the audio source has begun, if so decrease the length of the audio clip by the time. 
+      * Once the first audio ended, play the phone ringing
+      */
     void Update()
     {
         //if (audioSource.isPlaying) played = true;
@@ -46,6 +50,9 @@ public class PhoneAudio : MonoBehaviour
 
     }
 
+    /** @brief Detect when the touch the phone once it's ringing, if so play the phone conversation audio 
+     * \param[in] Object that entered the trigger box
+     */
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag(_hand) && !_played && _trigger && _previousSourceLength <= 0)

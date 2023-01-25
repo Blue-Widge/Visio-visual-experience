@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ovenlightcontroller_0',['OvenLightController',['../class_oven_light_controller.html',1,'']]]
+  ['gazerayparameter_0',['GazeRayParameter',['../struct_vive_s_r_1_1anipal_1_1_eye_1_1_gaze_ray_parameter.html',1,'ViveSR::anipal::Eye']]]
 ];

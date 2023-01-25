@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['playaudio_0',['PlayAudio',['../class_audio_controller.html#a233079631367b4554fce34463c1d2b04',1,'AudioController']]]
+  ['initial_0',['Initial',['../class_vive_s_r_1_1anipal_1_1_s_ranipal___a_p_i.html#ab983d71c7a4ae7ac57aca4eed34e196e',1,'ViveSR::anipal::SRanipal_API']]],
+  ['isuserneedcalibration_1',['IsUserNeedCalibration',['../class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___eye___a_p_i.html#acc88df00beb42031d8183af5a44c57aa',1,'ViveSR::anipal::Eye::SRanipal_Eye_API']]],
+  ['isviveproeye_2',['IsViveProEye',['../class_vive_s_r_1_1anipal_1_1_eye_1_1_s_ranipal___eye___a_p_i.html#aee978c91c998947402ec9e825174521d',1,'ViveSR::anipal::Eye::SRanipal_Eye_API']]]
 ];

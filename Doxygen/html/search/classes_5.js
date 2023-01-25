@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['leafhandler_0',['LeafHandler',['../class_leaf_handler.html',1,'']]],
-  ['liquidheightlevel_1',['LiquidHeightLevel',['../class_liquid_height_level.html',1,'']]]
+  ['focusinfo_0',['FocusInfo',['../struct_vive_s_r_1_1anipal_1_1_eye_1_1_focus_info.html',1,'ViveSR::anipal::Eye']]]
 ];

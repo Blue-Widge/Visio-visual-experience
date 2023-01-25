@@ -1,6 +1,5 @@
 var class_phone_flicker_button =
 [
-    [ "Start", "class_phone_flicker_button.html#a1eb5ca1a265d5ad57c8e5db95e1c456d", null ],
     [ "Update", "class_phone_flicker_button.html#a4088f6077ca97cf48ba2644aae272139", null ],
     [ "flickMat", "class_phone_flicker_button.html#a34f76eeddc080fdaefe0cf13016f8513", null ],
     [ "phoneIsTringing", "class_phone_flicker_button.html#ae40e854070b6fc565c094aacff918d43", null ],
