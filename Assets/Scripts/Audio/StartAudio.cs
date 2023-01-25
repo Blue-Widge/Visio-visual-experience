@@ -28,7 +28,7 @@ public class StartAudio : MonoBehaviour
         }
     }
 
-    /** @brief Detect if the audio source has begun, if so decrease the length of the audio clip by the time */
+    /** @brief Detects if the audio source has begun, if so decrease the length of the audio clip by the time */
     void Update()
     {
         if (audioSource.isPlaying) _played = true;
@@ -37,7 +37,7 @@ public class StartAudio : MonoBehaviour
     }
 
 
-    /** @brief Detect if the player pressed the button only after hearing the sound, if so play the trigger pressed preview
+    /** @brief Detects if the player pressed the button only after hearing the sound, if so play the trigger pressed preview
      \param[in] other Object that entered the trigger box
     */
     private void OnTriggerEnter(Collider other)

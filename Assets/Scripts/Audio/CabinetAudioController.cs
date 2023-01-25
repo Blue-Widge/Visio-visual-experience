@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/** @brief Class that handles the sound played to explain to the user how to interact withe the cabinets*/
 public class CabinetAudioController : MonoBehaviour
 {
     public AudioSource audioSource;
     public AudioSource mandatoryPreviousSource;
+
+    /** @brief Joint of the cabinet's door, to detect when it is being opened or not */
     private HingeJoint _hingeJoint;
 
     public int turnOnAngle;
@@ -14,14 +17,15 @@ public class CabinetAudioController : MonoBehaviour
     private float _previousSourceLength = 0;
 
     private bool _trigger = false;
-    // Start is called before the first frame update
+
+    /** @brief Sets the hinge joint of the cabinet and the clip length of the first source */
     void Start()
     {
         _hingeJoint = GetComponent<HingeJoint>();
         _previousSourceLength = mandatoryPreviousSource.clip.length;
     }
 
-    // Update is called once per frame
+    /** @brief Plays the explanation to the user to explain the controls, and once the audio finished if the user opens a cabinet it plays a congrats to the user */
     void Update()
     {
         if (!_trigger && mandatoryPreviousSource.isPlaying) _trigger = true;

@@ -13,7 +13,7 @@ public class PhoneFlickerButton : MonoBehaviour
     public float timer = 0;
     public float timerCoolDown;
 
-    /** @brief Set the LED to black if the phone isn't ringing, otherwise makes it flick between black and red */
+    /** @brief Sets the LED to black if the phone isn't ringing, otherwise makes it flick between black and red */
     void Update()
     {
         phoneIsTringing = phoneTringAudioSource.isPlaying;

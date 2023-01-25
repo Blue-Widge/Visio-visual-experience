@@ -47,7 +47,7 @@ public class UIButtons : MonoBehaviour
         tunnelVisionSlider.value = tunnelingVignetteController.defaultParameters.apertureSize;
     }
 
-    /** @brief Change the scene if updated s*/
+    /** @brief Change the scene if updated */
     void Update()
     {
         if (updatedThisScene)
@@ -100,6 +100,7 @@ public class UIButtons : MonoBehaviour
         }
     }
 
+    /** @brief Sets the Eye tracking variable with the new scene components */
     void SceneChanged(Scene current, Scene next)
     {
         eyeTracking = GameObject.Find("Tobii Gaze Visualizer").gameObject;

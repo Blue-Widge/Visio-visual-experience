@@ -31,7 +31,7 @@ public class PhoneAudio : MonoBehaviour
         }
     }
 
-    /** @brief 	Detect if the audio source has begun, if so decrease the length of the audio clip by the time. 
+    /** @brief 	Detects if the audio source has begun, if so decrease the length of the audio clip by the time. 
       * Once the first audio ended, play the phone ringing
       */
     void Update()
@@ -50,7 +50,7 @@ public class PhoneAudio : MonoBehaviour
 
     }
 
-    /** @brief Detect when the touch the phone once it's ringing, if so play the phone conversation audio 
+    /** @brief Detects when the touch the phone once it's ringing, if so play the phone conversation audio 
      * \param[in] Object that entered the trigger box
      */
     private void OnTriggerEnter(Collider other)

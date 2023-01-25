@@ -11,13 +11,13 @@ public class TunnelVisionLookAt : MonoBehaviour
     /** @brief Variable corresponding to the GUI */
     private RectTransform _target;
 
-    /** @brief Set the GUI transform */
+    /** @brief Sets the GUI transform */
     private void Start()
     {
         _target = targetObject.GetComponent<RectTransform>();
     }
 
-    /** @brief Rotate the tunnelling vignette to correspond where the user looks at */
+    /** @brief Rotates the tunnelling vignette to correspond where the user looks at */
     void Update()
     {
         transform.LookAt(Camera.main.transform);

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-/** @brief Class that handle the hiding of the items contained inside a container*/
+/** @brief Class that handles the hiding of the items contained inside a container*/
 public class HideContainerContent : MonoBehaviour
 {
     /** @brief List of all the items contained */
@@ -30,9 +30,9 @@ public class HideContainerContent : MonoBehaviour
     /** @brief Threshold to know if the container should be considered opened or closed */
     public float sensibility;
 
-    /** @brief Delegate function that detect set to DetectAngleDoorOpen if a door and DetectDrawerOpen if a drawer*/
+    /** @brief Delegate function that detects set to DetectAngleDoorOpen if a door and DetectDrawerOpen if a drawer*/
     private delegate void DetectDoorOpen();
-    /** @brief Variable that vontains the delegated function */
+    /** @brief Variable that contains the delegated function */
     private DetectDoorOpen _detectDoor;
 
     /**@brief Id needed to know which hand preview is linked to the container */
@@ -84,7 +84,7 @@ public class HideContainerContent : MonoBehaviour
         }
     }
 
-    /** @brief Detect at each frame is the door is opened, hide or unhide the objects contained depending on the result */
+    /** @brief Detects at each frame is the door is opened, hide or unhide the objects contained depending on the result */
     private void Update()
     {
         _detectDoor();
@@ -121,7 +121,7 @@ public class HideContainerContent : MonoBehaviour
         isOpen = Mathf.Abs(transform.position.x - _startingPosition.x) > sensibility;
     }
 
-    /**@brief Method change the item's parent to the container if it's a grabbable item and isn't held 
+    /**@brief Method changes the item's parent to the container if it's a grabbable item and isn't held 
      /\param[in] other Object that entered the trigger box
     */
     private void OnTriggerEnter(Collider other)
@@ -138,7 +138,7 @@ public class HideContainerContent : MonoBehaviour
                                   !other.transform.parent.gameObject.CompareTag("Container") ? insideContainer : other.transform.parent;
     }
 
-    /**@brief Method change the item's parent to the scene or set outside container if it's a grabbable item
+    /**@brief Method changes the item's parent to the scene or set outside container if it's a grabbable item
      /\param[in] other Object that entered the trigger box
     */
     private void OnTriggerExit(Collider other)

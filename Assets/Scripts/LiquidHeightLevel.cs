@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Serialization;
 
-/** @brief Class that handle the level of liquid in a bottle, so its volume appears constant whatever the bottle's rotation */
+/** @brief Class that handles the level of liquid in a bottle, so its volume appears constant whatever the bottle's rotation */
 public class LiquidHeightLevel : MonoBehaviour
 {
     /** @brief The oil gameobject in the bottle */
@@ -19,7 +19,7 @@ public class LiquidHeightLevel : MonoBehaviour
     private float _facingDownRatio;
     private static readonly int Level = Shader.PropertyToID("_Level");
 
-    /** @brief Set the gameobject and renderer, aswell as the current level of liquid, being also the min */
+    /** @brief Sets the gameobject and renderer, aswell as the current level of liquid, being also the min */
     void Start()
     {
         _oil = transform.gameObject;
@@ -29,7 +29,7 @@ public class LiquidHeightLevel : MonoBehaviour
         _liquidHeight = _minliquidHeight = _renderer.material.GetFloat(Level);
     }
 
-    /** @brief Change the liquid height on the oil material value depending on how much the bottle is facing down */
+    /** @brief Changes the liquid height on the oil material value depending on how much the bottle is facing down */
     private void Update()
     {
         _facingDownRatio = 2.0f - Vector3.Distance(_oil.transform.up, Vector3.down);

@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
 
-/** @brief Class that generate a leaf when the user grabs one from the basil plant limited to 10 in scene */
+/** @brief Class that generates a leaf when the user grabs one from the basil plant limited to 10 in scene */
 public class LeafHandler : XRGrabInteractable
 {
     private Renderer _leafRenderer;
@@ -33,7 +33,7 @@ public class LeafHandler : XRGrabInteractable
         base.Awake();
     }
 
-    /** @brief Function that generate a leaf when the user wants to grab a leaf, and then grab it 
+    /** @brief Function that generates a leaf when the user wants to grab a leaf, and then grab it 
      /\param[in] args Argumentations from the XRGrabInteractable passed down
     */
     protected override void OnSelectEntering(SelectEnterEventArgs args)
@@ -62,7 +62,7 @@ public class LeafHandler : XRGrabInteractable
         
         base.OnSelectEntering(args);
     }
-    /** @brief Activate the physics of the leaf when the user finally drops it 
+    /** @brief Activates the physics of the leaf when the user finally drops it 
      /\param[in] args Argumentations from the XRGrabInteractable passed down
     */
     protected override void OnSelectExited(SelectExitEventArgs args)

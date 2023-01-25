@@ -14,7 +14,7 @@ public class BowlHandler : MonoBehaviour
     [SerializeField]
     private List<GameObject> content;
 
-    /** @brief Set the containers if they are not */
+    /** @brief Sets the containers if they are not */
     void Start()
     {
         if (!container)
@@ -35,7 +35,7 @@ public class BowlHandler : MonoBehaviour
         }
     }
 
-    /** @brief Unparent the bowl to the item when it goes out of it 
+    /** @brief Unparents the bowl to the item when it goes out of it 
      /\param[in] other Object that exited the trigger box
     */
     private void OnTriggerExit(Collider other)

@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('class_hide_container_content.html','')
 </div><!--header-->
 <div class="contents">
 
-<p>Class that handle the hiding of the items contained inside a container.  
+<p>Class that handles the hiding of the items contained inside a container.  
  <a href="class_hide_container_content.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for HideContainerContent:</div>
@@ -138,13 +138,13 @@ Public Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a0094e9c74a1df239b91c4c416803e17a"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hide_container_content.html#a0094e9c74a1df239b91c4c416803e17a">DetectDoorOpen</a> ()</td></tr>
-<tr class="memdesc:a0094e9c74a1df239b91c4c416803e17a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate function that detect set to DetectAngleDoorOpen if a door and DetectDrawerOpen if a drawer.  <br /></td></tr>
+<tr class="memdesc:a0094e9c74a1df239b91c4c416803e17a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate function that detects set to DetectAngleDoorOpen if a door and DetectDrawerOpen if a drawer.  <br /></td></tr>
 <tr class="separator:a0094e9c74a1df239b91c4c416803e17a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5fc5f5e2a31215fca1a7bb0ccc5af28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hide_container_content.html#ab5fc5f5e2a31215fca1a7bb0ccc5af28">Start</a> ()</td></tr>
 <tr class="memdesc:ab5fc5f5e2a31215fca1a7bb0ccc5af28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detect if the necessary components are set and set the _detectDoor variable to the right function aswell as the startingPosition or angle variables.  <br /></td></tr>
 <tr class="separator:ab5fc5f5e2a31215fca1a7bb0ccc5af28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a199706023c1fec3e0d7988c45f4bc744"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hide_container_content.html#a199706023c1fec3e0d7988c45f4bc744">Update</a> ()</td></tr>
-<tr class="memdesc:a199706023c1fec3e0d7988c45f4bc744"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detect at each frame is the door is opened, hide or unhide the objects contained depending on the result.  <br /></td></tr>
+<tr class="memdesc:a199706023c1fec3e0d7988c45f4bc744"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detects at each frame is the door is opened, hide or unhide the objects contained depending on the result.  <br /></td></tr>
 <tr class="separator:a199706023c1fec3e0d7988c45f4bc744"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab48e97e85bf087d461d79592b5c3f10a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hide_container_content.html#ab48e97e85bf087d461d79592b5c3f10a">DetectAngleDoorOpen</a> ()</td></tr>
 <tr class="memdesc:ab48e97e85bf087d461d79592b5c3f10a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method that detects the opening of the door depending on the angles (cabinet or fridge)  <br /></td></tr>
@@ -153,10 +153,10 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:a71670a5154a721b0aa79f10bb1d862f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method that detects the opening of the door depending on the position (drawer)  <br /></td></tr>
 <tr class="separator:a71670a5154a721b0aa79f10bb1d862f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabd43d215dee195b8a0843804d8240c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hide_container_content.html#aabd43d215dee195b8a0843804d8240c1">OnTriggerEnter</a> (Collider other)</td></tr>
-<tr class="memdesc:aabd43d215dee195b8a0843804d8240c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method change the item's parent to the container if it's a grabbable item and isn't held /.  <br /></td></tr>
+<tr class="memdesc:aabd43d215dee195b8a0843804d8240c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method changes the item's parent to the container if it's a grabbable item and isn't held /.  <br /></td></tr>
 <tr class="separator:aabd43d215dee195b8a0843804d8240c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b7d7bbe5b2f7fc0546af6fac39d90e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hide_container_content.html#a0b7d7bbe5b2f7fc0546af6fac39d90e9">OnTriggerExit</a> (Collider other)</td></tr>
-<tr class="memdesc:a0b7d7bbe5b2f7fc0546af6fac39d90e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method change the item's parent to the scene or set outside container if it's a grabbable item /.  <br /></td></tr>
+<tr class="memdesc:a0b7d7bbe5b2f7fc0546af6fac39d90e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method changes the item's parent to the scene or set outside container if it's a grabbable item /.  <br /></td></tr>
 <tr class="separator:a0b7d7bbe5b2f7fc0546af6fac39d90e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
@@ -177,11 +177,11 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a6e80d67009980ecab431b55d7b911519"><td class="mdescLeft">&#160;</td><td class="mdescRight">The position of the closed drawer if a drawer.  <br /></td></tr>
 <tr class="separator:a6e80d67009980ecab431b55d7b911519"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3743330e19369cd3a21f6d14785e9819"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_hide_container_content.html#a0094e9c74a1df239b91c4c416803e17a">DetectDoorOpen</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_hide_container_content.html#a3743330e19369cd3a21f6d14785e9819">_detectDoor</a></td></tr>
-<tr class="memdesc:a3743330e19369cd3a21f6d14785e9819"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variable that vontains the delegated function.  <br /></td></tr>
+<tr class="memdesc:a3743330e19369cd3a21f6d14785e9819"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variable that contains the delegated function.  <br /></td></tr>
 <tr class="separator:a3743330e19369cd3a21f6d14785e9819"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class that handle the hiding of the items contained inside a container. </p>
+<div class="textblock"><p>Class that handles the hiding of the items contained inside a container. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab48e97e85bf087d461d79592b5c3f10a" name="ab48e97e85bf087d461d79592b5c3f10a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab48e97e85bf087d461d79592b5c3f10a">&#9670;&#160;</a></span>DetectAngleDoorOpen()</h2>
@@ -233,7 +233,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Delegate function that detect set to DetectAngleDoorOpen if a door and DetectDrawerOpen if a drawer. </p>
+<p>Delegate function that detects set to DetectAngleDoorOpen if a door and DetectDrawerOpen if a drawer. </p>
 
 </div>
 </div>
@@ -288,7 +288,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Method change the item's parent to the container if it's a grabbable item and isn't held /. </p>
+<p>Method changes the item's parent to the container if it's a grabbable item and isn't held /. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>Object that entered the trigger box </td></tr>
@@ -322,7 +322,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Method change the item's parent to the scene or set outside container if it's a grabbable item /. </p>
+<p>Method changes the item's parent to the scene or set outside container if it's a grabbable item /. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>Object that entered the trigger box </td></tr>
@@ -382,7 +382,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Detect at each frame is the door is opened, hide or unhide the objects contained depending on the result. </p>
+<p>Detects at each frame is the door is opened, hide or unhide the objects contained depending on the result. </p>
 
 </div>
 </div>
@@ -407,7 +407,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Variable that vontains the delegated function. </p>
+<p>Variable that contains the delegated function. </p>
 
 </div>
 </div>
@@ -654,7 +654,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_hide_container_content.html">HideContainerContent</a></li>
-    <li class="footer">Generated on Wed Jan 25 2023 17:24:32 for visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Wed Jan 25 2023 18:32:45 for visio visual experience by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

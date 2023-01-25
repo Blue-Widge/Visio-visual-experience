@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-/** @brief Class that change the scene when the player hit the hallway's door */
+/** @brief Class that changes the scene when the player hit the hallway's door */
 public class ChangeScene : MonoBehaviour
 {
     /** @brief Contains "Hand" in the editor, so it changes when the hand hit the door */

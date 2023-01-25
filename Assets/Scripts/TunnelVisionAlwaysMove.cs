@@ -11,13 +11,13 @@ public class TunnelVisionAlwaysMove : LocomotionProvider
     public bool turnedOn = false;
 
 
-    /** @brief Set the user movements to "Idle" */
+    /** @brief Sets the user movements to "Idle" */
     public void Start()
     {
         locomotionPhase = LocomotionPhase.Idle;
     }
 
-    /** @brief Set the locomotion to "Moving" after the impairment delay */
+    /** @brief Sets the locomotion to "Moving" after the impairment delay */
     public void Update()
     {
         if (impairmentTimer >= 0) impairmentTimer -= Time.deltaTime;

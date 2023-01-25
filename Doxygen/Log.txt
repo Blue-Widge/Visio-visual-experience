@@ -826,6 +826,9 @@ Generating docs for file C:/Users/Yann/Unity Projects/visio-visual-experience-ma
 Generating docs for file C:/Users/Yann/Unity Projects/visio-visual-experience-main/Assets/ViveSR/Scripts/Eye/SRanipal_Eye_Enums.cs...
 Generating docs for file C:/Users/Yann/Unity Projects/visio-visual-experience-main/Assets/ViveSR/Scripts/Eye/SRanipal_Eye_Framework.cs...
 Generating docs for file C:/Users/Yann/Unity Projects/visio-visual-experience-main/Assets/ViveSR/Scripts/Eye/SRanipal_Eye_v2.cs...
+C:/Users/Yann/Unity Projects/visio-visual-experience-main/Assets/Scripts/Audio/AudioController.cs:9: warning: argument 'clip' of command @param is not found in the argument list of AudioController::PlayAudio(AudioSource audioSource, AudioClip audioClip, bool loop)
+C:/Users/Yann/Unity Projects/visio-visual-experience-main/Assets/Scripts/Audio/AudioController.cs:9: warning: The following parameter of AudioController.PlayAudio(AudioSource audioSource, AudioClip audioClip, bool loop) is not documented:
+  parameter 'audioClip'
 C:/Users/Yann/Unity Projects/visio-visual-experience-main/Assets/Scripts/Audio/PhoneAudio.cs:54: warning: argument 'Object' of command @param is not found in the argument list of PhoneAudio::OnTriggerEnter(Collider other)
 C:/Users/Yann/Unity Projects/visio-visual-experience-main/Assets/Scripts/Audio/PhoneAudio.cs:54: warning: The following parameter of PhoneAudio.OnTriggerEnter(Collider other) is not documented:
   parameter 'other'

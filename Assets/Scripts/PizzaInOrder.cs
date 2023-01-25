@@ -34,7 +34,7 @@ public class PizzaInOrder : MonoBehaviour
     /// </summary>
     /// <param name="other"></param>
 
-/** @brief Function that compare the tag of the gameobject needed and the handled one to know if it's the right ingredients
+/** @brief Function that compares the tag of the gameobject needed and the handled one to know if it's the right ingredients
  *  or not. If so, it will disable the gameobject, unhide one step of the pizza and increase the number of ingredients done.
  *  The pizza will be grabbable once the number of ingredients is less than 4 
  *\param[in] other The object that entered in the trigger box

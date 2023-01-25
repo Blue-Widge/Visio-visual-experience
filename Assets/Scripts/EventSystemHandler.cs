@@ -7,7 +7,7 @@ public class EventSystemHandler : MonoBehaviour
     /** @brief The event system handler variable, which is the same across the scenes and the scripts */
     public static EventSystemHandler Current;
 
-    /** @brief Set the static variable to itself when awake */
+    /** @brief Sets the static variable to itself when awake */
     private void Awake()
     {
         Current = this;

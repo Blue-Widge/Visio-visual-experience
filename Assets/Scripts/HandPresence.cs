@@ -18,7 +18,7 @@ public class HandPresence : MonoBehaviour
     /** @brief Hand animator */
     private Animator _deviceAnimator;
     
-    /** @brief Detect if the controllers are being simulated, if not start the DetectDevices() coroutine*/
+    /** @brief Detects if the controllers are being simulated, if not start the DetectDevices() coroutine*/
     void Start()
     {
         if (GameObject.FindGameObjectWithTag("XR Device Simulator"))
@@ -32,7 +32,7 @@ public class HandPresence : MonoBehaviour
         StartCoroutine(GetDevices(1.0f));
     }
     
-    /** @brief Detect during the whole experience the devices, at all time in case controllers are being disconnected and reconnected
+    /** @brief Detects during the whole experience the devices, at all time in case controllers are being disconnected and reconnected
      * \param[in] delayTime time to wait before trying to detect again any device connected
      */
     IEnumerator GetDevices(float delayTime)
@@ -59,7 +59,7 @@ public class HandPresence : MonoBehaviour
             UpdateHandAnimator();
     }
     
-    /** @brief Change the hand animator depending on the controller inputs */
+    /** @brief Changes the hand animator depending on the controller inputs */
     void UpdateHandAnimator()
     {
         if (_inputDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue))
